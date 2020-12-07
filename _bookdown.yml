@@ -1,6 +1,10 @@
-book_filename: "bookdown-demo"
+book_filename: "比較経営論"
 output_dir: "docs"
-language:
-  ui:
-    chapter_name: "Chapter "
 delete_merged_file: true
+language:
+  label:
+    fig: '図 '
+    tab: '表 '
+  ui:
+#    chapter_name: ["第","章"]
+    appendix_name: '補論 '

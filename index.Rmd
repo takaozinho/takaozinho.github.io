@@ -1,32 +1,38 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "比較経営論"
+author: "飯島高雄"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-output: bookdown::gitbook
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
+      latex_engine: xelatex
+      citation_package: natbib
+    keep_tex: yes
+  bookdown::gitbook:
+    split_by: section+number
+  bookdown::epub_book: default
 documentclass: book
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+bibliography:
+- book.bib
+- packages.bib
+site: bookdown::bookdown_site
+biblio-style: apalike
 ---
 
-# Prerequisites
+# はじめに
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+　経営は外部環境に依存する。経営に最善モデルはない。
+　最適なモデルは国によって異なる。政治・文化が異なるから。
+　同じ国でも時代によって異なる。経済発展の程度が異なるから。
 
-The **bookdown** package can be installed from CRAN or Github:
+## 経営における文脈と外部環境（仮） {#context}
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+　内部と外部の話はここでする。
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
