@@ -1,4 +1,4 @@
-book_filename: "比較経営論"
+book_filename: "bookdown-demo"
 output_dir: "docs"
 delete_merged_file: true
 language:

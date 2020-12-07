@@ -1,0 +1,160 @@
+--- 
+title: "比較経営論"
+author: "飯島高雄"
+date: "`r Sys.Date()`"
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
+      latex_engine: xelatex
+      citation_package: natbib
+    keep_tex: yes
+  bookdown::gitbook:
+    split_by: section+number
+  bookdown::epub_book: default
+documentclass: book
+link-citations: yes
+bibliography:
+- book.bib
+- packages.bib
+site: bookdown::bookdown_site
+biblio-style: apalike
+---
+
+# はじめに
+
+　経営は外部環境に依存する。経営に最善モデルはない。
+　最適なモデルは国によって異なる。政治・文化が異なるから。
+　同じ国でも時代によって異なる。経済発展の程度が異なるから。
+
+## 経営における文脈と外部環境（仮） {#context}
+
+　内部と外部の話はここでする。
+
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!--chapter:end:index.Rmd-->
+
+# Introduction {#intro}
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+<!--chapter:end:01-intro.Rmd-->
+
+
+# 経営システムの比較基準 {#management}
+
+Placeholder
+
+
+## マネジメントの基礎
+### Taylorの科学的管理法 　
+### Fayolの管理過程論
+## 文化
+### Hofstede
+### Hallの文脈
+## 政治体制・法制度
+### 政治体制   　
+### 法制度
+## 経済システム
+
+<!--chapter:end:02-management.Rmd-->
+
+
+# アメリカの経営システム {#usa}
+
+Placeholder
+
+
+## アメリカの文化・政治・経済
+### 文化
+### 政治システム・法制度
+### 経済システム
+## アメリカ企業の経営者
+### 選抜・移動
+### 報酬
+### 教育
+## アメリカ企業のマネジメント
+### 計画
+### 組織化
+### 指揮・調整
+### 統制
+
+<!--chapter:end:03-usa.Rmd-->
+
+
+# 日本の経営システム {#japan}
+
+Placeholder
+
+
+## 日本の文化・政治・経済
+### 文化
+### 政治システム・法制度
+### 経済システム
+## 日本企業の経営者
+### 選抜・移動
+### 報酬
+### 教育
+## 日本企業のマネジメント
+### 計画
+### 組織化
+### 指揮・調整
+### 統制
+
+<!--chapter:end:04-japan.Rmd-->
+
+
+# アジアの経営システム {#asia}
+
+Placeholder
+
+
+## アジアの文化・政治・経済
+### 文化
+### 4.1.2　政治システム・法制度
+### 4.1.3　経済システム
+## アジア企業の経営者
+### 選抜・移動
+### 報酬
+### 教育
+## アジア企業のマネジメント
+### 4.3.1　計画
+### 組織化
+### 指揮・調整
+### 統制
+
+<!--chapter:end:05-asia.Rmd-->
+
+# おわりに {#conclusion} 
+
+We have finished a nice book.
+
+<!--chapter:end:06-conclusion.Rmd-->
+
