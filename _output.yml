@@ -3,14 +3,14 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">比較経営論</a></li>
+        <li>比較経営論</li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li>© Takao Iijima 2021</li>
     download: ["pdf", "epub"]
 output:
   bookdown::gitbook:
     split_by: section+number
-    
+
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
