@@ -1,16 +1,16 @@
 # 経営システムの比較基準 {#management}
 
-## マネジメントの基礎
+## マネジメントの基礎 {#basics}
 
 　本節では、マネジメント理論の基礎を確認する[^1]。
 
 [^1]: 本節については、<http://tsurumi3776.sakura.ne.jp/k4-amerika.htm> も参照されたい。
 
-### Taylorの科学的管理法 　
+### Taylorの科学的管理法 {#Taylor}　
 
 　科学的管理法は。
 
-### Fayolの管理過程論
+### Fayolの管理過程論 {#Fayol}
 
 <http://www.ba.tyg.jp/~ihara/chinesetext%20PDF/%E3%80%90%E6%9C%80%E7%B5%82%E3%80%91%E7%AC%AC8%E7%AB%A00304.pdf>
 
@@ -23,7 +23,7 @@ fayol <- read.csv("fayol.csv", header = TRUE)
 knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
 ```
 
-## 文化
+## 文化 {#culture}
 
 ### Hofstede
 
@@ -91,7 +91,7 @@ hofstede <- read.csv("6-dimensions-for-website-2015-08-16.csv", header = TRUE)
 datatable(hofstede)
 ```
 
-### Hallの文脈
+### Hallの文脈 {#Hall}
 
 (1)　コミュニケーション
 
@@ -123,7 +123,7 @@ knitr::include_graphics("http://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets_
 
 <https://teatime-talk.com/jikan/>
 
-## 政治体制・法制度
+## 政治体制・法制度 {#politics}
 
 　企業経営は立地する国家の政治体制・法制度に影響を受ける。
 
@@ -138,7 +138,7 @@ knitr::include_graphics("http://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets_
 
 　英米法と大陸法
 
-## 経済システム
+## 経済システム {#economy}
 
 1.  市場
 2.  政府主導型
