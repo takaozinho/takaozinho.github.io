@@ -68,3 +68,8 @@ fig:MAS
 fig:UAI
 fig:MON
 fig:IvR
+us-management
+us-plan
+us-organization
+us-command
+us-control
