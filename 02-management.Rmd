@@ -25,7 +25,7 @@ knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
 
 ## 文化 {#culture}
 
-### Hofstede
+### Hofstede {#Hofstede}
 
 　@Hofstedeetal2010[^2] は、世界〇カ国のIBMの社員を対象に行ったアンケート調査の結果から各国文化の特徴を比較した。
 
