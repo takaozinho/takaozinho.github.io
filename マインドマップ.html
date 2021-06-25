@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.6.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.5/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"比較経営論","c":[{"t":"heading","d":2,"p":{"lines":[2,3]},"v":"はじめに","c":[{"t":"heading","d":3,"p":{"lines":[4,5]},"v":"問題意識","c":[{"t":"list_item","d":5,"p":{"lines":[6,9]},"v":"外国企業の経営成功事例を<br>\n無条件に取り入れるのは<br>\n正しいといえるか？"},{"t":"list_item","d":5,"p":{"lines":[9,12]},"v":"日本企業が海外進出したとき、<br>\n現地子会社に日本的経営を求めるのは<br>\n正しいといえるか？"},{"t":"list_item","d":5,"p":{"lines":[12,14]},"v":"日本企業の経営は、<br>\n世界的に見て特殊なのか？"}]},{"t":"heading","d":3,"p":{"lines":[15,16]},"v":"外国企業との比較","c":[{"t":"heading","d":4,"p":{"lines":[17,18]},"v":"共通点","c":[{"t":"list_item","d":6,"p":{"lines":[19,20]},"v":"組織目的","c":[{"t":"list_item","d":8,"p":{"lines":[20,21]},"v":"企業価値（利潤）最大化"}]}]},{"t":"heading","d":4,"p":{"lines":[22,23]},"v":"相違点","c":[{"t":"list_item","d":6,"p":{"lines":[24,25]},"v":"企業が存立する地盤","c":[{"t":"list_item","d":8,"p":{"lines":[25,26]},"v":"文化・歴史"},{"t":"list_item","d":8,"p":{"lines":[26,27]},"v":"法制度・政治システム"},{"t":"list_item","d":8,"p":{"lines":[27,28]},"v":"経済システム"}]}]}]}]},{"t":"heading","d":2,"p":{"lines":[29,30]},"v":"経営システムの比較基準"},{"t":"heading","d":2,"p":{"lines":[31,32]},"v":"アメリカの経営システム"},{"t":"heading","d":2,"p":{"lines":[33,34]},"v":"日本の経営システム"},{"t":"heading","d":2,"p":{"lines":[35,36]},"v":"アジアの経営システム"}]})</script>
+</body>
+</html>
