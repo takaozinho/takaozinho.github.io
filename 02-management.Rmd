@@ -2,7 +2,8 @@
 
 ## マネジメントの基礎 {#basics}
 
-　本節では、マネジメント理論の基礎を確認する[^1]。
+* 本節では、マネジメント理論の基礎を確認する[^1]。
+* 
 
 [^1]: 本節については、<http://tsurumi3776.sakura.ne.jp/k4-amerika.htm> も参照されたい。
 
@@ -123,18 +124,18 @@ knitr::include_graphics("http://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets_
 
 <https://teatime-talk.com/jikan/>
 
-## 政治体制・法制度 {#politics}
+## 政治体制・法制度 {#politics-and-law}
 
 　企業経営は立地する国家の政治体制・法制度に影響を受ける。
 
-### 政治体制 　
+### 政治体制 {#politics}　
 
 　詳しくは [中村 (2006)](https://www.ide.go.jp/Japanese/Research/Theme/Pol/Institutions/200608_nakamura.html) を参考のこと。 　
 
 -   投票による決定
 -   宗教とは無関係
 
-### 法制度
+### 法制度 {#law}
 
 　英米法と大陸法
 
