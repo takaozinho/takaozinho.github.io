@@ -73,3 +73,6 @@ us-plan
 us-organization
 us-command
 us-control
+politics-and-law
+政治体制-politics
+law
