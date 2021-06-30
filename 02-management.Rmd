@@ -5,7 +5,7 @@
 * 本節では、マネジメント理論の基礎を確認する[^1]。
 * 
 
-[^1]: 本節については、<http://tsurumi3776.sakura.ne.jp/k4-amerika.htm> も参照されたい。
+[^1]: 本節については、<https://tsurumi3776.sakura.ne.jp/k4-amerika.htm> も参照されたい。
 
 ### Taylorの科学的管理法 {#Taylor}　
 
@@ -13,7 +13,7 @@
 
 ### Fayolの管理過程論 {#Fayol}
 
-<http://www.ba.tyg.jp/~ihara/chinesetext%20PDF/%E3%80%90%E6%9C%80%E7%B5%82%E3%80%91%E7%AC%AC8%E7%AB%A00304.pdf>
+<https://www.ba.tyg.jp/~ihara/chinesetext%20PDF/%E3%80%90%E6%9C%80%E7%B5%82%E3%80%91%E7%AC%AC8%E7%AB%A00304.pdf>
 
 <https://sakamori-cpa.com/blog/2014/10/09/%E3%83%95%E3%82%A1%E3%83%A8%E3%83%BC%E3%83%AB%E3%81%AE%E7%AE%A1%E7%90%86%E8%AB%96%EF%BC%88%E7%AC%AC1%E7%AB%A0-%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E7%B5%8C%E5%96%B6%E5%AD%A6%E3%81%AE%E6%BA%90/>
 
@@ -103,16 +103,16 @@ datatable(hofstede)
 図1.\*　Hallの文化によるコミュニケーションの仕方の違い
 
 ```{r, echo = FALSE, out.width="960px"}
-knitr::include_graphics("http://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
+knitr::include_graphics("https://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
 ```
 
-出所）[異文化空間 "高コンテクスト文化 (high-context cultures) vs. 低コンテクスト文化 (low-context cultures)"](http://ibunkakukan.blog.jp/context.html)
+出所）[異文化空間 "高コンテクスト文化 (high-context cultures) vs. 低コンテクスト文化 (low-context cultures)"](https://ibunkakukan.blog.jp/context.html)
 
 ```{r, echo = FALSE, out.width="960px"}
-knitr::include_graphics("http://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets_c/2019/05/vbl-kgbkkm02-thumb-600xauto-1526.jpg")
+knitr::include_graphics("https://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets_c/2019/05/vbl-kgbkkm02-thumb-600xauto-1526.jpg")
 ```
 
-出所）[金沢大学先端科学・社会共創推進機構 "ベンチャー・ビジネス・ラボラトリ　124.企業文化と国民性"](http://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/post/124.html)
+出所）[金沢大学先端科学・社会共創推進機構 "ベンチャー・ビジネス・ラボラトリ　124.企業文化と国民性"](https://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/post/124.html)
 
 異文化理解力 英治出版 ⇒
 
