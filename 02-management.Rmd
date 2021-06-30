@@ -1,3 +1,8 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
 # 経営システムの比較基準 {#management}
 
 ## マネジメントの基礎 {#basics}
