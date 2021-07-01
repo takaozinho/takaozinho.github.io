@@ -1,0 +1,649 @@
+--- 
+title: "比較経営論"
+author: "飯島高雄"
+date: "`r Sys.Date()`"
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
+      latex_engine: xelatex
+      citation_package: natbib
+    keep_tex: yes
+  bookdown::gitbook:
+    split_by: section+number
+  bookdown::epub_book: default
+documentclass: book
+link-citations: yes
+bibliography:
+- book.bib
+- packages.bib
+site: bookdown::bookdown_site
+biblio-style: apalike
+---
+
+# はじめに
+
+* 経営は外部環境に依存する。経営に最善モデルはない。
+* 最適なモデルは国によって異なる。政治・文化が異なるから。
+  + 同じ国でも時代によって異なる。経済発展の程度が異なるから。
+
+## 経営における文脈と外部環境（仮） {#context}
+
+　内部と外部の話はここでする。
+
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!--chapter:end:index.Rmd-->
+
+---
+output:
+  html_document: default
+  word_document: default
+---
+# 経営システムの比較基準 {#management}
+
+## マネジメントの基礎 {#basics}
+
+* 本節では、マネジメント理論の基礎を確認する[^1]。
+* 
+
+[^1]: 本節については、<https://tsurumi3776.sakura.ne.jp/k4-amerika.htm> も参照されたい。
+
+### Taylorの科学的管理法 {#Taylor}　
+
+　科学的管理法は。
+
+### Fayolの管理過程論 {#Fayol}
+
+<https://www.ba.tyg.jp/~ihara/chinesetext%20PDF/%E3%80%90%E6%9C%80%E7%B5%82%E3%80%91%E7%AC%AC8%E7%AB%A00304.pdf>
+
+<https://sakamori-cpa.com/blog/2014/10/09/%E3%83%95%E3%82%A1%E3%83%A8%E3%83%BC%E3%83%AB%E3%81%AE%E7%AE%A1%E7%90%86%E8%AB%96%EF%BC%88%E7%AC%AC1%E7%AB%A0-%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E7%B5%8C%E5%96%B6%E5%AD%A6%E3%81%AE%E6%BA%90/>
+
+　**Fayol** 　
+
+```{r fayol, echo = FALSE, fig.align="center"}
+fayol <- read.csv("fayol.csv", header = TRUE)
+knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
+```
+
+## 文化 {#culture}
+
+### Hofstede {#Hofstede}
+
+　@Hofstedeetal2010[^2] は、世界〇カ国のIBMの社員を対象に行ったアンケート調査の結果から各国文化の特徴を比較した。
+
+[^2]: 日本語版は、岩井八郎・岩井紀子（訳）2013『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.
+
+(1)　集団主義⇒個人主義
+
+　図\@ref(fig:IDV)を見ると、
+
+```{r IDV, echo = FALSE, out.width="960px", fig.cap="「集団主義⇒個人主義」のグラデーションマップ"}
+knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/IDV-world-map-50.png")
+```
+
+出所）[geerthofstede.com "The 6-D model of national culture"](https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/)
+
+　図\@ref(fig:IDV)を見ると、
+
+(2)　権力格差（小さい⇒大きい）
+
+```{r PDI, echo = FALSE, out.width="960px", fig.cap="「権力格差（小さい⇒大きい）」のグラデーションマップ"}
+knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/PDI-world-map-50.png")
+```
+
+出所）同上
+
+(3)　女性性⇒男性性
+
+```{r MAS, echo = FALSE, out.width="960px", fig.cap="「女性性⇒男性性」のグラデーションマップ"}
+knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MAS-world-map-50.png")
+```
+
+出所）同上
+
+(4)　不確実性回避（低い⇒高い）
+
+```{r UAI, echo = FALSE, out.width="960px", fig.cap="「不確実性回避（低い⇒高い）」のグラデーションマップ"}
+knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/UAI-world-map-50.png")
+```
+
+出所）同上
+
+(5)　短期志向⇒長期志向
+
+```{r MON, echo = FALSE, out.width="960px", fig.cap="「短期志向⇒長期志向」のグラデーションマップ"}
+knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MON-world-map-50.png")
+```
+
+出所）同上
+
+(6)　人生の楽しみ方（抑制⇒放縦）
+
+```{r IvR, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇒放縦）」のグラデーションマップ"}
+knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/IvR-world-map-50.png")
+```
+
+出所）同上
+
+表1.2　Hofstedeの国民文化比較
+
+```{r, echo = FALSE}
+library(DT)
+hofstede <- read.csv("6-dimensions-for-website-2015-08-16.csv", header = TRUE)
+datatable(hofstede)
+```
+
+### Hallの文脈 {#Hall}
+
+(1)　コミュニケーション
+
+@Hall1989[^3] は、比較した。
+
+[^3]: 日本語版は、岩田慶治・谷泰（訳）1993『文化を超えて　新装版』阪急コミュニケーションズ.
+
+図1.\*　Hallの文化によるコミュニケーションの仕方の違い
+
+```{r, echo = FALSE, out.width="960px"}
+knitr::include_graphics("https://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
+```
+
+出所）[異文化空間 "高コンテクスト文化 (high-context cultures) vs. 低コンテクスト文化 (low-context cultures)"](https://ibunkakukan.blog.jp/context.html)
+
+```{r, echo = FALSE, out.width="960px"}
+knitr::include_graphics("https://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets_c/2019/05/vbl-kgbkkm02-thumb-600xauto-1526.jpg")
+```
+
+出所）[金沢大学先端科学・社会共創推進機構 "ベンチャー・ビジネス・ラボラトリ　124.企業文化と国民性"](https://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/post/124.html)
+
+異文化理解力 英治出版 ⇒
+
+(2)　時間感覚
+
+<https://conceptos.exblog.jp/25085783/>
+
+<https://www.hitachi-systems.com/report/specialist/psychology/06.html>
+
+<https://teatime-talk.com/jikan/>
+
+## 政治体制・法制度 {#politics-and-law}
+
+　企業経営は立地する国家の政治体制・法制度に影響を受ける。
+
+### 政治体制 {#politics}　
+
+　詳しくは [中村 (2006)](https://www.ide.go.jp/Japanese/Research/Theme/Pol/Institutions/200608_nakamura.html) を参考のこと。 　
+
+-   投票による決定
+-   宗教とは無関係
+
+### 法制度 {#law}
+
+　英米法と大陸法
+
+## 経済システム {#economy}
+
+1.  市場
+2.  政府主導型
+
+経営システムの比較基準(1)fayol hofstede 業績を覚えること 今日のポイント経営学の発展過程fayol経営における「文脈」 経営学およそ100年前management 和訳できない「管理?」経営学の原点:工場作業の効率(能率)向上1時間に何個作れるかテイラーマニュアルを作ることによって向上環境を改善することで能率向上差別的賃金最適労働量機械的な考えと批判も fayoladministration 管理経営活動　どう会社を動かすか?1技術活動2商業活動販売(売り上げ)、購買(仕入れ)3財務活動資金ぐり、キャッシュフロー、資金調達、資金返済4保全活動5会計活動6経営活動 fayolの経営管理プロセス1計画、2組織化、3指揮、4調整、5統制1将来を予想し、予算と行動予定を作る一年間(1ヵ月分を作ることもある)2事業の物的及び人的な構造を作る図表あり3各人が自分に課せられた役割を果たすよう配慮する4すべての活動を結合し、統一し、調和させる5すべての活動が規制や命令に従って行われるよう監督する→各国によってやり方に違いがある 1911 Taylor 「科学的管理法」原点1930年代心理mayoの「人間関係論」転換点ホーソン実験→職場の人間関係の方が重要ではないのか?生産性は作業者の士気に左右される心理学、社会学数学、統計学文化2019図表あり 組織的文脈外部・内部要因→影響マネジメント目的、過程、実践→影響組織的効果売り上げ、利益、生産性 経営学の発展過程原点:テイラーの科学的管理法転換点:メイヨーの人間関係論(ホーソン実験)fayolの経営活動計画、組織化、指揮、調整、統制 文化圏一覧表 hofstede文化の数値化図表あり 権力格差:社会における権力の不平等性を受け入れる程度図表あり 個人主義:集団よりも個人として行動する程度、個人家族の利益を企業など集団よりも優先する程度図表あり 男性主義(男性):剛の価値が柔の価値を上回る程度、結果主義、質より量図表あり日本:仕事中毒働き方改革ワークライフバランス北欧:福祉国家失業手当(消費税所得税などが非常に高い) 不確実性回避:不透明で予測のつかない状況を受け入れ対処する範囲日本:終身雇用、匠・専門家が信頼される低い:イノベーション(革新)が得意←日本の欠点弱点 hall:コミュニケーション、個人間の関係、時間の考え方を文脈で区別高い:言わなくても、文書なしでもわかる　国列挙低い:言わないとわからない、文書がないと伝わらない　国列挙 政治システム図表あり日本:政党が多くあるにも関わらず、一党が長期政権を握り続ける 民主主義:投票(多数決)政権交代がよくある、長期政権権威主義:多様性は認めつつも規制は多い(1980年代までの韓国・台湾)全体主義:独裁 図表あり（右派左派） 図表あり（政府関与） 図表あり（資本主義）企業の「所有と経営の分離」
+
+<!--chapter:end:02-management.Rmd-->
+
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# アメリカの経営システム {#usa}
+
+## アメリカの文化・政治・経済 {#usa-out}
+
+### 文化 {#us-culture}
+
+1. 多民族国家 　
+
+　WASP
+人種構成　多様だが初期の移民の文化の影響が強い構成表
+wasp ケネディ・オバマ大統領1階waspが大統領今後白人が減り、他の人種が増加するだろうとされている主にヒスパニック・アジア移民流入、出生率高い影響力が低下した白人の不満トランプ大統領支持
+max weber プロテスタンティズムの倫理と資本主義の精神
+権力格差低い→権力格差を受け入れがたい個人主義高い→みんなと同じであることに価値はない、ユニークさを求められる○就職　経理、営業、マーケティング、広告×就社企業とは雇用契約を結ぶ(仕事が特定される)→個人の成果重視縁故<個人の能力　転職が多い
+男性主義比較的高い→アメリカンドリーム「物質的成功」剛の価値が評価される一方で女性の社会進出は多く、地位も高い
+不確実性回避低い→開拓者精神
+長期指向低い→短期的利益を追求、時間に厳しい、すぐに親しくなる、率直に話す
+
+2. 
+
+
+
+### 政治システム・法制度 {#us-politics}
+
+　二大政党制
+　契約社会・条文の細かさ
+政治システム・法制度民主主義・三権分立　政治が安定しているため、政権交代があっても政策継続性が期待できる→長期の経営計画が立てやすい
+政権交代(大統領選挙4年ごと)企業設備投資(5〜10年計画)政策の予測可能性高い→投資促進
+アメリカ政府　○自由競争　×独占　→ 巨大企業「分割」
+低文脈→法律（契約）が詳細、教科書が厚い
+
+### 経済システム {#us-economy}
+
+　アームズレングス
+　独占を嫌う社会
+　流動性の高い経済（労働・金融）
+　市場中心の金融システムについては、appendix
+　発達した金融市場（市場中心）:証券市場での資金調達が多い、証券取引が活発であり、ベンチャーキャピタルが発達
+　図表あり（間接金融）
+
+高い経済的自由市場競争が激しい、起業、買収、合併(M&A)、倒産、外国企業の国内進出が多い→不確実性回避が低い理由柔軟な労働市場不況時のレイオフ(一時解雇)が容易→不確実性回避が低い理由
+
+図表あり
+解雇しやすい　必要なときすぐ採用できる労働者側再就職しやすい、再就職先は元の会社より儲かっているクビになることは怖いことではない、しかも職種ごとに採用経済全体の効果:不況業種から好況業種や人材が移動
+不確実性回避低い再チャレンジが容易な社会制度柔軟な労働市場（日本:終身雇用）発達した金融市場（日本:銀行中心）
+
+　証券市場（株式市場、債券市場）：家計の金融資産（日本：15-20%、アメリカ：50%）
+　低い政府関与　経済規模に比べ政府支出は少ない、国営企業も少ない、年金や健康保険は他国に比べ民間部門が大きい
+　米国：健康保険（医療保険）　個人で加入（給与の一部として支給）⇔失業すると失う
+　結果の不平等　機会の平等は高く求められるが、家計の所得・資産の不平等は大きい
+　不確実性回避低い：労働市場、金融市場
+
+## アメリカ企業の経営者 {#us-manager}
+<br>
+
+### 選抜・移動 {#us-selection}
+　新卒採用や昇進などの労働システムのあり方（ジョブ型・メンバーシップ型）についてはAppendixでまとめる。
+　平均56歳、男性が多い、富裕層（出身）が多い、が、相対的に減少している（＝多様化）
+　女性経営者はまだ少ないが、大卒・MBA卒は男性より女性が多いので見込みはある。
+　所有と経営の分離　プロ経営者（A社社長退任→B社社長就任）外部登用が3-4割・ヘッドハンティング
+　　　　　　　　　　専門経営者⇔サラリーマン経営者（平社員から内部昇進）
+　所有者（owner）＝株式保有者（出資者）　と　経営者が異なる
+
+　民間と政府の相互移動（回転ドア）　民間と政府で相互に転職することがあり、民間経営者が政府高官になることがある　官僚から民間への転職「天下り」が多かった日本と対照的
+　まとめると、若い、移動が多い、プロ経営者が多い
+
+　アメリカ人が非英語圏で経営することは少ない
+
+### 報酬 {#us-payment}
+
+<!--
+　大企業経営者　11.3億円　日本は1億円以上出す企業は少ない
+　ストックオプション　一定期間内にあらかじめ決められた価格で所属する会社から自社株式を購入できる権利
+　高報酬はプロ経営者が多いことが背景にある　外部登用の際、成功報酬としてストックオプションが付与されることが多い
+-->
+
+* **ペイレシオ**：企業の経営トップの報酬が従業員の賃金の何倍かを示す数値をペイレシオ（pay ratio）という。  
+
+ペイレシオ
+日本経済新聞2018年5月13日　米報酬、企業差が鮮明「CEOは社員の何倍か」開示
+https://www.dir.co.jp/report/column/20170921_012304.html
+
+https://www.cnn.co.jp/business/35124268.html
+
+https://www.meti.go.jp/meti_lib/report/2015fy/000134.pdf
+
+業績連動報酬
+日本経済新聞2018年12月6日　きょうのことば
+https://www.nikkei.com/article/DGXKZO38600620V01C18A2EA2000/?n_cid=SPTMG053
+
+
+日本経済新聞2018年12月12日　CEO報酬、アメリカは日本の6倍　首位は117億円 
+
+英ＣＥＯの給料、一般社員の１６７年分　男女間でも格差
+(https://www.cnn.co.jp/business/35124268.html)
+
+
+表3.1　ダウ平均構成30社の社長の年収（1～5位）
+
+| 順位 |社長(CEO)名|社名|年収|前期比増減率|株式報酬の割合|従業員の年収に対する倍率|株価騰落率|
+|:-----|:----------|:---|:--:|:----------:|:------------:|:------------------:|:------------:|
+|   1  |ジョン・ドナホー	       |ナイキ	                       |58.3億円|	ー   |83% |1935倍	|28%|
+|   2  |サティア・ナデラ	       |マイクロソフト	               |48.3億円|	3%	 |69% |257倍	|52%|
+|   3  |ジェームズ・ダイモン    |JPモルガン・チェース	         |34.5億円|	0%	 |79% |395倍	|▲10%|
+|   4  |アレックス・ゴースキー  |ジョンソン・エンド・ジョンソン |32.2億円|	17%	 |61% |365倍	|7%|
+|   5  |マイケル・ワース	       |シェブロン	                   |31.6億円|	▲12% |52% |184倍	|▲29%|
+
+
+注）1ドル＝109円で換算  
+出所）日経ヴェリタス（日経電子版）[^1]
+
+[^1]:日経ヴェリタス（日経電子版） 2021年6月27日「社長の給料、日米で16倍差　米国平均は23億円」
+
+### 教育 {#us-education}
+
+　高学歴　学問としての経営学
+　学部の22%、修士課程の25%に経営学専攻がある
+　図表あり
+　A：営業担当社員←必要な能力（＝学歴）提示
+　B：営業担当管理職←必要な能力（＝学歴）提示
+　昇進は内部外部に差がない
+
+## アメリカ企業のマネジメント {#us-management}
+<br>
+
+### 計画 {#us-plan}
+
+　予算：売上－費用＝利益（見込み・目標）　年間予算、月次予算
+　中・長期計画　中期（3-5年）長期（10年）
+　生産販売計画⇒投資計画・事業展開（戦略）
+　1980年代　コンサルティング業発展（財務会計・税務、生産、情報システム）
+　新しい経営手法を積極的に導入
+　他国の傾向　助言サービスが必要ないのでコンサルティング業の発展速度は遅い
+
+### 組織化 {#us-organization}
+　
+　図表
+　分権化（権限移譲）デュポンやGMが事業部制を採用した　1920年代から進む
+　1914年第一次世界大戦　欧州が戦場　1920年代以降経済の中心がヨーロッパからアメリカへ
+
+　企業レベルの組織変化　買収、合併、企業分割　→　敵対的買収もしばしば行われる
+　図表
+　最適な工場数？
+　企業①が企業②を買収
+　企業①がB工場を②に売却、企業②にD工場を①に売却
+　M&Aアドバイザー（投資銀行）
+
+### 指揮・調整 {#us-command}
+
+　直接的表現　契約書が詳細に作成される（低文脈社会）　雇用契約・業績評価が詳細になる
+
+### 統制 {#us-control}
+
+　株式会社　出資者が株式を保有　株主が株主総会で取締役を選任　取締役は取締役会で経営をチェック　代表取締役は社長のことが多い
+　外部統制　敵対的買収による経営解任のリスクが高まる
+　内部統制　取締役（会）の役割：所有者（株主）に代わって、マネジメント・統制する→雇用、助言、評価、報酬、人事（管理職の配転）
+　図表
+　買収されるほど株価が下落しないように経営努力する←統制
+
+柔軟な労働市場　人材の流動性が高い
+金融市場　売買が活発　流動性が高い
+
+
+
+
+<!--chapter:end:03-usa.Rmd-->
+
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+# 日本の経営システム {#japan}
+
+## 日本の文化・政治・経済 {#japan-out}
+
+### 文化 {#japan-culture}
+
+1. 儒教・仏教の影響 ？　
+
+　ところで、第\@ref(usa)章では  
+　島国（逃げられない・関係性ガバナンス）
+
+2. 恥の文化
+
+　菊と刀
+　同質性圧力
+
+### 政治システム・法制度 {#japan-politics}
+
+1. 1955年体制 　
+
+　自民党長期政権
+
+2. 官僚制
+
+　縦割り行政
+
+### 経済システム {#japan-economy}
+
+1. 系列
+
+　系列には水平的系列と垂直的系列の2種類がある。
+
+2. メインバンクシステム
+
+　銀行中心の金融システムについては、appendix
+
+3. 政府主導型経済成長
+
+　産業政策
+
+　政官財トライアングル
+
+
+## 日本企業の経営者 {#japan-manager}
+
+### 選抜・移動 {#japan-selection}
+
+　新卒採用や昇進などの労働システムのあり方（ジョブ型・メンバーシップ型）についてはAppendixでまとめる。
+　サラリーマン社長の同質性（学歴重視の結果でもある）
+　ダイバーシティに遅れる
+
+表3.1　日本経団連正副会長19名（2018年6月）のプロフィール
+```{r, echo = FALSE, fig.align="center"}
+keidanren <- read.csv("keidanren.csv", header = TRUE)
+knitr::kable(keidanren)
+```
+
+出所）日本経済新聞[^1]、日本産業新聞[^2]
+
+[^1]:日本経済新聞朝刊 2018年6月18日「変わる経団連、変われぬ経団連」  
+[^2]:日経産業新聞 2018年6月22日「経団連　この恐るべき同質集団」
+
+
+### 報酬 {#japan-payment}
+
+　差がつくのが遅い昇進
+
+　緩やかな賃金カーブ
+
+日本経済新聞2018年6月29日　「1億円プレーヤー」500人超　役員報酬、欧米型に 
+
+https://www.tsr-net.co.jp/news/analysis/20210624_06.html
+
+
+
+### 教育 {#japan-education}
+
+　@Oguma2019 は、上掲の日経新聞記事が「卒業した大学名は詳細に記されているが、学部や専攻については何も述べていない」ことを指摘し、日本社会は「何を学んだかが重要でない学歴重視」であるとしている。
+　情報の経済学におけるシグナリングという概念を使うと、学歴重視には合理性があるとされる。
+
+
+## 日本企業のマネジメント {#japan-management}
+
+日本的経営　アベグレン
+
+### 計画 {#japan-plan}
+<br>
+
+### 組織化 {#japan-organization}
+
+　人事ローテーション
+　
+　柔軟な組織（多能工）
+
+### 指揮・調整 {#japan-command}
+
+　稟議
+
+### 統制 {#japan-control}
+
+1. 外部統制
+
+　株式持ち合い
+
+2. 内部統制
+
+(1)　取締役会
+
+(2)　原価低減
+
+
+<!--chapter:end:04-japan.Rmd-->
+
+# アジアの経営システム {#asia}
+
+## アジアの文化・政治・経済 {#asia-out}
+
+### 文化 {#asia-culture}
+1. 科学的管理法 　
+
+　科学的管理法はいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい。
+
+2. 管理過程論
+
+　fayol
+
+
+
+### 政治システム・法制度 {#asia-politics}
+<br>
+
+### 経済システム {#asia-economy}
+<br>
+
+
+## アジア企業の経営者 {#asia-manager}
+
+サムスン李氏「世襲やめる」　韓国財閥、同族経営岐路に
+（https://www.nikkei.com/article/DGXMZO58842290X00C20A5FFJ000/?n_cid=SPTMG002）
+
+### 選抜・移動 {#asia-selection}
+
+【有料】サムスン電子（下）分権と集権、組織に活力（アジア企業戦略解剖）
+(https://www.nikkei.com/article/DGKDZO40948900Z20C12A4FF1000/)　
+
+### 報酬 {#asia-payment}
+
+https://www.google.com/search?q=%E3%82%A2%E3%82%B8%E3%82%A2%20%E7%B5%8C%E5%96%B6%E8%80%85%20%E5%A0%B1%E9%85%AC&authuser=0
+
+### 教育 {#asia-education}
+
+https://zuuonline.com/archives/120859
+
+
+大卒でも財閥系大企業でなければ年収200万円台。韓国の高学歴貧困の厳しすぎる事情
+(https://hbol.jp/189601?display=b)
+
+韓国、高学歴貧困の現状。「幼い頃の夢を叶える人なんていない」
+(https://hbol.jp/189810?cx_clicks_kijishita=txt1#cxrecs_s)
+
+これからの大学教育
+(http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/attach/__icsFiles/afieldfile/2013/10/16/1340415-9-2.pdf)
+
+
+## アジア企業のマネジメント {#asia-management}
+
+現代アジアの企業経営 - ミネルヴァ書房  
+東アジアの企業経営―多様化するビジネスモデル (現代社会を読む経営学) ミネルヴァ書房
+アジア企業の経営理念: 生成・伝播・継承のダイナミズム　文真堂
+アジア最強の経営を考える―――世界を席巻する日中韓企業の戦い方
+東アジアとアセアン諸国のコーポレート・ガバナンス 税務経理協会
+なぜ韓国企業は世界で勝てるのか: 新興国ビジネス最前線
+(https://www.erina.or.jp/wp-content/uploads/2014/09/20120829.pdf)
+“超”格差社会・韓国
+
+東アジアのコーポレート・ガバナンス改革
+(http://www.econ.kobe-u.ac.jp/activity/publication/nenpo/pdf/kinkyo56.pdf)
+
+日本・中国・韓国企業におけるジェンダー・ダイバーシティ経営の実情と課題
+(https://www.rieti.go.jp/jp/publications/dp/14j010.pdf)
+
+台湾企業の発展戦略書評
+(https://www.osaka-ue.ac.jp/file/general/18589)
+
+下請けなのになぜ台湾企業は強いのか
+(https://president.jp/articles/-/7436)
+
+中国の国有企業
+(https://www.jri.co.jp/MediaLibrary/file/report/jrireview/pdf/6641.pdf)
+
+中国企業の所有と経営
+(https://ir.ide.go.jp/?action=repository_action_common_download&item_id=43147&item_no=1&attribute_id=26&file_no=1)
+
+華人系企業の経営構造に対する一考察
+(http://shiten.agi.or.jp/shiten/201503/shiten201503_1-14.pdf)
+
+日韓企業「人材力」対決
+(https://president.jp/category/c01406)
+
+韓国企業と「倫理経営」
+(https://www.soka.ac.jp/files/ja/20170419_153829.pdf)
+
+https://www.nli-research.co.jp/files/topics/56098_ext_18_0.pdf?site=nli
+https://www.nli-research.co.jp/files/topics/57016_ext_18_0.pdf?site=nli
+
+https://business.nikkei.com/atcl/interview/15/238739/021200132/
+
+中国企業の経営者意識とコーポレート・ガバナンス
+(https://econ.meijigakuin.ac.jp/research/nempo/pdf/27-3.pdf)
+
+中国企業の経営者とガバナンス
+(https://meigaku.repo.nii.ac.jp/index.php?action=repository_action_common_download&item_id=299&item_no=1&attribute_id=18&file_no=1&page_id=13&block_id=21)
+
+アジア企業のコーポレート・ガバナンスの進展
+(https://www.nli-research.co.jp/files/topics/38436_ext_18_0.pdf)
+
+### 計画 {#asia-plan}
+
+東アジア中小企業の発展と今後の課題表6
+(https://www.chukiken.or.jp/about/img/2011_02.pdf)
+
+｢中国人､韓国人｣と日本人が働きにくいワケ2ページ
+(https://toyokeizai.net/articles/amp/160021?display=b&amp_event=read-body)
+
+異文化理解力 英治出版 ⇒　第1章
+
+シャープ再建 鴻海流スピード経営と 日本型リーダーシップ
+(https://kei-bunsha.co.jp/archives/1297)
+
+### 組織化 {#asia-organization}
+
+人的管理
+https://www.jri.co.jp/page.jsp?id=15820
+
+東アジア華人系企業グループの21世紀ビジネス戦略
+http://r-cube.ritsumei.ac.jp/repo/repository/rcube/3219/be40_4tanakaA.pdf
+
+https://www.mitsui.com/mgssi/ja/report/detail/__icsFiles/afieldfile/2018/11/14/1811c_takahashi.pdf
+
+http://www.dl.ndl.go.jp/view/download/digidepo_8761069_po_02zhuy.pdf?contentNo=1&alternativeNo=
+
+http://www.agi.or.jp/reports/report2014-10.pdf
+
+台湾中小企業の柔軟性と支援政策
+(http://www.eco.nihon-u.ac.jp/center/economic/publication/journal/pdf/32/32wada.pdf)
+
+華商のネットワーキング活動と華人ネットワーク組織のブリッジ機能
+(http://dl.ndl.go.jp/info:ndljp/pid/10350934?tocOpened=1)
+
+
+### 指揮・調整 {#asia-command}
+
+｢中国人､韓国人｣と日本人が働きにくいワケ3頁
+(https://toyokeizai.net/articles/amp/160021?display=b&amp_event=read-body)
+
+異文化理解力 英治出版 ⇒　第1章
+
+第02回 韓国企業はなぜ強い？
+(https://www.fujitsu.com/jp/group/fjm/mikata/column/oda/002.html)
+
+韓国企業の強さの秘密は「情報」重視の経営
+(https://mag.executive.itmedia.co.jp/executive/articles/1108/23/news009.html)
+
+中国と日本の企業文化比較
+(https://www.jstage.jst.go.jp/article/jasmin/2014s/0/2014s_69/_pdf/-char/ja)
+
+### 統制 {#asia-control}
+
+https://www.jri.co.jp/page.jsp?id=15869
+
+
+<!--chapter:end:05-asia.Rmd-->
+
