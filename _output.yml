@@ -6,7 +6,7 @@ bookdown::gitbook:
         <li>比較経営論</li>
       after: |
         <li>© Takao Iijima 2021</li>
-    download: ["pdf", "epub"]
+    # download: ["pdf", "epub"]
 output:
   bookdown::gitbook:
     split_by: section+number
