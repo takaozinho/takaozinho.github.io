@@ -96,14 +96,37 @@ biblio-style: apalike
   
   - かつて優れたマネジメントとされたものが、その後の時代・環境の変化によって、優れたものでなくなるということもあります。
 
+<span style="font-size: 150%">**参考文献**</span>
+
+池尾和人・黄圭燦・飯島高雄 (2001)『日韓経済システムの比較制度分析』日本経済新聞社
+
+日本経済団体連合会 (2006)「企業価値の最大化に向けた経営戦略」
+
+
 ## 経営における文脈と外部環境（仮） {#context}
 
 　内部と外部の話はここでする。
 
+<span style="font-size: 150%">**参考文献**</span>
+
+妹尾堅一郎 (2009)『技術力で勝る日本が、なぜ事業で負けるのか』ダイヤモンド社.
 
 ## 構造変化と景気循環 {#change}
 
+### 成長と発展
 
+- 妹尾 (2009)は、成長と発展の違いについて次のように指摘しています。
+
+表1.1　成長と発展の違い
+```{r, echo = FALSE, fig.align="center"}
+senoo <- read.csv("senoo.csv", header = TRUE)
+knitr::kable(senoo)
+```
+
+
+<span style="font-size: 150%">**参考文献**</span>
+
+妹尾堅一郎 (2009)『技術力で勝る日本が、なぜ事業で負けるのか』ダイヤモンド社.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
