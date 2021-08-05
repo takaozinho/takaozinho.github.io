@@ -88,3 +88,13 @@ hall
 fig:unnamed-chunk-1
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
+集団主義個人主義
+権力格差小さい大きい
+女性性男性性
+不確実性回避低い高い
+短期志向長期志向
+人生の楽しみ方抑制放縦
+コミュニケーション
+時間感覚
+fig:IDV2
+fig:hall

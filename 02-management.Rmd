@@ -9,7 +9,7 @@
 
 ### Taylorの科学的管理法  {#taylor}　
 
-　科学的管理法は。
+- 科学的管理法は。
 
 ### Fayolの管理過程論 {#fayol}
 
@@ -28,57 +28,66 @@ knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
 
 ### Hofstede {#hofstede}
 
-　@Hofstedeetal2010[^2] は、世界〇カ国のIBMの社員を対象に行ったアンケート調査の結果から各国文化の特徴を比較した。
+- 　Hofstede, et al. (2010)は、世界〇カ国のIBMの社員を対象に行ったアンケート調査の結果から各国文化の特徴を比較した。
 
-[^2]: 日本語版は、岩井八郎・岩井紀子（訳）2013『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.
 
-1. 集団主義⇒個人主義
 
-　図\@ref(fig:IDV)を見ると、
+https://hofstede.jp/intercultural-management/
 
-```{r IDV, echo = FALSE, out.width="960px", fig.cap="「集団主義⇒個人主義」のグラデーションマップ"}
-knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/IDV-world-map-50.png")
-```
 
-出所）[geerthofstede.com "The 6-D model of national culture"](https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/)
+#### 権力格差（小さい⇔大きい）
 
-　図\@ref(fig:IDV)を見ると、
-
-1. 権力格差（小さい⇒大きい）
-
-```{r PDI, echo = FALSE, out.width="960px", fig.cap="「権力格差（小さい⇒大きい）」のグラデーションマップ"}
+```{r PDI, echo = FALSE, out.width="960px", fig.cap="「権力格差（小さい⇔大きい）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/PDI-world-map-50.png")
 ```
 
 出所）同上
 
-1. 女性性⇒男性性
+#### 集団主義⇔個人主義
 
-```{r MAS, echo = FALSE, out.width="960px", fig.cap="「女性性⇒男性性」のグラデーションマップ"}
+- 　図\@ref(fig:IDV)を見ると、
+
+```{r IDV, echo = FALSE, out.width="960px", fig.cap="「集団主義⇔個人主義」のグラフ"}
+knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2019/10/score_idv.png")
+```
+
+出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_idv/)
+
+- 　図\@ref(fig:IDV2)を見ると、
+
+```{r IDV2, echo = FALSE, out.width="960px", fig.cap="「集団主義⇔個人主義」のグラデーションマップ"}
+knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/IDV-world-map-50.png")
+```
+
+出所）[geerthofstede.com "The 6-D model of national culture"](https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/)
+
+#### 女性性⇔男性性
+
+```{r MAS, echo = FALSE, out.width="960px", fig.cap="「女性性⇔男性性」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MAS-world-map-50.png")
 ```
 
 出所）同上
 
-1. 不確実性回避（低い⇒高い）
+#### 不確実性回避（低い⇔高い）
 
-```{r UAI, echo = FALSE, out.width="960px", fig.cap="「不確実性回避（低い⇒高い）」のグラデーションマップ"}
+```{r UAI, echo = FALSE, out.width="960px", fig.cap="「不確実性回避（低い⇔高い）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/UAI-world-map-50.png")
 ```
 
 出所）同上
 
-1. 短期志向⇒長期志向
+#### 短期志向⇔長期志向
 
-```{r MON, echo = FALSE, out.width="960px", fig.cap="「短期志向⇒長期志向」のグラデーションマップ"}
+```{r MON, echo = FALSE, out.width="960px", fig.cap="「短期志向⇔長期志向」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MON-world-map-50.png")
 ```
 
 出所）同上
 
-1. 人生の楽しみ方（抑制⇒放縦）
+#### 人生の楽しみ方（抑制⇔放縦）
 
-```{r IvR, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇒放縦）」のグラデーションマップ"}
+```{r IvR, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇔放縦）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/IvR-world-map-50.png")
 ```
 
@@ -86,9 +95,11 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/Iv
 <br>
 
 表2.2:　Hofstedeの国民文化比較
-```{r, echo = FALSE}
+```{r, echo = FALSE, message = FALSE}
 library(DT)
-hofstede <- read.csv("6-dimensions-for-website-2015-08-16.csv", header = TRUE)
+library(dplyr)
+hofstede <- read.csv2("https://geerthofstede.com/wp-content/uploads/2016/08/6-dimensions-for-website-2015-08-16.csv", header = TRUE)
+hofstede <- hofstede %>% replace(.=="#NULL!", "-") 
 datatable(hofstede)
 ```
 
@@ -96,11 +107,16 @@ datatable(hofstede)
 
 ### Hallの文脈 {#hall}
 
-(1)　コミュニケーション
+#### コミュニケーション
 
-@Hall1989[^3] は、比較した。
+- Hall (1977) は、比較した。
 
-[^3]: 日本語版は、岩田慶治・谷泰（訳）1993『文化を超えて　新装版』阪急コミュニケーションズ.
+```{r hall, echo = FALSE, out.width="240px", fig.cap="Hall (1977)の表紙"}
+knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/511inKND3iL._SX322_BO1,204,203,200_.jpg")
+```
+
+出所）[Amazon.co.jp](https://www.amazon.co.jp/Beyond-Culture-Edward-T-Hall/dp/0385124740)
+
 
 ```{r, echo = FALSE, out.width="960px", fig.cap="Hallの文化によるコミュニケーションの仕方の違い"}
 knitr::include_graphics("https://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
@@ -116,7 +132,7 @@ knitr::include_graphics("https://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets
 
 異文化理解力 英治出版 ⇒
 
-(2)　時間感覚
+#### 時間感覚
 
 <https://conceptos.exblog.jp/25085783/>
 
@@ -124,24 +140,50 @@ knitr::include_graphics("https://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets
 
 <https://teatime-talk.com/jikan/>
 
+<span style="font-size: 150%">**参考文献**</span>
+
+Hall, Edward T. (1977), __Beyond culture__, Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+
+Hofstede, G, G. J. Hofstede, and M. Minkov (2010), __Cultures and Organizations: Software of the Mind, Third Edition__, McGraw-Hill Education.（岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+
 ## 政治体制・法制度 {#politics-and-law}
 
-　企業経営は立地する国家の政治体制・法制度に影響を受ける。
+- 企業経営は立地する国家の政治体制・法制度に影響を受ける。
 
 ### 政治体制 {#politics}　
 
-　詳しくは [中村 (2006)](https://www.ide.go.jp/Japanese/Research/Theme/Pol/Institutions/200608_nakamura.html) を参考のこと。 　
+- 詳しくは [中村 (2006)](https://www.ide.go.jp/Japanese/Research/Theme/Pol/Institutions/200608_nakamura.html) を参考のこと。 　
 
 -   投票による決定
 -   宗教とは無関係
 
 ### 法制度 {#law}
 
-　英米法と大陸法
+- 英米法と大陸法
 
 ## 経済システム {#economy}
 
 1.  市場
 2.  政府主導型
 
-経営システムの比較基準(1)fayol hofstede 業績を覚えること 今日のポイント経営学の発展過程fayol経営における「文脈」 経営学およそ100年前management 和訳できない「管理?」経営学の原点:工場作業の効率(能率)向上1時間に何個作れるかテイラーマニュアルを作ることによって向上環境を改善することで能率向上差別的賃金最適労働量機械的な考えと批判も fayoladministration 管理経営活動　どう会社を動かすか?1技術活動2商業活動販売(売り上げ)、購買(仕入れ)3財務活動資金ぐり、キャッシュフロー、資金調達、資金返済4保全活動5会計活動6経営活動 fayolの経営管理プロセス1計画、2組織化、3指揮、4調整、5統制1将来を予想し、予算と行動予定を作る一年間(1ヵ月分を作ることもある)2事業の物的及び人的な構造を作る図表あり3各人が自分に課せられた役割を果たすよう配慮する4すべての活動を結合し、統一し、調和させる5すべての活動が規制や命令に従って行われるよう監督する→各国によってやり方に違いがある 1911 Taylor 「科学的管理法」原点1930年代心理mayoの「人間関係論」転換点ホーソン実験→職場の人間関係の方が重要ではないのか?生産性は作業者の士気に左右される心理学、社会学数学、統計学文化2019図表あり 組織的文脈外部・内部要因→影響マネジメント目的、過程、実践→影響組織的効果売り上げ、利益、生産性 経営学の発展過程原点:テイラーの科学的管理法転換点:メイヨーの人間関係論(ホーソン実験)fayolの経営活動計画、組織化、指揮、調整、統制 文化圏一覧表 hofstede文化の数値化図表あり 権力格差:社会における権力の不平等性を受け入れる程度図表あり 個人主義:集団よりも個人として行動する程度、個人家族の利益を企業など集団よりも優先する程度図表あり 男性主義(男性):剛の価値が柔の価値を上回る程度、結果主義、質より量図表あり日本:仕事中毒働き方改革ワークライフバランス北欧:福祉国家失業手当(消費税所得税などが非常に高い) 不確実性回避:不透明で予測のつかない状況を受け入れ対処する範囲日本:終身雇用、匠・専門家が信頼される低い:イノベーション(革新)が得意←日本の欠点弱点 hall:コミュニケーション、個人間の関係、時間の考え方を文脈で区別高い:言わなくても、文書なしでもわかる　国列挙低い:言わないとわからない、文書がないと伝わらない　国列挙 政治システム図表あり日本:政党が多くあるにも関わらず、一党が長期政権を握り続ける 民主主義:投票(多数決)政権交代がよくある、長期政権権威主義:多様性は認めつつも規制は多い(1980年代までの韓国・台湾)全体主義:独裁 図表あり（右派左派） 図表あり（政府関与） 図表あり（資本主義）企業の「所有と経営の分離」
+- 経営システムの比較基準(1)
+- fayol hofstede 業績を覚えること
+- 今日のポイント
+- 経営学の発展過程
+- fayol
+- 経営における「文脈」 
+- 経営学およそ100年前
+- management 和訳できない「管理?」
+- 経営学の原点:工場作業の効率(能率)向上1時間に何個作れるかテイラーマニュアルを作ることによって向上環境を改善することで能率向上差別的賃金最適労働量機械的な考えと批判も fayoladministration
+- 管理経営活動　どう会社を動かすか?1技術活動2商業活動販売(売り上げ)、購買(仕入れ)3財務活動資金ぐり、キャッシュフロー、資金調達、資金返済4保全活動5会計活動6経営活動 fayolの経営管理プロセス1計画、2組織化、3指揮、4調整、5統制1将来を予想し、予算と行動予定を作る一年間(1ヵ月分を作ることもある)2事業の物的及び人的な構造を作る図表あり3各人が自分に課せられた役割を果たすよう配慮する4すべての活動を結合し、統一し、調和させる5すべての活動が規制や命令に従って行われるよう監督する→各国によってやり方に違いがある 1911 Taylor 「科学的管理法」原点1930年代心理mayoの「人間関係論」転換点ホーソン実験→職場の人間関係の方が重要ではないのか?生産性は作業者の士気に左右される心理学、社会学数学、統計学文化2019図表あり 組織的文脈外部・内部要因→影響マネジメント目的、過程、実践→影響組織的効果売り上げ、利益、生産性 経営学の発展過程原点:テイラーの科学的管理法転換点:メイヨーの人間関係論(ホーソン実験)fayolの経営活動計画、組織化、指揮、調整、統制 文化圏一覧表 hofstede文化の数値化図表あり
+- 権力格差:社会における権力の不平等性を受け入れる程度図表あり
+- 個人主義:集団よりも個人として行動する程度、個人家族の利益を企業など集団よりも優先する程度図表あり
+- 男性主義(男性):剛の価値が柔の価値を上回る程度、結果主義、質より量図表あり日本:仕事中毒働き方改革ワークライフバランス北欧:福祉国家失業手当(消費税所得税などが非常に高い)
+- 不確実性回避:不透明で予測のつかない状況を受け入れ対処する範囲日本:終身雇用、匠・専門家が信頼される低い:イノベーション(革新)が得意←日本の欠点弱点 
+
+- hall:コミュニケーション、個人間の関係、時間の考え方を文脈で区別高い:言わなくても、文書なしでもわかる　国列挙低い:言わないとわからない、文書がないと伝わらない　国列挙 
+- 政治システム図表あり日本:政党が多くあるにも関わらず、一党が長期政権を握り続ける
+- 民主主義:投票(多数決)政権交代がよくある、長期政権
+- 権威主義:多様性は認めつつも規制は多い(1980年代までの韓国・台湾)
+- 全体主義:独裁 図表あり（右派左派） 図表あり（政府関与） 図表あり
+- （資本主義）企業の「所有と経営の分離」
