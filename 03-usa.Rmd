@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # アメリカの経営システム {#usa}
 
 ## アメリカの文化・政治・経済 {#usa-out}

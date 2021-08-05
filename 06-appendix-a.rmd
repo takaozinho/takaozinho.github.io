@@ -1,0 +1,17 @@
+# 補論
+
+## 構造変化と景気循環 {#change}
+
+## 成長と発展 {#growth-development}
+
+- 妹尾 (2009)は、成長と発展の違いについて次のように指摘しています。表\@ref(tab:senoo)
+
+```{r senoo, echo = FALSE, tab.align="center"}
+senoo <- read.csv("senoo.csv", header = TRUE)
+knitr::kable(senoo, caption = "成長と発展の違い")
+```
+
+
+<span style="font-size: 150%">**参考文献**</span>
+
+妹尾堅一郎 (2009)『技術力で勝る日本が、なぜ事業で負けるのか』ダイヤモンド社.
