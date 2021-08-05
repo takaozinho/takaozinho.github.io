@@ -77,3 +77,5 @@ fig:UAI
 fig:MON
 fig:IvR
 補論
+intro
+appendix
