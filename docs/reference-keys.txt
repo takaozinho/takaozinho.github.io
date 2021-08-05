@@ -79,3 +79,12 @@ fig:IvR
 補論
 intro
 appendix
+comparizon
+common
+difference
+fayol
+hofstede
+hall
+fig:unnamed-chunk-1
+fig:unnamed-chunk-2
+fig:unnamed-chunk-3

@@ -2,16 +2,16 @@
 
 ## マネジメントの基礎 {#basics}
 
-* 本節では、マネジメント理論の基礎を確認する[^1]。
-* 
+- 本節では、マネジメント理論の基礎を確認する[^1]。
+- 
 
 [^1]: 本節については、<https://tsurumi3776.sakura.ne.jp/k4-amerika.htm> も参照されたい。
 
-### Taylorの科学的管理法 {#Taylor}　
+### Taylorの科学的管理法  {#taylor}　
 
 　科学的管理法は。
 
-### Fayolの管理過程論 {#Fayol}
+### Fayolの管理過程論 {#fayol}
 
 <https://www.ba.tyg.jp/~ihara/chinesetext%20PDF/%E3%80%90%E6%9C%80%E7%B5%82%E3%80%91%E7%AC%AC8%E7%AB%A00304.pdf>
 
@@ -26,13 +26,13 @@ knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
 
 ## 文化 {#culture}
 
-### Hofstede {#Hofstede}
+### Hofstede {#hofstede}
 
 　@Hofstedeetal2010[^2] は、世界〇カ国のIBMの社員を対象に行ったアンケート調査の結果から各国文化の特徴を比較した。
 
 [^2]: 日本語版は、岩井八郎・岩井紀子（訳）2013『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.
 
-(1)　集団主義⇒個人主義
+1. 集団主義⇒個人主義
 
 　図\@ref(fig:IDV)を見ると、
 
@@ -44,7 +44,7 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/ID
 
 　図\@ref(fig:IDV)を見ると、
 
-(2)　権力格差（小さい⇒大きい）
+1. 権力格差（小さい⇒大きい）
 
 ```{r PDI, echo = FALSE, out.width="960px", fig.cap="「権力格差（小さい⇒大きい）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/PDI-world-map-50.png")
@@ -52,7 +52,7 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/PD
 
 出所）同上
 
-(3)　女性性⇒男性性
+1. 女性性⇒男性性
 
 ```{r MAS, echo = FALSE, out.width="960px", fig.cap="「女性性⇒男性性」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MAS-world-map-50.png")
@@ -60,7 +60,7 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MA
 
 出所）同上
 
-(4)　不確実性回避（低い⇒高い）
+1. 不確実性回避（低い⇒高い）
 
 ```{r UAI, echo = FALSE, out.width="960px", fig.cap="「不確実性回避（低い⇒高い）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/UAI-world-map-50.png")
@@ -68,7 +68,7 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/UA
 
 出所）同上
 
-(5)　短期志向⇒長期志向
+1. 短期志向⇒長期志向
 
 ```{r MON, echo = FALSE, out.width="960px", fig.cap="「短期志向⇒長期志向」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MON-world-map-50.png")
@@ -76,7 +76,7 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MO
 
 出所）同上
 
-(6)　人生の楽しみ方（抑制⇒放縦）
+1. 人生の楽しみ方（抑制⇒放縦）
 
 ```{r IvR, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇒放縦）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/IvR-world-map-50.png")
@@ -84,15 +84,17 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/Iv
 
 出所）同上
 
-表1.2　Hofstedeの国民文化比較
+
 
 ```{r, echo = FALSE}
 library(DT)
 hofstede <- read.csv("6-dimensions-for-website-2015-08-16.csv", header = TRUE)
 datatable(hofstede)
 ```
+表2.1:　Hofstedeの国民文化比較
 
-### Hallの文脈 {#Hall}
+
+### Hallの文脈 {#hall}
 
 (1)　コミュニケーション
 
@@ -100,15 +102,13 @@ datatable(hofstede)
 
 [^3]: 日本語版は、岩田慶治・谷泰（訳）1993『文化を超えて　新装版』阪急コミュニケーションズ.
 
-図1.\*　Hallの文化によるコミュニケーションの仕方の違い
-
-```{r, echo = FALSE, out.width="960px"}
+```{r, echo = FALSE, out.width="960px", fig.cap="Hallの文化によるコミュニケーションの仕方の違い"}
 knitr::include_graphics("https://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
 ```
 
 出所）[異文化空間 "高コンテクスト文化 (high-context cultures) vs. 低コンテクスト文化 (low-context cultures)"](https://ibunkakukan.blog.jp/context.html)
 
-```{r, echo = FALSE, out.width="960px"}
+```{r, echo = FALSE, out.width="960px", fig.cap="Mayorのカルチャー・マップの8指標"}
 knitr::include_graphics("https://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets_c/2019/05/vbl-kgbkkm02-thumb-600xauto-1526.jpg")
 ```
 
