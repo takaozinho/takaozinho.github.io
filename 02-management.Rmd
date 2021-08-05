@@ -83,15 +83,15 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/Iv
 ```
 
 出所）同上
+<br>
 
-
-
+表2.2:　Hofstedeの国民文化比較
 ```{r, echo = FALSE}
 library(DT)
 hofstede <- read.csv("6-dimensions-for-website-2015-08-16.csv", header = TRUE)
 datatable(hofstede)
 ```
-表2.1:　Hofstedeの国民文化比較
+
 
 
 ### Hallの文脈 {#hall}
