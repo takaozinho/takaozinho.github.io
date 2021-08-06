@@ -105,7 +105,7 @@ knitr::kable(idv, caption = "集団主義・個人主義の違いによる特徴
 knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2019/10/score_idv.png")
 ```
 
-出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_idv/)
+出所）表\@ref(tab:IDV0)と同じ
 
 - 　図\@ref(fig:IDV2)を見ると、
 
@@ -117,13 +117,20 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/ID
 
 #### 女性性⇔男性性
 
-- 　図\@ref(fig:MAS)を見ると、
+```{r MAS0, echo = FALSE, fig.align="center"}
+mas <- read.csv("mas.csv", header = TRUE)
+knitr::kable(mas, caption = "女性性・男性性の違いによる特徴", booktabs = FALSE)
+```
 
-```{r MAS, echo = FALSE, out.width="960px", fig.cap="「女性性⇔男性性」の国際比較"}
+出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_mas/)
+
+- 　図\@ref(fig:MAS1)を見ると、
+
+```{r MAS1, echo = FALSE, out.width="960px", fig.cap="「女性性⇔男性性」の国際比較"}
 knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2019/11/score_mas.png")
 ```
 
-出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_idv/)
+出所）表\@ref(tab:MAS0)と同じ
 
 - 　図\@ref(fig:MAS2)を見ると、
 
