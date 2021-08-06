@@ -11,7 +11,12 @@ senoo <- read.csv("senoo.csv", header = TRUE)
 knitr::kable(senoo, caption = "成長と発展の違い")
 ```
 
+## 構造変化と景気循環 {#change}
+
+- 池尾 (2003)は、金融システムとイノベーションとの関係について次のように指摘しています。
 
 <span style="font-size: 150%">**参考文献**</span>
+
+[池尾和人 (2003)「21 世紀の金融システムはどのように進化すべきか」2003 年度 ニッセイ基礎研シンポジウム基調講演.](https://www.nli-research.co.jp/files/user/pdf/publicity/event/03kicho.pdf?site=nli)
 
 妹尾堅一郎 (2009)『技術力で勝る日本が、なぜ事業で負けるのか』ダイヤモンド社.

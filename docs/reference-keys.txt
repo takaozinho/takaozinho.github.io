@@ -98,3 +98,10 @@ fig:unnamed-chunk-3
 時間感覚
 fig:IDV2
 fig:hall
+fig:PDI2
+fig:MAS2
+fig:UAI2
+fig:LTO
+fig:LTO2
+fig:IvR2
+人生の楽しみ方抑制充足放縦
