@@ -5,6 +5,7 @@ date: "`r Sys.Date()`"
 output:
   bookdown::gitbook:
     split_by: section+number
+    css: style.css
   bookdown::pdf_book:
     includes:
       in_header: preamble.tex
@@ -19,6 +20,7 @@ bibliography:
 - packages.bib
 site: bookdown::bookdown_site
 biblio-style: apalike
+
 ---
 
 # はじめに {#intro}

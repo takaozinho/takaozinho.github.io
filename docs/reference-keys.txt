@@ -105,3 +105,9 @@ fig:LTO
 fig:LTO2
 fig:IvR2
 人生の楽しみ方抑制充足放縦
+hofstede-hofstede-.tabset-.tabset-fade
+tab:PDI0
+fig:PDI1
+tab:IDV0
+fig:IDV1
+fig:culture

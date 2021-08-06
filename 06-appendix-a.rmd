@@ -1,7 +1,5 @@
 # 補論 {#appendix}
 
-## 構造変化と景気循環 {#change}
-
 ## 成長と発展 {#growth-development}
 
 - 妹尾 (2009)は、成長と発展の違いについて次のように指摘しています。表\@ref(tab:senoo)
