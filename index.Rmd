@@ -151,9 +151,9 @@ knitr::kable(factor, caption = "組織的文脈")
 
 <span style="font-size: 150%">**参考文献**</span>
 
-Edfelt, Ralph B. (2010), _Global Comparative Management_, SAGE.
+Edfelt, Ralph B. (2010). Global Comparative Management. SAGE.
 
-Hofstede, G. (1993), "Cultural Constraints in Management Theories," _Academy of Management Executive_, **7**, 81-94.
+Hofstede, G. (1993). "Cultural Constraints in Management Theories" Academy of Management Executive. 7. 81-94.
 
 [日本経済団体連合会 (2006)「企業価値の最大化に向けた経営戦略」](https://www.keidanren.or.jp/japanese/policy/2006/010/)
 

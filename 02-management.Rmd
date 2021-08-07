@@ -1,17 +1,33 @@
 # 経営システムの比較基準 {#management}
 
+- 本章の構成は、以下のとおりです。
+
+  - \@ref(basics)では、\@ref(usa)以降で使用する経営システムの比較基準を整理します。
+  
+  - \@ref(culture)では、\@ref(usa)以降で使用する外部要因として、文化の類型を整理します。
+  
+  - \@ref(politics-and-law)では、\@ref(usa)以降で使用する外部要因として、政治体制や法制度の類型を整理します。
+  
+  - \@ref(economy)では、\@ref(usa)以降で使用する外部要因として、経済システムの類型を整理します。
+
 ## マネジメントの基礎 {#basics}
 
-- 本節では、マネジメント理論の基礎を確認する[^1]。
-- 
+- 本節では、マネジメント理論の基礎を確認します[^1]。
+
+  - まず、経営学の源流として、[Taylorの科学的管理法](#taylor)を復習します。
+  
+  - 次に、[Fayolの経営プロセス](#fayol)を整理します。
 
 [^1]: 本節については、<https://tsurumi3776.sakura.ne.jp/k4-amerika.htm> も参照されたい。
 
-### Taylorの科学的管理法 {#taylor}　
+### Taylorの科学的管理法 {#taylor}
 
 - 科学的管理法は。
 
-### Fayolの管理過程論 {#fayol}
+- 経営学の原点:工場作業の効率(能率)向上1時間に何個作れるかテイラーマニュアルを作ることによって向上環境を改善することで能率向上差別的賃金最適労働量機械的な考えと批判も fayoladministration
+- 管理経営活動　どう会社を動かすか?1技術活動2商業活動販売(売り上げ)、購買(仕入れ)3財務活動資金ぐり、キャッシュフロー、資金調達、資金返済4保全活動5会計活動6経営活動 fayolの経営管理プロセス1計画、2組織化、3指揮、4調整、5統制1将来を予想し、予算と行動予定を作る一年間(1ヵ月分を作ることもある)2事業の物的及び人的な構造を作る図表あり3各人が自分に課せられた役割を果たすよう配慮する4すべての活動を結合し、統一し、調和させる5すべての活動が規制や命令に従って行われるよう監督する→各国によってやり方に違いがある 1911 Taylor 「科学的管理法」原点1930年代心理mayoの「人間関係論」転換点ホーソン実験→職場の人間関係の方が重要ではないのか?生産性は作業者の士気に左右される心理学、社会学数学、統計学文化2019図表あり 組織的文脈外部・内部要因→影響マネジメント目的、過程、実践→影響組織的効果売り上げ、利益、生産性 経営学の発展過程原点:テイラーの科学的管理法転換点:メイヨーの人間関係論(ホーソン実験)fayolの経営活動計画、組織化、指揮、調整、統制
+
+### Fayolの経営プロセス {#fayol}
 
 <https://www.ba.tyg.jp/~ihara/chinesetext%20PDF/%E3%80%90%E6%9C%80%E7%B5%82%E3%80%91%E7%AC%AC8%E7%AB%A00304.pdf>
 
@@ -24,9 +40,26 @@ fayol <- read.csv("fayol.csv", header = TRUE)
 knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
 ```
 
+<span style="font-size: 150%">**参考文献**</span>
+
+Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+
+Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+
+Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managing in a Globalized World. Amazon Books.
+
+[勝幹子 (2018), "｢7つの文化圏」と「メンタルイメージ」で理解する、世界のビジネスの進め方," Cicom Brains.](https://www.cicombrains.com/opinions/02/02-181106mk.html)
+
 ## 文化 {#culture}
 
-### Hofstedeの6次元モデル {#hofstede}
+- 本節では、文化の類型について整理します。
+
+  - まず[Hofstedeの国民文化比較](#hofstede)について、6つの指標を学習します。
+  
+  - 次に[Hallの文脈](#hall)について、コミュニケーションの仕方や時間感覚の違いを学習します。
+
+
+### Hofstedeの国民文化比較 {#hofstede}
 
 - 　Hofstede, et al. (2010, 日本語版p.3)は、コンピュータに組み込まれたプログラムになぞらえて、人の考え方・感じ方・行動の仕方のパターンをメンタル・プログラムと呼びます。
 
@@ -54,18 +87,26 @@ https://hofstede.jp/intercultural-management/
 
 - 　Hofstede, et al. (2010)は、アンケート調査の結果から各国文化の特徴を比較分析しています。
 
-  - 最初の調査は1967年から1973年にかけて、多国籍企業IBMの世界40か国の社員を対象に行われたアンケート調査でした。
+  - 最初の調査は1967年から1973年にかけて、多国籍企業IBMの世界40か国の社員を対象に行われた価値観についてのアンケート調査でした。
   
   - 各国の社員は国籍が違うという点を除くとあらゆる点で似ていたたため、アンケートの回答には国民文化の違いが鮮明に表れることになりました。（Hofstede, et al. (2010, 日本語版p.27-28)）
   
-  - 当初は4次元による分析でしたが、その後Hofstedeや他の研究者らによって対象国や調査項目が拡張されて、6次元による分析となっています。
+  - 違いが見られたのが「権威との関係をはじめとする社会的不平等」、「個人と集団の関係」、「男性らしさと女性らしさの概念」、「不確実性とあいまいさへの対処の仕方」の4分野でした。
+  
+  - 当初は4つの指標からなる分析でしたが、その後Hofstedeや他の研究者らによって対象国や調査項目が拡張されて、6つの指標からなる分析となっています。
   
 
 #### 権力格差（小さい⇔大きい）
 
 - Hofstede, et al. (2010, 日本語版p.54)は、権力格差を「それぞれの国の制度（家族、学校、地域社会のように社会を構成する基本的な要素）や組織（人々の労働の場）において、権力の弱い成員が、権力が不平等に分布している状態を予測し、受け入れている程度」と定義しています。
 
-  - 
+  - 上下関係が厳しい**のは当然のこと**と考える文化であると、この数値が高くなります。  
+
+- 権力格差の小さい国と大きい国の特徴をまとめると、表\@ref(tab:PDI0)のようになります。
+
+  - 権力格差の小さい国でも上下の関係は存在しますが、それは目的を果たすために必要な便宜的なものと捉えられます。上司や教師、親、また年長者など社会的地位が高くても、人として平等と考えます。
+
+  - 権力格差の大きい国では、社会的地位が高い人は人間としても優れているべきと受け止められます。最良な方法や正しい回答を知っていると期待されます。
 
 ```{r PDI0, echo = FALSE, fig.align="center"}
 pdi <- read.csv("pdi.csv", header = TRUE)
@@ -74,23 +115,33 @@ knitr::kable(pdi, caption = "権力格差の違いによる特徴", booktabs = F
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_pdi/)
 
-- 　図\@ref(fig:PDI1)を見ると、
+- 日本は世界の中間に位置します。アジア地域では最も権力格差の小さい国です。ただし欧米諸国と比較すると、権力格差は大きいです（図\@ref(fig:PDI1)）。
 
-```{r PDI1, echo = FALSE, out.width="960px", fig.cap="「権力格差（小さい⇔大きい）」の国際比較"}
+```{r PDI1, echo = FALSE, out.width="960px", fig.cap="権力格差の国際比較"}
 knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2019/09/score_pdi.png")
 ```
 
 出所）表\@ref(tab:PDI0)と同じ
 
-- 　図\@ref(fig:PDI2)を見ると、
+- 権力格差の小さい国はイスラエル、北欧諸国、アングロサクソン諸国（英国、ニュージーランド、カナダ、米国）、ドイツなどです。権力格差の大きい国は、東南アジア諸国、中国、インド、ロシア、東欧諸国、中南米諸国、中東諸国、アフリカ諸国などです。（図\@ref(fig:PDI2)）
 
-```{r PDI2, echo = FALSE, out.width="960px", fig.cap="「権力格差（小さい⇔大きい）」のグラデーションマップ"}
+```{r PDI2, echo = FALSE, out.width="960px", fig.cap="権力格差のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/PDI-world-map-50.png")
 ```
 
-出所）[geerthofstede.com "The 6-D model of national culture"](https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/)
+出所）[geerthofstede.com](https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/)
 
 #### 集団主義⇔個人主義
+
+- Hofstede, et al. (2010, 日本語版p.54)は、権力格差を「それぞれの国の制度（家族、学校、地域社会のように社会を構成する基本的な要素）や組織（人々の労働の場）において、権力の弱い成員が、権力が不平等に分布している状態を予測し、受け入れている程度」と定義しています。
+
+  - 上下関係が厳しい**のは当然のこと**と考える文化であると、この数値が高くなります。  
+
+- 集団主義の国と個人主義の国の特徴をまとめると、表\@ref(tab:IDV0)のようになります。
+
+  - 権力格差の小さい国でも上下の関係は存在しますが、それは目的を果たすために必要な便宜的なものと捉えられます。上司や教師、親、また年長者など社会的地位が高くても、人として平等と考えます。
+
+  - 権力格差の大きい国では、社会的地位が高い人は人間としても優れているべきと受け止められます。最良な方法や正しい回答を知っていると期待されます。
 
 ```{r IDV0, echo = FALSE, fig.align="center"}
 idv <- read.csv("idv.csv", header = TRUE)
@@ -99,7 +150,7 @@ knitr::kable(idv, caption = "集団主義・個人主義の違いによる特徴
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_idv/)
 
-- 　図\@ref(fig:IDV1)を見ると、
+- 日本は世界の中間に位置します。日本人は日本を集団主義の国と考えがちですが、それは欧米諸国と比較した場合に当てはまります。中国、韓国、台湾、東南アジア、中東、中南米諸国と比較した場合は、むしろ個人主義の強い国となります。（図\@ref(fig:IDV1)）。
 
 ```{r IDV1, echo = FALSE, out.width="960px", fig.cap="「集団主義⇔個人主義」の国際比較"}
 knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2019/10/score_idv.png")
@@ -142,13 +193,20 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MA
 
 #### 不確実性回避（低い⇔高い）
 
-- 　図\@ref(fig:UAI)を見ると、
-
-```{r UAI, echo = FALSE, out.width="960px", fig.cap="「不確実性回避（低い⇔高い）」の国際比較"}
-knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/01/score_uai.png")
+```{r UAI0, echo = FALSE, fig.align="center"}
+uai <- read.csv("uai.csv", header = TRUE)
+knitr::kable(uai, caption = "不確実性回避の違いによる特徴", booktabs = FALSE)
 ```
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_uai/)
+
+- 　図\@ref(fig:UAI1)を見ると、
+
+```{r UAI1, echo = FALSE, out.width="960px", fig.cap="「不確実性回避（低い⇔高い）」の国際比較"}
+knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/01/score_uai.png")
+```
+
+出所）表\@ref(tab:UAI0)と同じ
 
 - 　図\@ref(fig:UAI2)を見ると、
 
@@ -160,13 +218,20 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/UA
 
 #### 短期志向⇔長期志向
 
-- 　図\@ref(fig:LTO)を見ると、
-
-```{r LTO, echo = FALSE, out.width="960px", fig.cap="「短期志向⇔長期志向」の国際比較"}
-knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/03/score_lto.png")
+```{r LTO0, echo = FALSE, fig.align="center"}
+lto <- read.csv("lto.csv", header = TRUE)
+knitr::kable(lto, caption = "短期志向・長期志向の違いによる特徴", booktabs = FALSE)
 ```
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_lto/)
+
+- 　図\@ref(fig:LTO1)を見ると、
+
+```{r LTO1, echo = FALSE, out.width="960px", fig.cap="「短期志向⇔長期志向」の国際比較"}
+knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/03/score_lto.png")
+```
+
+出所）表\@ref(tab:LTO0)と同じ
 
 - 　図\@ref(fig:LTO2)を見ると、
 
@@ -176,47 +241,119 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MO
 
 出所）図\@ref(fig:PDI2)と同じ
 
-#### 人生の楽しみ方（抑制⇔充足・放縦）
+#### 人生の楽しみ方（抑制⇔充足）
 
-- 　図\@ref(fig:IvR)を見ると、
-
-```{r IvR, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇔充足・放縦）」の国際比較"}
-knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/04/score_ivr.png")
+```{r IVR0, echo = FALSE, fig.align="center"}
+ivr <- read.csv("ivr.csv", header = TRUE)
+knitr::kable(ivr, caption = "人生の楽しみ方の違いによる特徴", booktabs = FALSE)
 ```
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_ivr/)
 
-- 　図\@ref(fig:IvR2)を見ると、
+- 　図\@ref(fig:IVR1)を見ると、
 
-```{r IvR2, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇔充足・放縦）」のグラデーションマップ"}
+```{r IVR1, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇔充足）」の国際比較"}
+knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/04/score_ivr.png")
+```
+
+出所）表\@ref(tab:IVR0)と同じ
+
+- 　図\@ref(fig:IVR2)を見ると、
+
+```{r IVR2, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇔充足）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/IvR-world-map-50.png")
 ```
 
 出所）図\@ref(fig:PDI2)と同じ
 <br>
 
-<center>表2.*:　Hofstedeの国民文化比較</center>
-```{r, echo = FALSE, message = FALSE}
+#### まとめ
+
+- Wursten (2019)は、Hofstedeの各次元の数値の傾向をまとめ、文化圏として7つに類型化しました。[勝 (2018)](https://www.cicombrains.com/opinions/02/02-181106mk.html)が、日本語で図\@ref(fig:hof-summery)のとおりにまとめています。
+
+  - この「文化圏」は「アジア」あるいは「中東」といった地域ではなく、Hofstedeの各次元の数値の傾向によって分類されています。
+  
+```{r hof-summery, echo = FALSE, out.width="960px", fig.cap="Hofstedeの指標による7つの文化圏"}
+knitr::include_graphics("https://www.cicombrains.com/images/images2016/opinions/detail/02/02-181106mk/table.png")
+```
+
+出所）[勝 (2018)](https://www.cicombrains.com/opinions/02/02-181106mk.html)
+
+- 「競争」文化圏は、低権力格差、個人主義、男性性、低不確実性回避のグループです。
+  
+  - イギリス、アメリカ、カナダ、オーストラリア、ニュージーランドといったイギリスの歴史・文化の影響を受けた（アングロ）国が含まれます。
+<br>  
+- 「油の効いた機械」文化圏は、低権力格差、個人主義、男性性、高不確実性回避のグループです。
+  
+  - ドイツ、オーストリア、スイス（ドイツ系）といったゲルマンの国が含まれます。
+    
+  - 「競争」文化圏とは、不確実性回避の指標が異なります。
+<br>
+- 「ネットワーク」文化圏は、低権力格差、個人主義、女性性、中不確実性回避のグループです。
+  
+  - スウェーデン、ノルウェー、フィンランドといった北欧（ノルディック）の国が含まれます。
+    
+  - 男性性の傾向が強い「競争」「油の効いた機械」文化圏とは異なり、女性性の傾向が強いのが特徴です。
+<br> 
+- 「太陽系」文化圏は、高権力格差、個人主義、男性・女性中間的、高不確実性回避のグループです。
+  
+  - イタリア、スペイン、フランス、といったラテン語、古代ローマにつながる（ラテンヨーロッパ）国が含まれます。
+    
+  - 個人主義である点は「競争」「ネットワーク」「油の効いた機械」文化圏と同じですが、権力格差の指標が異なります。高不確実性回避である点は「油の効いた機械」文化圏と同じで、「競争」文化圏と異なります。男性性・女性性の指標は中間です。
+<br> 
+- 「ピラミッド」文化圏は、高権力格差、集団主義、男性・女性中間的、高不確実性回避のグループです。
+  
+  - アラブ諸国、イラン、イラク、ロシアのほか、ギリシャ、ブラジル、韓国、台湾、タイといったヨーロッパ、南米、アジアの国が入っています。
+<br>    
+- 「家族」文化圏は、高権力格差、集団主義、男性・女性中間的、高不確実性回避のグループです。
+  
+  - 高権力格差、集団主義である点は「ピラミッド」文化圏と同じですが、不確実性回避の指標が異なります。男性性・女性性の指標は中間です。
+    
+  - 中国、インド、インドネシアが含まれ、アジアの地域に多く見られます。
+<br> 
+- 「クラフトマン」文化圏は、中権力格差、個人・集団中間的、男性性、高不確実性回避という日本だけのグループです。
+  
+  - 男性性、高不確実性回避である点は「油の効いた機械」文化圏と同じです。
+    
+  - 個人主義・集団主義の指標は中間なので、個人主義の国と対したときは日本は集団主義的だと感じる一方で、集団主義の国と対したときは日本は個人主義的だと感じます。
+    
+  - 「血縁以外の集団の利益を優先」することが特徴です。
+    
+  
+
+#### データ
+
+- 世界の各国・地域のデータに関心がある場合は、下の表で確認してください。
+
+- このほか[特定の国についてグラフ化して比較できるサイト（英語版）](https://www.hofstede-insights.com/country-comparison/)や、[複数指標間の相関関係がわかるようにグラフ化できるサイト（英語版）](https://geerthofstede.com/country-comparison-graphs/)もあるので、参考にしてください。
+
+```{r HOF, echo = FALSE, message = FALSE}
 library(DT)
 library(dplyr)
 hofstede <- read.csv2("https://geerthofstede.com/wp-content/uploads/2016/08/6-dimensions-for-website-2015-12-08-0-100.csv", header = TRUE)
 hofstede <- hofstede %>% replace(.=="#NULL!", "-")  %>% select(-ctr)
-datatable(hofstede, rownames = FALSE, colnames = c('国・地域名','権力格差','集団・個人主義','女性・男性性','不確実性回避','短期・長期志向','抑制・充足、放縦'))
+datatable(hofstede, rownames = FALSE, colnames = c('国・地域名','権力格差','集団・個人主義','女性・男性性','不確実性回避','短期・長期志向','抑制・充足'))
 ```
+
+出所）[geerthofstede.com](https://geerthofstede.com/research-and-vsm/dimension-data-matrix/)
 
 
 
 ### Hallの文脈 {#hall}
-
-#### コミュニケーション
-
-- Hall (1977) は、比較した。
 
 ```{r hall, echo = FALSE, out.width="240px", fig.cap="Hall (1977)の表紙"}
 knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/511inKND3iL._SX322_BO1,204,203,200_.jpg")
 ```
 
 出所）[Amazon.co.jp](https://www.amazon.co.jp/Beyond-Culture-Edward-T-Hall/dp/0385124740)
+
+#### コミュニケーション
+
+- Hall (1977) は、比較した。
+
+
+- hall:コミュニケーション、個人間の関係、時間の考え方を文脈で区別高い:言わなくても、文書なしでもわかる　国列挙低い:言わないとわからない、文書がないと伝わらない　国列挙 
+
 
 
 ```{r, echo = FALSE, out.width="960px", fig.cap="Hallの文化によるコミュニケーションの仕方の違い"}
@@ -243,9 +380,13 @@ knitr::include_graphics("https://o-fsi.w3.kanazawa-u.ac.jp/about/vbl/vbl6/assets
 
 <span style="font-size: 150%">**参考文献**</span>
 
-Hall, Edward T. (1977), _Beyond culture_, Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
 
-Hofstede, G, G. J. Hofstede, and M. Minkov (2010), _Cultures and Organizations: Software of the Mind, Third Edition_, McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+
+Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managing in a Globalized World. Amazon Books.
+
+[勝幹子 (2018), "｢7つの文化圏」と「メンタルイメージ」で理解する、世界のビジネスの進め方," Cicom Brains.](https://www.cicombrains.com/opinions/02/02-181106mk.html)
 
 ## 政治体制・法制度 {#politics-and-law}
 
@@ -258,9 +399,24 @@ Hofstede, G, G. J. Hofstede, and M. Minkov (2010), _Cultures and Organizations: 
 -   投票による決定
 -   宗教とは無関係
 
+- 政治システム図表あり日本:政党が多くあるにも関わらず、一党が長期政権を握り続ける
+- 民主主義:投票(多数決)政権交代がよくある、長期政権
+- 権威主義:多様性は認めつつも規制は多い(1980年代までの韓国・台湾)
+- 全体主義:独裁 図表あり（右派左派） 図表あり（政府関与） 図表あり
+
 ### 法制度 {#law}
 
 - 英米法と大陸法
+
+<span style="font-size: 150%">**参考文献**</span>
+
+Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+
+Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+
+Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managing in a Globalized World. Amazon Books.
+
+[勝幹子 (2018), "｢7つの文化圏」と「メンタルイメージ」で理解する、世界のビジネスの進め方," Cicom Brains.](https://www.cicombrains.com/opinions/02/02-181106mk.html)
 
 ## 経済システム {#economy}
 
@@ -275,16 +431,24 @@ Hofstede, G, G. J. Hofstede, and M. Minkov (2010), _Cultures and Organizations: 
 - 経営における「文脈」 
 - 経営学およそ100年前
 - management 和訳できない「管理?」
-- 経営学の原点:工場作業の効率(能率)向上1時間に何個作れるかテイラーマニュアルを作ることによって向上環境を改善することで能率向上差別的賃金最適労働量機械的な考えと批判も fayoladministration
-- 管理経営活動　どう会社を動かすか?1技術活動2商業活動販売(売り上げ)、購買(仕入れ)3財務活動資金ぐり、キャッシュフロー、資金調達、資金返済4保全活動5会計活動6経営活動 fayolの経営管理プロセス1計画、2組織化、3指揮、4調整、5統制1将来を予想し、予算と行動予定を作る一年間(1ヵ月分を作ることもある)2事業の物的及び人的な構造を作る図表あり3各人が自分に課せられた役割を果たすよう配慮する4すべての活動を結合し、統一し、調和させる5すべての活動が規制や命令に従って行われるよう監督する→各国によってやり方に違いがある 1911 Taylor 「科学的管理法」原点1930年代心理mayoの「人間関係論」転換点ホーソン実験→職場の人間関係の方が重要ではないのか?生産性は作業者の士気に左右される心理学、社会学数学、統計学文化2019図表あり 組織的文脈外部・内部要因→影響マネジメント目的、過程、実践→影響組織的効果売り上げ、利益、生産性 経営学の発展過程原点:テイラーの科学的管理法転換点:メイヨーの人間関係論(ホーソン実験)fayolの経営活動計画、組織化、指揮、調整、統制 文化圏一覧表 hofstede文化の数値化図表あり
+
+hofstede文化の数値化図表あり
 ~~権力格差:社会における権力の不平等性を受け入れる程度図表あり~~
 - 個人主義:集団よりも個人として行動する程度、個人家族の利益を企業など集団よりも優先する程度図表あり
 - 男性主義(男性):剛の価値が柔の価値を上回る程度、結果主義、質より量図表あり日本:仕事中毒働き方改革ワークライフバランス北欧:福祉国家失業手当(消費税所得税などが非常に高い)
-- 不確実性回避:不透明で予測のつかない状況を受け入れ対処する範囲日本:終身雇用、匠・専門家が信頼される低い:イノベーション(革新)が得意←日本の欠点弱点 
+- 不確実性回避:不透明で予測のつかない状況を受け入れ対処する範囲
 
-- hall:コミュニケーション、個人間の関係、時間の考え方を文脈で区別高い:言わなくても、文書なしでもわかる　国列挙低い:言わないとわからない、文書がないと伝わらない　国列挙 
-- 政治システム図表あり日本:政党が多くあるにも関わらず、一党が長期政権を握り続ける
-- 民主主義:投票(多数決)政権交代がよくある、長期政権
-- 権威主義:多様性は認めつつも規制は多い(1980年代までの韓国・台湾)
-- 全体主義:独裁 図表あり（右派左派） 図表あり（政府関与） 図表あり
+日本:終身雇用、匠・専門家が信頼される低い:イノベーション(革新)が得意←日本の欠点弱点 
+
+
 - （資本主義）企業の「所有と経営の分離」
+
+<span style="font-size: 150%">**参考文献**</span>
+
+Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+
+Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+
+Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managing in a Globalized World. Amazon Books.
+
+[勝幹子 (2018), "｢7つの文化圏」と「メンタルイメージ」で理解する、世界のビジネスの進め方," Cicom Brains.](https://www.cicombrains.com/opinions/02/02-181106mk.html)
