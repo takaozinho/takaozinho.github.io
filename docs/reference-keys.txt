@@ -143,3 +143,5 @@ meyer
 見解の相違対立型対立回避型
 スケジューリング直線的な時間柔軟な時間1
 labor
+fig:ftaylor
+fig:hfayol
