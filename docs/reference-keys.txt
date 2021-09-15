@@ -145,3 +145,5 @@ meyer
 labor
 fig:ftaylor
 fig:hfayol
+tab:fayola
+tab:fayolb

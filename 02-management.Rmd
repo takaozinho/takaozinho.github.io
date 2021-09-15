@@ -24,10 +24,8 @@
 
 ### Taylorの科学的管理法 {#taylor}
 
-- 経営学はおよそ100年前に、実務家によって始まりました。
+- 経営学はおよそ100年前（20世紀初頭）に、実務家によって始まりました。
 
-  - Managementは「管理」と翻訳されていました。
-  
   - 19世紀にアメリカは産業革命を経験し大量生産が可能になった反面、規模が拡大した企業をそれまでの「経験」や「勘」で経営することは難しくなったというのが、経営学が生まれた背景です。
 
 - Taylor (1911)は、作業の効率（能率）を高めるために、科学的分析による作業の合理的な順序や作業量の設定、それに基づく生産の計画化や作業過程の効率的な管理方法をまとめました。
@@ -37,6 +35,7 @@
   - 従業員の評価は、課業（ノルマ）以上に達成した場合はボーナスを払い、課業に達しない者は、最初は注意、次に、訓告、戒告、そして最終的には解雇するようにしました。
 
   - 管理職も「計画」、「指揮」、「監督」と職能別に分け、1人に権限が集中しない組織を作りました。
+
 
 <!--
 - 科学的管理法は、基本に「管理者による分析とマニュアルで生産性は上がる」という考え方があります。
@@ -59,7 +58,26 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/
 
 ### Fayolの経営プロセス {#fayol}
 
-- 管理経営活動　どう会社を動かすか?1技術活動2商業活動販売(売り上げ)、購買(仕入れ)3財務活動資金ぐり、キャッシュフロー、資金調達、資金返済4保全活動5会計活動6経営活動 fayolの経営管理プロセス1計画、2組織化、3指揮、4調整、5統制1将来を予想し、予算と行動予定を作る一年間(1ヵ月分を作ることもある)2事業の物的及び人的な構造を作る図表あり3各人が自分に課せられた役割を果たすよう配慮する4すべての活動を結合し、統一し、調和させる5すべての活動が規制や命令に従って行われるよう監督する→各国によってやり方に違いがある 
+- Fayol (1916)は、企業経営を以下の6つの活動（職能）に分類しました。
+
+  - 「6. 管理活動」は、「1. 技術活動」から「5. 会計活動」までの各種活動間の調整を行います。
+  
+  - 役職が上がるにつれて「6. 管理活動」により多くの時間を費やすことになります。
+
+```{r fayola, echo = FALSE, fig.align="center"}
+fayol <- read.csv("fayol-a.csv", header = TRUE)
+knitr::kable(fayol, caption = "Fayolによる活動（職能）分類", booktabs = FALSE)
+```
+
+
+- さらにFayolは、管理活動を5つのプロセスに分類しました。
+
+```{r fayolb, echo = FALSE, fig.align="center"}
+fayol <- read.csv("fayol-b.csv", header = TRUE)
+knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
+```
+
+
 <!--
 <https://www.ba.tyg.jp/~ihara/chinesetext%20PDF/%E3%80%90%E6%9C%80%E7%B5%82%E3%80%91%E7%AC%AC8%E7%AB%A00304.pdf>
 
@@ -72,14 +90,6 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/11/Hen
 
 出所）[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Henry-fayol.jpg)
 
-
-```{r fayol, echo = FALSE, fig.align="center"}
-fayol <- read.csv("fayol.csv", header = TRUE)
-knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
-```
-
-:工場作業の効率(能率)向上1時間に何個作れるかテイラーマニュアルを作ることによって向上 fayoladministration
-1911  「科学的管理法」原点1930年代心理mayoの「人間関係論」転換点ホーソン実験→職場の人間関係の方が重要ではないのか?生産性は作業者の士気に左右される心理学、社会学数学、統計学文化2019図表あり  経営学の発展過程原点:テイラーの科学的管理法転換点:メイヨーの人間関係論(ホーソン実験)fayolの経営活動計画、組織化、指揮、調整、統制
 
 <span style="font-size: 150%">**参考文献**</span>
 
