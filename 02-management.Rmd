@@ -16,7 +16,7 @@
 
   - まず、経営学の源流として、[Taylorの科学的管理法](#taylor)を復習します。
 
-  - 次に、[Fayolの経営プロセス](#fayol)を整理します。
+  - 次に、[Fayolの経営管理プロセス](#fayol)を整理します。
 
 <!--
 [^1]: 本節については、<https://tsurumi3776.sakura.ne.jp/k4-amerika.htm> も参照されたい。
@@ -36,53 +36,74 @@
 
   - 管理職も「計画」、「指揮」、「監督」と職能別に分け、1人に権限が集中しない組織を作りました。
 
-
-<!--
-- 科学的管理法は、基本に「管理者による分析とマニュアルで生産性は上がる」という考え方があります。
-
-  - 作業生産性は時間・作業分析によって作業環境をかえることで改善する
-  
-  - 人間は主に経済的動機によって動くので、差別的賃金（段階的な賃率アップ）が効く
-  
-  - ただし、過重労働にならないように、一定の最適労働量を規定する
--->
-
-- 科学的管理法は「機械的な考え」と批判もされましたが、経営学の原点として現代にも基本的な考え方として残っています。
-
 ```{r ftaylor, echo = FALSE, out.width="240px", fig.cap="Frederick Winslow Taylor"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Frederick_Winslow_Taylor.JPG/298px-Frederick_Winslow_Taylor.JPG")
 ```
 
 出所）[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frederick_Winslow_Taylor.JPG)
 
+- 三谷（2013, p.57）は、Taylorの科学的管理法について、以下のようにまとめています。
 
-### Fayolの経営プロセス {#fayol}
+>「管理者による分析とマニュアルで生産性は上がる」  
+  - 作業生産性は時間・作業分析によって何倍にも上がり、作業環境の改善によっても上がる  
+  - 人間は主に経済的動機によって動くので、段階的な賃率アップで動機づけるが、過重労働にならないように一定の最適労働量を定めるべき  
 
-- Fayol (1916)は、企業経営を以下の6つの活動（職能）に分類しました。
+- 科学的管理法は「機械的な考え」と批判もされましたが、経営学の原点として現代にも基本的な考え方として残っています。
 
-  - 「6. 管理活動」は、「1. 技術活動」から「5. 会計活動」までの各種活動間の調整を行います。
+  - Mayoらは「客観的な労働条件」以上に「主観的な職場の人間関係」のほうが重要なのではないかという仮説に基づいて行った「ホーソン実験（Western Electric社のHawthorne工場における実験）」によって、Taylorの能率最優先・従業員の規律的な管理を軸とする「科学的管理法」に一石を投じました。
+
+  - 三谷（2013, p.57）は、Mayorの人間関係論（的管理法）について、以下のようにまとめています。
+
+>「管理者と作業者の対話によって生産性は上がる」  
+  - 作業生産性は、テイラー的な作業環境より、作業者の士気（モラール）にもっとも左右される  
+  - それ（＝士気）は、職場の上司や同僚との人間関係や相互の信頼感（といった定性的なもの）によって決まる  
+
+### Fayolの経営管理プロセス {#fayol}
+
+- Taylorの関心が工場・現場の生産性（能率）向上を目的とした管理のあり方（management）であったのに対し、Fayolの関心は企業の経営管理のあり方（administration）にありました。
+
+  - Fayolの定義する「経営」：企業に委ねられた資源から最大限の利潤を引き出すように努力しながら、企業をその目的に向かって指導すること
   
-  - 役職が上がるにつれて「6. 管理活動」により多くの時間を費やすことになります。
+  - Fayolの定義する「管理」：経営がその進行を確保しなければならない6つの職能のうちの1つ
+  
+- Fayol (1916)は、経営を以下の6つの活動（職能）に分類しました。
+
+  - 「1. 技術活動」は、工場など製品生産を担当する製造部、新製品（技術）開発を担当する研究開発部が該当します。
+
+  - 「2. 商業活動」は、生産に必要な原材料購入を担当する資材部、製品を販売を担当する営業部が該当します。
+
+  - 「3. 財務活動」は、企業経営に必要な資金の管理（調達と返済）を担当する財務部が該当します。
+
+  - 「4. 保全活動」は、企業が保有する財産と従業員の保護・管理を担当する人事部や総務部が該当します。
+
+  - 「5. 会計活動」は、製品原価や収益の計算を担当する経理部が該当します。
+
+  - 「6. 管理活動」は、「1. 技術活動」から「5. 会計活動」までの各種活動間の調整、また企業戦略立案を担当する経営企画部が該当します。
+  
+  - 経営陣は「6. 管理活動」により多くの時間を費やすことになります。
 
 ```{r fayola, echo = FALSE, fig.align="center"}
 fayol <- read.csv("fayol-a.csv", header = TRUE)
 knitr::kable(fayol, caption = "Fayolによる活動（職能）分類", booktabs = FALSE)
 ```
 
-
 - さらにFayolは、管理活動を5つのプロセスに分類しました。
 
 ```{r fayolb, echo = FALSE, fig.align="center"}
 fayol <- read.csv("fayol-b.csv", header = TRUE)
-knitr::kable(fayol, caption = "Fayolの経営プロセス", booktabs = FALSE)
+knitr::kable(fayol, caption = "Fayolの経営管理プロセス", booktabs = FALSE)
 ```
 
+- 三谷（2013, p.58）は、Taylorの科学的管理法について、以下のようにまとめています。
 
+>「管理者による経営・管理プロセスの遂行で生産性は上がる」  
+  - 企業全体の生産性は、諸活動がきちんと定義・方向づけされ、相互に協調することで上がる  
+  - そのためにもっともダイジなのは計画～統制の経営・管理プロセスを回していくことである  
+  
 <!--
-<https://www.ba.tyg.jp/~ihara/chinesetext%20PDF/%E3%80%90%E6%9C%80%E7%B5%82%E3%80%91%E7%AC%AC8%E7%AB%A00304.pdf>
-
 <https://sakamori-cpa.com/blog/2014/10/09/%E3%83%95%E3%82%A1%E3%83%A8%E3%83%BC%E3%83%AB%E3%81%AE%E7%AE%A1%E7%90%86%E8%AB%96%EF%BC%88%E7%AC%AC1%E7%AB%A0-%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E7%B5%8C%E5%96%B6%E5%AD%A6%E3%81%AE%E6%BA%90/>
 -->
+
 
 ```{r hfayol, echo = FALSE, out.width="240px", fig.cap="Henry Fayol"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/11/Henry-fayol.jpg")
@@ -91,11 +112,14 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/11/Hen
 出所）[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Henry-fayol.jpg)
 
 
+
 <span style="font-size: 150%">**参考文献**</span>
 
-Fayol, Henri. (1916). General and Industrial Management. Institute of Electrical and Electronics Engineering, Paris.（山本安次郎（訳）(1985)『産業ならびに一般の管理』ダイヤモンド社.）
+Fayol, Henri. (1916). Administration industrielle et généralee, Bordas S. A.（佐々木恒男（訳）(1972)『産業ならびに一般の管理』未来社.）
 
 Taylor, Frederick W. (1911). The Principles of Scientific Management, New York, London, Harper & Brothers.（日本語版　有賀裕子（訳）(2009)『新訳　科学的管理法』ダイヤモンド社.）
+
+三谷宏治（2013）『経営戦略全史』ディスカバー・トゥエンティワン.
 
 
 ## 文化 {#culture}
