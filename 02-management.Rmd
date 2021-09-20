@@ -305,7 +305,7 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/ID
    
     - 雇用の保障：希望する限りその会社に勤務することができる
 
-- Hofstede, et al. (2010, 日本語版 p.128)は、「男性らしい社会（感情面での性別役割が明確に区別できる社会）では、男性は自己主張が強くたくましく物質的な成功をめざすものだと考えられており、女性は男性より謙虚で優しく生活の質に関心を払うものだと考えられている」、「女性らしい社会（感情面での性別役割が重なり合っている社会）では、男性も女性も謙虚で優しく生活の質に関心を払うものだと考えられていると定義しています。
+- Hofstede, et al. (2010, 日本語版 p.128)は、「男性らしい社会（感情面での性別役割が明確に区別できる社会）では、男性は自己主張が強くたくましく物質的な成功をめざすものだと考えられており、女性は男性より謙虚で優しく生活の質に関心を払うものだと考えられている」、「女性らしい社会（感情面での性別役割が重なり合っている社会）では、男性も女性も謙虚で優しく生活の質に関心を払うものだと考えられている」と定義しています。
 
 - 男性性の傾向が高い国と女性性の傾向が高い国の特徴をまとめると、表\@ref(tab:MAS0)のようになります。
 
@@ -318,7 +318,7 @@ mas <- read.csv("mas.csv", header = TRUE)
 knitr::kable(mas, caption = "女性性・男性性の違いによる特徴", booktabs = FALSE)
 ```
 
-出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_mas/)
+出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodell_mas/)
 
 - 日本は自らに課した目標に向かって「道を極めいく」という傾向が顕著なため、世界的にみても男性性の高い国です（図\@ref(fig:MAS1)）。
 
@@ -338,6 +338,14 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MA
 
 #### 不確実性回避（低い⇔高い）
 
+- Hofstede, et al. (2010, 日本語版 p.177)は、不確実性回避を「ある文化の成員が不確実な、未知の状況に対して不安を感じ、それを避けるために信仰や制度を形成している程度」と定義しています。
+
+- 不確実性回避の高い国と低い国の特徴をまとめると、表\@ref(tab:UAI0)のようになります。
+
+  - 不確実性回避の高い国では、予測可能性を高めれば不確実性を回避できると考えるため、多くの成文化された規則、制度があり、日々の生活の中にも様々な慣習的な規則があります。
+
+  - 不確実性回避の低い国では、基本的には結果さえ出ればやり方はどうでも良いと考えているので、仕事の進め方も人それぞれで、現場のことは現場に任され、ルールの運用も臨機応変となります。
+
 ```{r UAI0, echo = FALSE, fig.align="center"}
 uai <- read.csv("uai.csv", header = TRUE)
 knitr::kable(uai, caption = "不確実性回避の違いによる特徴", booktabs = FALSE)
@@ -345,7 +353,7 @@ knitr::kable(uai, caption = "不確実性回避の違いによる特徴", bookta
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_uai/)
 
-- 　図\@ref(fig:UAI1)を見ると、
+- 日本は世界的にみても不確実性回避の高い国です（図\@ref(fig:UAI1)）。
 
 ```{r UAI1, echo = FALSE, out.width="960px", fig.cap="「不確実性回避（低い⇔高い）」の国際比較"}
 knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/01/score_uai.png")
@@ -353,7 +361,9 @@ knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/01/scor
 
 出所）表\@ref(tab:UAI0)と同じ
 
-- 　図\@ref(fig:UAI2)を見ると、
+- 日本のほかに不確実性回避の高い国は中東諸国、中南米諸国、地中海沿岸諸国、韓国など、不確実性回避の低い国は日本と韓国を除いたアジア諸国、アフリカ諸国、アングロ系（イギリス、アメリカなど）と北欧諸国、オランダが挙げられます（図\@ref(fig:UAI2)）。
+
+  - 大陸ヨーロッパとイギリスの違いについて「イギリスとドイツは他の点では似ているが、不確実性回避に関しては文化の差がある」と、Hofstede, et al. (2010, 日本語版 p.177)は指摘しています。
 
 ```{r UAI2, echo = FALSE, out.width="960px", fig.cap="「不確実性回避（低い⇔高い）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/UAI-world-map-50.png")
@@ -363,6 +373,14 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/UA
 
 #### 短期志向⇔長期志向
 
+- Hofstede, et al. (2010, 日本語版 p.222)は、「長期志向は、将来の報酬を志向する徳、なかでも忍耐と倹約を促す」、「短期志向は、過去と現在に関する徳、なかでも伝統の尊重、「面子」の異字、社会的な義務の達成を促す」と定義しています。
+
+- 長期志向の国と短期志向の国の特徴をまとめると、表\@ref(tab:LTO0)のようになります。
+
+  - 長期志向の国では、たとえ結果が出るのに時間がかかっても、粘り強く、辛抱強く努力します。長期視点で考えるため、何が正しく、何が悪いのかは時と場合、状況によって異なり、真実は一つではないという考え方をします。
+
+  - 短期志向の国では、努力はすぐ結果に結びつかなくてはいけないと考えます。何が善で何が悪かの普遍的な指針があり、真実はたった一つと考えます。
+
 ```{r LTO0, echo = FALSE, fig.align="center"}
 lto <- read.csv("lto.csv", header = TRUE)
 knitr::kable(lto, caption = "短期志向・長期志向の違いによる特徴", booktabs = FALSE)
@@ -370,7 +388,7 @@ knitr::kable(lto, caption = "短期志向・長期志向の違いによる特徴
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_lto/)
 
-- 　図\@ref(fig:LTO1)を見ると、
+- 日本は世界的にみても長期志向の国です（図\@ref(fig:LTO1)）。
 
 ```{r LTO1, echo = FALSE, out.width="960px", fig.cap="「短期志向⇔長期志向」の国際比較"}
 knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/03/score_lto.png")
@@ -378,7 +396,7 @@ knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/03/scor
 
 出所）表\@ref(tab:LTO0)と同じ
 
-- 　図\@ref(fig:LTO2)を見ると、
+- 日本のほかに長期志向の国は韓国、台湾、日本、中国、シンガポール、ドイツ、ベルギー、スイスなど、短期志向の国は中東諸国、アフリカ諸国、中南米諸国、アングロ系、北欧諸国などが挙げられます（図\@ref(fig:LTO2)）。
 
 ```{r LTO2, echo = FALSE, out.width="960px", fig.cap="「短期志向⇔長期志向」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MON-world-map-50.png")
@@ -386,7 +404,19 @@ knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/MO
 
 出所）図\@ref(fig:PDI2)と同じ
 
-#### 人生の楽しみ方（抑制⇔充足）
+#### 人生の楽しみ方（抑制⇔充足（放縦））
+
+- Hofstede, et al. (2010, 日本語版 p.263)は、「放縦の極は、人生を味わい楽しむことにかかわる人間の基本的かつ自然な欲求を比較的自由に満たそうとする傾向を示す」、「抑制は、厳しい社会規範によって欲求の充足を抑え、制限すべきだという信念を示す」と定義しています。
+
+- 抑制の傾向の高い国と充足（放縦）の傾向の高い国の特徴をまとめると、表\@ref(tab:IVR0)のようになります。
+
+  - 抑制の傾向の高い国では、謹直で厳格な態度が信用され、プロフェッショナルであると受け取られます。
+
+  - 充足（放縦）の傾向の高い国では、人前では喜びや楽観主義を表に出すと期待されています（Hofstede, et al. (2010, 日本語版 p.273)）。
+
+- Hofstede, et al. (2010, 日本語版 p.273)には、マクドナルドの「スマイル」について次のようなエピソードが紹介されています。
+
+> ロシアに来たときに、マクドナルドは非常に強力な企業文化を持ち込んだ。彼らはロシアの販売員を訓練することにした。彼らは店員に対し、三二歯をすべて見せるマクドナルドのスマイルを身に着けさせた。しかし、しばらくすると、マクドナルドの専門家は、ロシアの顧客が満面の笑みを見るとショックを受けることに気づいた。顧客たちは「なんで私を見てニヤついているの」と、店員を驚いた表情で見つめるのだった。マクドナルドは独自の調査を行い、ロシアでは知らない相手に満面の笑みを浮かべてもうまくいかないことに気がついた。ロシア人は知らない人に出くわした際に、ほほえみかけることはないのだ。ロシア人相手にそんなことをするような人がいれば、たいていは「この人はどうしたのだろう」と思われてしまう。
 
 ```{r IVR0, echo = FALSE, fig.align="center"}
 ivr <- read.csv("ivr.csv", header = TRUE)
@@ -395,7 +425,7 @@ knitr::kable(ivr, caption = "人生の楽しみ方の違いによる特徴", boo
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodel_ivr/)
 
-- 　図\@ref(fig:IVR1)を見ると、
+- 日本はやや抑制的な傾向がある位置にあります。中南米諸国、アングロ系（アメリカ、オーストラリア、ニュージーランドなど）と比較した場合は抑制的といえますが、中国、韓国、東欧、ロシアと比較した場合は、むしろ充足（放縦）の傾向があるといえます（図\@ref(fig:IVR1)）。
 
 ```{r IVR1, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇔充足）」の国際比較"}
 knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/04/score_ivr.png")
@@ -403,7 +433,7 @@ knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2020/04/scor
 
 出所）表\@ref(tab:IVR0)と同じ
 
-- 　図\@ref(fig:IVR2)を見ると、
+- 抑制の傾向の高い国はエジプト、パキスタン、旧ソビエト連邦諸国、ロシア、東欧など、充足（放縦）の傾向の高い国は中南米諸国、アングロ系などが挙げられます（図\@ref(fig:IVR2)）。
 
 ```{r IVR2, echo = FALSE, out.width="960px", fig.cap="「人生の楽しみ方（抑制⇔充足）」のグラデーションマップ"}
 knitr::include_graphics("https://geerthofstede.com/wp-content/uploads/2016/07/IvR-world-map-50.png")
