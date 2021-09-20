@@ -58,6 +58,14 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/
   - 作業生産性は、テイラー的な作業環境より、作業者の士気（モラール）にもっとも左右される  
   - それ（＝士気）は、職場の上司や同僚との人間関係や相互の信頼感（といった定性的なもの）によって決まる  
 
+- チャップリンのモダンタイムスは、テイラー的な管理の風刺といえます。
+
+```{r moderntimes, echo = FALSE, warning = FALSE, out.width="240px", fig.cap="モダンタイムス"}
+library("vembedr")
+embed_url("https://youtu.be/6n9ESFJTnHs")
+```
+
+
 ### Fayolの経営管理プロセス {#fayol}
 
 - Taylorの関心が工場・現場の生産性（能率）向上を目的とした管理のあり方（management）であったのに対し、Fayolの関心は企業の経営管理のあり方（administration）にありました。
