@@ -147,3 +147,5 @@ fig:ftaylor
 fig:hfayol
 tab:fayola
 tab:fayolb
+fig:halla
+fig:hallb

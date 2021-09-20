@@ -524,27 +524,38 @@ knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/511inK
 
 #### コミュニケーション
 
-- Hall (1976) は、比較した。
+- Hall (1976) は、世界中の言語コミュニケーションの型を、高文脈文化と低文脈文化に分類しました。
 
+  - 高文脈文化:話し手と聞き手との間の文化的背景・文脈の共通性が高いため、はっきり言わなくても（しぐさだけでも）、文書なしでもわかる
+  
+  - 低文脈文化:話し手と聞き手との間の文化的背景・文脈の共通性が低いため、あいまいさを排除して言わないとわからない、文書がないと伝わらない
 
-- hall:コミュニケーション、個人間の関係、時間の考え方を文脈で区別高い:言わなくても、文書なしでもわかる　国列挙低い:言わないとわからない、文書がないと伝わらない　国列挙 
-
-
-
-```{r, echo = FALSE, out.width="960px", fig.cap="Hallの文化によるコミュニケーションの仕方の違い"}
-knitr::include_graphics("https://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
+```{r halla, echo = FALSE, out.width="960px", fig.cap="Hallの文化によるコミュニケーションの仕方の違い"}
+knitr::include_graphics("http://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
 ```
 
-出所）[異文化空間 "高コンテクスト文化 (high-context cultures) vs. 低コンテクスト文化 (low-context cultures)"](https://ibunkakukan.blog.jp/context.html)
+出所）[株式会社IW "「できるだけ〜」を使わない。多文化環境で学んだ外国人と働く上での心がけ。"](https://iw-inc.jp/2019/11/09/multienvironment01/)
 
 
 #### 時間感覚
 
-<https://conceptos.exblog.jp/25085783/>
+- Hall (1983) は、世界の文化における時間感覚の型を、モノクロニック時間とポリクロニック時間に分類しました。
 
-<https://www.hitachi-systems.com/report/specialist/psychology/06.html>
+  - モノクロニック時間:スケジュールどおりに進むことを重視する。
+  
+  - ポリクロニック時間:スケジュールにはとらわれず、最終的な結果を重視する
 
-<https://teatime-talk.com/jikan/>
+```{r hallb, echo = FALSE, out.width="960px", fig.cap="Hallの時間感覚の違い"}
+knitr::include_graphics("https://www.hitachi-systems.com/-/media/report/specialist/psychology/image/image_06-03.jpg")
+```
+
+出所）[株式会社日立システムズ "あなたの職場はハイコン？ローコン？"](https://www.hitachi-systems.com/report/specialist/psychology/06.html)
+
+- 高文脈社会はポリクロニック時間であることが多く、低文脈社会はモノクロニック時間であることが多いです。
+
+  - 日本は低文脈文化である一方で、時間感覚はモノクロニック[^2]であることから、組み合わせとしては例外的です。
+  
+[^2]: 日本人が時間感覚がモノクロニックになったのは明治時代以降のことで、[かつて日本人は時間にルーズだった](https://teatime-talk.com/jikan/) という指摘もあります。
 
 
 <span style="font-size: 150%">**参考文献**</span>
@@ -554,8 +565,6 @@ Hall, Edward T. (1976). Beyond culture. Anchor Books.（岩田慶治・谷泰（
 Hall, Edward T. (1983). The Dance of Life: The Other Dimension of Time. Anchor Books.（岩田慶治・谷泰（訳）(1983)『文化としての時間』TBSブリタニカ.）
 
 Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
-
-Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
 
 Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managing in a Globalized World. Amazon Books.
 
