@@ -573,9 +573,13 @@ Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managin
 
 ## 政治体制・法制度 {#politics-and-law}
 
-- 企業経営は立地する国家の政治体制・法制度に影響を受ける。
+- 企業経営は立地する国家の政治体制・法制度に影響を受けます。
 
-### 政治体制 {#politics}　
+- 本節では、まず[政治体制](#politics)について、政治体制の類型を整理します。
+  
+- 次に[法制度](#law)について、契約を守らせる強制力を学習した後、法体系の違いを整理します。
+
+### 政治体制 {#politics}  
 
 - [中村 (2006)](https://www.ide.go.jp/Japanese/Research/Theme/Pol/Institutions/200608_nakamura.html) よると、「どの程度多元主義的か」という基準によって世界各国の政治体制は3類型に大別できます。 　
 

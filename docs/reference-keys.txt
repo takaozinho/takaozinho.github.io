@@ -153,3 +153,4 @@ fig:hallb
 スケジューリング直線的な時間柔軟な時間
 金融システムとイノベーション
 tab:regime
+politics
