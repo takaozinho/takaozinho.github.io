@@ -577,17 +577,32 @@ Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managin
 
 ### 政治体制 {#politics}　
 
-- 詳しくは [中村 (2006)](https://www.ide.go.jp/Japanese/Research/Theme/Pol/Institutions/200608_nakamura.html) を参考のこと。 　
+- [中村 (2006)](https://www.ide.go.jp/Japanese/Research/Theme/Pol/Institutions/200608_nakamura.html) よると、「どの程度多元主義的か」という基準によって世界各国の政治体制は3類型に大別できます。 　
 
--   投票による決定
--   宗教とは無関係
+  - 多様な（主義・主張の異なる）政治主体を認める、その活動の自由が確保される、（選挙を通じた）政治主体間の競争が許容される、といった程度が高いほど、多元主義的であるといいます。
 
-- 政治システム図表あり日本:政党が多くあるにも関わらず、一党が長期政権を握り続ける
-- 民主主義:投票(多数決)政権交代がよくある、長期政権
-- 権威主義:多様性は認めつつも規制は多い(1980年代までの韓国・台湾)
-- 全体主義:独裁 図表あり（右派左派） 図表あり（政府関与） 図表あり
+```{r regime, echo = FALSE, fig.align="center"}
+fayol <- read.csv("regime.csv", header = TRUE)
+knitr::kable(fayol, caption = "政治体制の類型", booktabs = FALSE)
+```
 
-茂木「保守とは」
+- 民主主義の代表的国家であるアメリカやイギリスでは、選挙によって二大政党の間で政権交代が起こります。
+
+- 日本は民主主義国家であり、政党が多くあり公正に選挙が行われるにも関わらず、一党が長期に渡り政権を担っています。
+
+- 民主主義国家における政権交代は、「保守」系の政党と「リベラル」系の政党との間で起こります。
+
+  - 「保守」とは「伝統と慣習を重んじて急激な変化を望まない」考え方、「リベラル」とは「自由に変化を受け入れる」考え方です（茂木 (2021, p.170)）。
+  
+  - ただし、具体的な（経済・外交）政策を各国で比較すると、「保守」系の政党の政策と「リベラル」系の政党の政策はさまざまで、また時代によって変化することもあります。
+  
+  - 自民党が長期に渡り政権を担っていますが、時の総理・総裁を出す派閥によって「保守」「リベラル」の性格は異なっています。
+
+- 1980年代までの韓国や台湾は、急速な経済発展を実現するために規制が多く設けられた権威主義国家でした。経済発展が実現した後、民主化が実現しています。
+
+- 全体主義の例としては、ファシスト政権期のイタリア、ナチス・ドイツ、ソ連などが挙げられます
+
+
 
 ### 法制度 {#law}
 
@@ -616,15 +631,9 @@ Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managin
 
 <span style="font-size: 150%">**参考文献**</span>
 
-Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+[中村正志 (2006)「政治体制　Political Regime：制度と組織の構築物」日本貿易振興機構アジア経済研究所](https://www.ide.go.jp/Japanese/Research/Theme/Pol/Institutions/200608_nakamura.html)
 
-Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
-
-Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managing in a Globalized World. Amazon Books.
-
-池尾和人・黄圭燦・飯島高雄 (2001)『日韓経済システムの比較制度分析』日本経済新聞社.
-
-[勝幹子 (2018), "｢7つの文化圏」と「メンタルイメージ」で理解する、世界のビジネスの進め方," Cicom Brains.](https://www.cicombrains.com/opinions/02/02-181106mk.html)
+茂木誠 (2021)『世界史講師が語る教科書が教えてくれない「保守」って何？』祥伝社.
 
 ## 経済システム {#economy}
 
