@@ -149,6 +149,7 @@ Taylor, Frederick W. (1911). The Principles of Scientific Management, New York, 
   
   - 次に[Hallの文脈](#hall)について、コミュニケーションの仕方や時間感覚の違いを学習します。
 
+  - また適宜、補論\@ref(meyer)を参照してください。
 
 ### Hofstedeの国民文化比較 {#hofstede}
 
