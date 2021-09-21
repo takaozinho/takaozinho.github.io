@@ -531,7 +531,7 @@ knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/511inK
   - 低文脈文化:話し手と聞き手との間の文化的背景・文脈の共通性が低いため、あいまいさを排除して言わないとわからない、文書がないと伝わらない
 
 ```{r halla, echo = FALSE, out.width="960px", fig.cap="Hallの文化によるコミュニケーションの仕方の違い"}
-knitr::include_graphics("http://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
+knitr::include_graphics("https://livedoor.blogimg.jp/culturalintelligence/imgs/0/b/0b686e7d.jpg")
 ```
 
 出所）[株式会社IW "「できるだけ〜」を使わない。多文化環境で学んだ外国人と働く上での心がけ。"](https://iw-inc.jp/2019/11/09/multienvironment01/)
