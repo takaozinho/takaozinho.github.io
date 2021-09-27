@@ -154,3 +154,5 @@ fig:hallb
 金融システムとイノベーション
 tab:regime
 politics
+economic_regime
+market_economy
