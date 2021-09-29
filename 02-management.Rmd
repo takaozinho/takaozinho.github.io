@@ -134,7 +134,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/11/Hen
 
 <span style="font-size: 150%">**参考文献**</span>
 
-Fayol, Henri. (1916). Administration industrielle et généralee, Bordas S. A.（佐々木恒男（訳）(1972)『産業ならびに一般の管理』未来社.）
+Fayol, Henri. (1916). Administration industrielle et généralee, Bordas S. A.（日本語版　佐々木恒男（訳）(1972)『産業ならびに一般の管理』未来社.）
 
 Taylor, Frederick W. (1911). The Principles of Scientific Management, New York, London, Harper & Brothers.（日本語版　有賀裕子（訳）(2009)『新訳　科学的管理法』ダイヤモンド社.）
 
@@ -321,7 +321,7 @@ knitr::kable(mas, caption = "女性性・男性性の違いによる特徴", boo
 
 出所）[Hofstede Insights JAPAN](https://hofstede.jp/6dimentionsmodell_mas/)
 
-- 日本は自らに課した目標に向かって「道を極めいく」という傾向が顕著なため、世界的にみても男性性の高い国です（図\@ref(fig:MAS1)）。
+- 日本は自らに課した目標に向かって「道を極めていく」という傾向が顕著なため、世界的にみても男性性の高い国です（図\@ref(fig:MAS1)）。
 
 ```{r MAS1, echo = FALSE, out.width="960px", fig.cap="「女性性⇔男性性」の国際比較"}
 knitr::include_graphics("https://hofstede.jp/new/wp-content/uploads/2019/11/score_mas.png")
@@ -561,9 +561,9 @@ knitr::include_graphics("https://www.hitachi-systems.com/-/media/report/speciali
 
 <span style="font-size: 150%">**参考文献**</span>
 
-Hall, Edward T. (1976). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+Hall, Edward T. (1976). Beyond culture. Anchor Books.（日本語版　岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
 
-Hall, Edward T. (1983). The Dance of Life: The Other Dimension of Time. Anchor Books.（岩田慶治・谷泰（訳）(1983)『文化としての時間』TBSブリタニカ.）
+Hall, Edward T. (1983). The Dance of Life: The Other Dimension of Time. Anchor Books.（日本語版　岩田慶治・谷泰（訳）(1983)『文化としての時間』TBSブリタニカ.）
 
 Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
 

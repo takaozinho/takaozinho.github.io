@@ -156,3 +156,5 @@ tab:regime
 politics
 economic_regime
 market_economy
+fig:RACE
+us-external
