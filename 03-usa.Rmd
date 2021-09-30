@@ -1,4 +1,4 @@
-# アメリカの経営システム {#usa}
+# アメリカ企業の経営システム {#usa}
 
 - 本章の構成は、以下のとおりです。
 
@@ -29,16 +29,16 @@
 
 - 人種構成は多様ですが、初期の移民の文化の影響が強いです。
 
-  - Weber(1905)は、宗教的救済といった目的のため、禁欲的な職業労働を「天職」とみなし、献身的に働く[^3]という観念が、資本主義の成立とともに近代という時代の精神にまで高められたと主張しました（寺西(2018, pp.30-22)）。
+  - Weber(1905)[^3]は「プロテスタンティズムの倫理[^4]が、近代資本主義の成立について精神的側面から影響を及ぼした」と主張しました。
 
   - 清教徒（ピューリタン）など初期の移民が重視したのは個人の「自由」と神の前の「平等」であり、「フロンティア（開拓者）精神」です。ただし、当初の平等はキリスト教徒の白人男性が対象で、女性や黒人奴隷、先住民は含まれていませんでした（[船津靖 "「自由・平等・フロンティア精神」アメリカ人が最も大切にするもの"](https://yumenavi.info/lecture.aspx?GNKCD=g008685)）。
   
-  - 平等は時代を経て達成されていきますが、アメリカ社会における「プロテスタント系キリスト教徒のアングロサクソン系白人（WASP: White Anglo Saxon  Protestants）」の影響力は依然として大きいです。
+  - 平等は時代を経て達成されていきますが、アメリカ社会における「プロテスタント系キリスト教徒のアングロサクソン系白人（WASP: White Anglo Saxon  Protestant）」の影響力は依然として大きいです。
   
     - WASPでない大統領は、ケネディ大統領、オバマ大統領の2人だけです。  
 <br>
 
-  - 移民（アジア系、ヒスパニックなど）の増加と白人と非白人の出生率の差によって、2010年から2020年までの人口変化において、白人が減り、他の人種が増加しました（図\@ref(fig:RACE)参照）。
+  - 移民（アジア系、ヒスパニックなど）の増加と白人と非白人の出生率の差によって、2010年から2020年までの人口変化において、白人が減り、他の人種が増加しました（図\@ref(fig:RACE)参照）。この傾向は継続し、人種構成において白人の割合は低下すると予想されています（表\@ref(tab:USPOPULATION)参照）。
   
     - 影響力の低下に不満を持つ白人が、トランプ（元）大統領の支持層となりました。
 
@@ -48,7 +48,17 @@ knitr::include_graphics("https://assets.media-platform.com/bi/dist/images/2021/0
 
 出所）[BUSINESS INSIDER JAPAN "史上初、アメリカで白人の人口が減った—— 2020年国勢調査"](https://www.businessinsider.jp/post-240340)    
 
-[^3]: ベンジャミン・フランクリン（1706-1790）は、その代表的存在です。フランクリンの13徳については、[大橋 (2008)](https://www.itmedia.co.jp/bizid/articles/0801/29/news087.html)を参照してください。
+```{r USPOPULATION, echo = FALSE, warning = FALSE, fig.align="center"}
+uspop <- read.csv("USPOPULATION.csv", header = TRUE)
+knitr::kable(uspop, align = "cccccc", caption = "アメリカの総人口における人種の割合", booktabs = FALSE)
+```
+
+出所）[NHK for School "アメリカの総人口における人種の割合"](https://www.nhk.or.jp/school/syakai/10min_tiri/kyouzai/001601.pdf)
+
+[^3]: Weber(1905)『プロテスタンティズムの倫理と資本主義の精神』については、<!---（[平原卓 "ヴェーバー『プロテスタンティズムの倫理と資本主義の精神』を解読する"](https://www.philosophyguides.org/decoding/decoding-of-weber-geist/)を参照してください。要点だけ知りたい場合は、--->[平原卓 "ヴェーバー『プロ倫』を超コンパクトに要約する"](https://www.philosophyguides.org/compact/weber-geist-super-compact-summary/)を参照してください。
+
+[^4]: アメリカ建国の父の1人で100ドル札の肖像にもなっているベンジャミン・フランクリン（1706-1790）は、その実践者の代表的存在です。「フランクリンの十三徳」については、[人事部長の教養100冊 "「フランクリン自伝」Ｂ・フランクリン" ](https://jinjibuchou.com/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%B3%E8%87%AA%E4%BC%9D)を参照してください。
+
 
 #### Hofstedeの指標
 
@@ -78,13 +88,13 @@ knitr::include_graphics("https://assets.media-platform.com/bi/dist/images/2021/0
   
     - ただし、このように友好的に振舞うことは素早くビジネスを始めるためのスキルであり、長く続く友情に発展するとは限りません。
     
-    - 長すぎる議論を嫌い、決断はいつでも修正できるとの考えのもと、不十分な情報に基づくものであっても[^4]素早く決断を下すことを好みます。
+    - 長すぎる議論を嫌い、決断はいつでも修正できるとの考えのもと、不十分な情報に基づくものであっても[^5]素早く決断を下すことを好みます。
     
     - 感情的信頼を築くのに何時間もかけるのは時間の無駄遣いに感じる（Meyer. (2014, 日本語版 p.227)）一方で、公私混同しないために仕事上の相手とは意図的に個人的な関係を築かないようにすることがプロフェッショナルであると考えます。（Meyer. (2014, 日本語版 pp.210-211)）
     
     - *初対面の人に対しては日本よりアメリカのほうが信頼する　山岸「信頼」*
 
-[^4]: 不確実性回避の指標が低いことと関連しています。
+[^5]: 不確実性回避の指標が低いことと関連しています。
 
 - 充足的 
 
@@ -107,6 +117,11 @@ knitr::include_graphics("https://assets.media-platform.com/bi/dist/images/2021/0
 政権交代(大統領選挙4年ごと)企業設備投資(5〜10年計画)政策の予測可能性高い→投資促進
 アメリカ政府　○自由競争　×独占　→ 巨大企業「分割」
 低文脈→法律（契約）が詳細、教科書が厚い
+
+```{r USPARTY, echo = FALSE, out.width="960px", fig.cap="アメリカの二大政党"}
+knitr::include_graphics("usparty.jpg")
+```
+
 
 ### 経済システム {#us-economy}
 
@@ -133,10 +148,6 @@ knitr::include_graphics("https://assets.media-platform.com/bi/dist/images/2021/0
 <span style="font-size: 150%">**参考文献**</span>
 
 Weber, Max (1905). Die protestantische Ethik und der Geist des Kapitalismus. （日本語版　大塚久雄（訳）(1989)『プロテスタンティズムの倫理と資本主義の精神』岩波文庫.）
-
-[大橋悦夫 (2008) 「フランクリンが実践した良い習慣の作り方と続け方──『フランクリン自伝』」](https://www.itmedia.co.jp/bizid/articles/0801/29/news087.html)
-
-寺西重郎 (2018)『日本型資本主義』中公新書2502.
 
 Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
 

@@ -1,5 +1,10 @@
 # 経営システムの比較基準 {#management}
 
+```{r , echo = FALSE, warning = FALSE}
+library(kableExtra)
+library(vembedr)
+```
+
 - 本章の構成は、以下のとおりです。
 
   - \@ref(basics)では、\@ref(usa)以降で使用する経営システムの比較基準を整理します。
@@ -60,8 +65,8 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/b/
 
 - チャップリンのモダンタイムスは、テイラー的な管理の風刺といえます。
 
-```{r moderntimes, echo = FALSE, warning = FALSE, out.width="240px", fig.cap="モダンタイムス"}
-library("vembedr")
+```{r moderntimes, echo = FALSE, warning = FALSE, out.width="640px", fig.cap="モダンタイムス"}
+
 embed_url("https://youtu.be/6n9ESFJTnHs")
 ```
 
@@ -585,9 +590,9 @@ Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managin
 
   - 多様な（主義・主張の異なる）政治主体を認める、その活動の自由が確保される、（選挙を通じた）政治主体間の競争が許容される、といった程度が高いほど、多元主義的であるといいます。
 
-```{r regime, echo = FALSE, fig.align="center"}
+```{r regime, echo = FALSE, warning = FALSE, fig.align="center"}
 fayol <- read.csv("regime.csv", header = TRUE)
-knitr::kable(fayol, caption = "政治体制の類型", booktabs = FALSE)
+knitr::kable(fayol, caption = "政治体制の類型", booktabs = FALSE) %>% column_spec(1, width = "6em")
 ```
 
 - 民主主義の代表的国家であるアメリカやイギリスでは、選挙によって二大政党の間で政権交代が起こります。

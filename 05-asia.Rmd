@@ -1,6 +1,15 @@
-# アジアの経営システム {#asia}
+# アジア企業の経営システム {#asia}
 
-## アジアの文化・政治・経済 {#asia-out}
+- 本章の構成は、以下のとおりです。
+
+  - \@ref(asia-external)では、アジア企業の経営システムの外部要因として、\@ref(asia-culture)文化、\@ref(asia-politics)政治システム・法制度、\@ref(asia-economy)経済システムを整理します。
+  
+  - \@ref(asia-manager)では、アジア企業の経営者の特徴として、\@ref(asia-selection)選抜・移動、\@ref(asia-payment)報酬、\@ref(asia-education)教育を整理します。
+  
+  - \@ref(asia-management)では、アジア企業の経営プロセスを\@ref(asia-plan)計画、\@ref(asia-organization)組織化、\@ref(asia-command)指揮・調整、\@ref(asia-control)統制を整理します。
+  
+  
+## アジアの文化・政治・経済 {#asia-external}
 
 ### 文化 {#asia-culture}
 

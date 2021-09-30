@@ -1,6 +1,15 @@
-# 日本の経営システム {#japan}
+# 日本企業の経営システム {#japan}
 
-## 日本の文化・政治・経済 {#japan-out}
+- 本章の構成は、以下のとおりです。
+
+  - \@ref(japan-external)では、日本企業の経営システムの外部要因として、\@ref(japan-culture)文化、\@ref(japan-politics)政治システム・法制度、\@ref(japan-economy)経済システムを整理します。
+  
+  - \@ref(japan-manager)では、日本企業の経営者の特徴として、\@ref(japan-selection)選抜・移動、\@ref(japan-payment)報酬、\@ref(japan-education)教育を整理します。
+  
+  - \@ref(japan-management)では、日本企業の経営プロセスを\@ref(japan-plan)計画、\@ref(japan-organization)組織化、\@ref(japan-command)指揮・調整、\@ref(japan-control)統制を整理します。
+  
+  
+## 日本の文化・政治・経済 {#japan-external}
 
 ### 文化 {#japan-culture}
 
