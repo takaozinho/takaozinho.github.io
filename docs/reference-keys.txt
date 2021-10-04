@@ -162,3 +162,5 @@ japan-external
 asia-external
 tab:USPOPULATION
 fig:USPARTY
+fig:poleco
+fig:separation
