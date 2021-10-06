@@ -574,7 +574,11 @@ Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: S
 
 Wursten, H. (2019). The 7 Mental Images of National Culture: Leading and Managing in a Globalized World. Amazon Books.
 
+[株式会社IW "「できるだけ〜」を使わない。多文化環境で学んだ外国人と働く上での心がけ。"](https://iw-inc.jp/2019/11/09/multienvironment01/)
+
 [勝幹子 (2018), "｢7つの文化圏」と「メンタルイメージ」で理解する、世界のビジネスの進め方," Cicom Brains.](https://www.cicombrains.com/opinions/02/02-181106mk.html)
+
+[株式会社日立システムズ "あなたの職場はハイコン？ローコン？"](https://www.hitachi-systems.com/report/specialist/psychology/06.html)
 
 ## 政治体制・法制度 {#politics-and-law}
 
@@ -663,8 +667,8 @@ knitr::kable(fayol, caption = "政治体制の類型", booktabs = FALSE) %>% col
 
 山岸俊男・ブリントン，メアリー・Ｃ (2010)『リスクに背を向ける日本人』講談社現代新書2073.
 
-## 経済システム {#economy}
 
+## 経済システム {#economy}
 
 ### 経済体制 {#economic_regime}
 
@@ -685,14 +689,40 @@ knitr::kable(fayol, caption = "政治体制の類型", booktabs = FALSE) %>% col
   - 経済への政府関与の程度が最も低いのが「自由放任」で、アングロ系（イギリス、アメリカ、カナダ、オーストラリア、ニュージーランド、アイルランド）や都市国家（香港、ルクセンブルクなど）が該当します。
   
   - 市場経済を中心としながら、福祉分野への政府関与の程度が高いのが「福祉国家」で、北欧諸国、ドイツ、フランスが該当します。
+  
+    - 租税負担及び社会保障負担を合わせた義務的な公的負担の国民所得に対する比率を「国民負担率」[^5]といいます。「福祉国家」の国々は国民負担率が高い一方で、失業手当や職業訓練などの社会保障制度が充実しています。「自由放任」の国、とくにアメリカは国民負担率が低い一方、健康保険などの社会保障制度が手薄です（図\@ref(fig:burden1)）。
+    
+    - 日本は国際的にみると低負担のほうに位置します（図\@ref(fig:burden2)）。かつては「低負担・中福祉」の国といわれていましたが、国民負担率は年々上昇しています（図\@ref(fig:burden3)）。
 
   - 市場経済を基本としながら、民間部門の経済活動支援（税制・金融支援、経済計画設定など）に積極的なのが「政府主導資本主義」で、日本、韓国、台湾、シンガポール、マレーシア、タイなどアジアの多くの国が該当します。 
 
   - 中国は1990年代以降「社会主義市場経済」という、「資源は政府によって所有」という社会主義を維持しつつ、「市場競争によって資源配分」される市場経済になっています。ベトナムも同様です。
 
+[^5]: 国民負担率については、[NHK(2020)](https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/20200302.html)も参考にしてください。
+
 ```{r poleco, echo = FALSE, out.width="960px", fig.cap="経済への政府関与"}
 knitr::include_graphics("poleco.jpg")
 ```
+
+
+```{r burden1, echo = FALSE, out.width="960px", fig.cap="国民負担率（対国民所得比）の内訳の国際比較（日米英独仏瑞）"}
+knitr::include_graphics("https://www.mof.go.jp/tax_policy/summary/condition/020.gif")
+```
+
+出所）[財務省 "負担率に関する資料"](https://www.mof.go.jp/tax_policy/summary/condition/a04.htm)
+
+```{r burden2, echo = FALSE, out.width="960px", fig.cap="国民負担率（対国民所得比）の国際比較（OECD加盟34カ国）"}
+knitr::include_graphics("https://www.mof.go.jp/tax_policy/summary/condition/238.gif")
+```
+
+出所）図\@ref(fig:burden1)と同じ
+
+```{r burden3, echo = FALSE, out.width="960px", fig.cap="国民負担率の推移"}
+knitr::include_graphics("https://www.mof.go.jp/tax_policy/summary/condition/019.gif")
+```
+
+出所）図\@ref(fig:burden1)と同じ
+
 
 
 - 資本主義・市場経済におけるその他の各国間の違いとして、企業の「所有と経営の分離」があります（図\@ref(fig:separation)）。
@@ -707,16 +737,21 @@ knitr::include_graphics("poleco.jpg")
 
   - 所有者と経営者が分離していて、経営者は主として所有者＝株主（投資家）のために経営を行うのが、「株主資本主義」です。アメリカとイギリスがその代表的存在です。[法制度](#law)はコモン・ローである国が多いです。
   
-  - 所有者と経営者が分離していて、株主以外（従業員・地域）にも配慮した経営を行うのが、「ステークホルダー[^5]資本主義」です。西欧諸国や日本が該当します。[法制度](#law)はシビル・ローである国が多いです。
+  - 所有者と経営者が分離していて、株主以外（従業員・地域）にも配慮した経営を行うのが、「ステークホルダー[^6]資本主義」です。西欧諸国や日本が該当します。[法制度](#law)はシビル・ローである国が多いです。
 
   - 所有者と経営者が分離してなく、大企業でも家族経営が多いのが「家族資本主義」です。多くの新興国が該当します。[法制度](#law)の整備が十分でない国であることが多く、関係性による契約強制力が相対的に重要となっています。
   
   - 所有者と経営者が分離してなく、経営者の個人的縁故（コネ）がビジネスに影響するのが、「縁故資本主義」です。「家族資本主義」でもあることが多く、アジア、ラテンアメリカ、アラブの多くの国が該当します。
 
-[^5]: ステークホルダーとは利害関係者という意味です。 \@ref(common) [各国企業の共通点](#common)の注を参考にしてください。
+[^6]: ステークホルダーとは利害関係者という意味です。 \@ref(common) [各国企業の共通点](#common)の注を参考にしてください。
 
 ```{r separation, echo = FALSE, out.width="960px", fig.cap="所有と経営の分離"}
 knitr::include_graphics("separation.jpg")
 ```
 
+<span style="font-size: 150%">**参考文献**</span>
+
+[NHK (2020)「高すぎる？ 国民負担率」](https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/20200302.html)
+
+[財務省「負担率に関する資料」](https://www.mof.go.jp/tax_policy/summary/condition/a04.htm)
 

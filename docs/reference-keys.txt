@@ -164,3 +164,6 @@ tab:USPOPULATION
 fig:USPARTY
 fig:poleco
 fig:separation
+fig:burden1
+fig:burden2
+fig:burden3
