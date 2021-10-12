@@ -698,7 +698,7 @@ knitr::kable(fayol, caption = "政治体制の類型", booktabs = FALSE) %>% col
 
   - 中国は1990年代以降「社会主義市場経済」という、「資源は政府によって所有」という社会主義を維持しつつ、「市場競争によって資源配分」される市場経済になっています。ベトナムも同様です。
 
-[^5]: 国民負担率については、[NHK(2020)](https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/20200302.html)も参考にしてください。
+[^5]: 国民負担率については、[NHK(2020a)](https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/20200302.html)も参考にしてください。
 
 ```{r poleco, echo = FALSE, out.width="960px", fig.cap="経済への政府関与"}
 knitr::include_graphics("poleco.jpg")
@@ -751,7 +751,7 @@ knitr::include_graphics("separation.jpg")
 
 <span style="font-size: 150%">**参考文献**</span>
 
-[NHK (2020)「高すぎる？ 国民負担率」](https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/20200302.html)
+[NHK (2020a)「高すぎる？ 国民負担率」](https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/20200302.html)
 
 [財務省「負担率に関する資料」](https://www.mof.go.jp/tax_policy/summary/condition/a04.htm)
 

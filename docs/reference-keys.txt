@@ -167,3 +167,5 @@ fig:separation
 fig:burden1
 fig:burden2
 fig:burden3
+fig:glassceiling
+fig:layoff
