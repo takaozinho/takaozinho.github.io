@@ -169,3 +169,7 @@ fig:burden2
 fig:burden3
 fig:glassceiling
 fig:layoff
+fig:inequality
+tab:uspay
+fig:g5ceopay
+fig:stockoption

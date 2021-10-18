@@ -11,6 +11,14 @@
 
 ## アメリカの文化・政治・経済 {#us-external}
 
+- 本節では、アメリカ企業経営の外部要因として、アメリカの文化・政治・経済を確認します。
+
+  - まず、経営学の源流として、[文化](#us-culture)を整理します。
+
+  - 次に、[政治システム・法制度](#us-politics)を整理します。
+
+  - 最後に、[経済システム](#us-economy)を整理します。
+
 ### 文化 {#us-culture}
 
 #### 歴史
@@ -179,11 +187,13 @@ knitr::include_graphics("usparty.jpg")
   
   - 不景気のときに容易にレイオフできることから、企業は好景気で人手不足になったときは採用を積極的に行います。
   
-  - このため、レイオフされた労働者は再雇用を待たなくても、（レイオフされた企業よりも業績がいい）他社に比較的容易に再就職できます。
+    - これを労働市場の流動性が高いといいます。
+  
+  - レイオフされた労働者は再雇用を待たなくても、（レイオフされた企業よりも業績がいい＝賃金水準の高い）他社に比較的容易に再就職できます。
 
   - アメリカの労働者は専門性を持っていて、職種ごとに採用されるため、転職先の仕事を学びなおす必要がありません。
   
-  - 容易にレイオフされることは、労働者にとって決してマイナスとはいえないことになります。
+    - 労働市場の流動性が高いことは、労働者にとって決してマイナスとはいえないことになります。
   
   - 経済全体から見ても、不況業種から好況業種へ労働力が移動するというプラスの効果があります。
 
@@ -218,38 +228,92 @@ knitr::include_graphics("layoff.jpg")
     
     - 健康保険は給与の一部として支給されることも多い一方、失業すると収入だけでなく健康保険も失うことになるので、影響が大きいです。
     
-- アメリカ社会では、機会の平等は高く求められます。<!--アファーマティブ・アクション-->
+- アメリカ社会では、機会の平等は高く求められます。
 
-  - その一方で、家計の所得・資産の不平等は大きいです（結果の不平等）。
+  - 人種や性別、民族などによる社会的差別を改善し、雇用や教育などにおいて採られる優遇措置をアファーマティブ・アクション（積極的格差是正措置）といいます。
+
+- その一方で、家計の所得・資産の不平等は大きいです（結果の不平等）。
+
+  - 上位1%の人たちの所得は1981年に全体の8.2%でしたが、2012年には倍以上の20%に高まっています（図\@ref(fig:inequality)）。その一方で、所得が最も少ない10%の層の人たちの収入は、2000年から2008年の間に実質で10%減少しました（[櫨 (2015)](https://www.nli-research.co.jp/report/detail/id=42347?site=nli)）。
+  
+  - アファーマティブ・アクションによっても、人種間の所得・資産格差は存在し続けています。2019年の典型的な非ヒスパニック系白人世帯の純資産は、非ヒスパニック系黒人世帯の約8倍でした（[CNN.co.jp (2021)](https://www.cnn.co.jp/business/35172251.html)）。
+  
+```{r inequality, echo = FALSE, out.width="960px", fig.cap="上位1%の人たちの所得シェア"}
+knitr::include_graphics("https://www.nli-research.co.jp/files/user/report/report/2015/04/image/repo1504-1.jpg?v=1448125638")
+```
+
+出所）[櫨 (2015)](https://www.nli-research.co.jp/report/detail/id=42347?site=nli)
 
 <!-- https://www5.cao.go.jp/keizai2/keizai-syakai/future2/20200415/shiryou2_2.pdf -->
 
 <span style="font-size: 150%">**参考文献**</span>
 
+[CNN.co.jp (2021)「4つのグラフから見る　米国の黒人と白人の格差」](https://www.cnn.co.jp/business/35172251.html)
+
 Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
+
+[NHK (2020b)「グーグルに何が起きているの？」](https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/20201023.html)
 
 Weber, Max (1905). Die protestantische Ethik und der Geist des Kapitalismus. （日本語版　大塚久雄（訳）(1989)『プロテスタンティズムの倫理と資本主義の精神』岩波文庫.）
 
-[NHK (2020b)「グーグルに何が起きているの？」](https://www3.nhk.or.jp/news/special/sakusakukeizai/articles/20201023.html)
+[櫨浩一 (2015)「巻き起こる格差議論－ピケティ「21世紀の資本」の意味」基礎研REPORT  2015年4月号](https://www.nli-research.co.jp/files/topics/42347_ext_18_0.pdf?site=nli)
 
 山岸俊男 (1999)『安心社会から信頼社会へ』中公新書1479.
 
 
 ## アメリカ企業の経営者 {#us-manager}
-<br>
+
+- 本節では、アメリカ企業の経営者に関連する項目を整理します。
+
+  - まず、アメリカ企業の経営者のキャリア形成のプロセス、[選抜・移動](#us-selection)を整理します。
+
+  - 次に、アメリカ企業の経営者の[報酬](#us-payment)について、概要を整理します。
+
+  - 最後に、アメリカ企業の経営者の教育的背景（学歴）や、経営学の[教育](#us-education)の位置付けについて整理します。
 
 ### 選抜・移動 {#us-selection}
-　新卒採用や昇進などの労働システムのあり方（ジョブ型・メンバーシップ型）についてはAppendixでまとめる。
-　平均56歳、男性が多い、富裕層（出身）が多い、が、相対的に減少している（＝多様化）
-　女性経営者はまだ少ないが、大卒・MBA卒は男性より女性が多いので見込みはある。
-　所有と経営の分離　プロ経営者（A社社長退任→B社社長就任）外部登用が3-4割・ヘッドハンティング
-　　　　　　　　　　専門経営者⇔サラリーマン経営者（平社員から内部昇進）
-　所有者（owner）＝株式保有者（出資者）　と　経営者が異なる
 
-　民間と政府の相互移動（回転ドア）　民間と政府で相互に転職することがあり、民間経営者が政府高官になることがある　官僚から民間への転職「天下り」が多かった日本と対照的
-　まとめると、若い、移動が多い、プロ経営者が多い
+<!--　新卒採用や昇進などの労働システムのあり方（ジョブ型・メンバーシップ型）についてはAppendixでまとめる。-->
 
-　アメリカ人が非英語圏で経営することは少ない
+- [Strategy& (2019)](https://www.strategyand.pwc.com/jp/ja/publications/2018_ceo-data-media-release-jp.pdf)が行った、世界の上場企業における時価総額の上位2,500社を対象にした調査によると、アメリカ企業の経営者（最高経営責任者CEO:Chief Executive Officer）の平均像は、以下の通りです。
+
+  - 2018年に就任したCEOの年齢の中央値は54才です。
+  
+  - 内部昇格したCEOが79%で、外部招聘のCEOが21%でした。
+  
+    - 新任CEOの94%が他企業での職務経験があります。
+    
+    - ヘッドハンティングが盛んで、プロ経営者（A社社長退任→B社社長就任）もいます。
+    
+      - 新任CEOの26%が株式公開会社でのCEO経験を有しています。
+    
+  - 海外での勤務経験を有するCEOは33%でした。
+　
+    - 世界平均レベルですが、西欧諸国（63%）に比べると低いです。
+    
+    - Edfelt (2010, pp.50-52)によると、アメリカ企業は以下の特徴があります。
+    
+      - 海外に居住・勤務経験のある経営者は1/3
+      
+      - 「経営者に国際経験は重要？」との問いには、Yesは15%、Noは54%
+
+      - 「国際ビジネスに外国語は必要？」との問いには、同意と多少同意の合計が34%
+
+  - 新任CEOの85%がアメリカ国籍でした。
+
+  - 新任CEOの女性比率は1.1%でした。
+　
+    -  [Forbes JAPAN (2014)](https://forbesjapan.com/articles/detail/990)によると、アメリカの全企業の23%の780万社が女性が経営する企業であり、特に、ヘルスケア・教育サービス分野では、61%の企業が女性CEOです。
+
+    - この20年間、女性の起業率は男性の2倍であることから、「ガラスの天井」を感じた女性が多く起業したと考えられます。
+
+  - 新任CEOの53%がMBA（経営学修士）保有者です。
+  
+    - 世界平均(33%)を大きく上回ります。
+
+  - 民間と政府で相互に転職することがあり、「回転ドア」と呼ばれます。民間経営者が政府高官になることもあります。
+
+- 移動の多さは、個人主義の高さや不確実性回避の低さから解釈できます。
 
 ### 報酬 {#us-payment}
 
@@ -259,42 +323,55 @@ Weber, Max (1905). Die protestantische Ethik und der Geist des Kapitalismus. （
 　高報酬はプロ経営者が多いことが背景にある　外部登用の際、成功報酬としてストックオプションが付与されることが多い
 -->
 
-* **ペイレシオ**：企業の経営トップの報酬が従業員の賃金の何倍かを示す数値をペイレシオ（pay ratio）という。  
+- [ウイリス・タワーズワトソン (2021)](https://www.willistowerswatson.com/ja-JP/News/2021/07/report-fy2020-comparison-of-compensation-for-ceos-and-ned-between-japan-the-united-states-and-europe) によると、アメリカ企業のCEOの2020年度の報酬は平均で15.3億円でした（図\@ref(fig:g5ceopay)）。
 
-ペイレシオ
-日本経済新聞2018年5月13日　米報酬、企業差が鮮明「CEOは社員の何倍か」開示
-https://www.dir.co.jp/report/column/20170921_012304.html
+```{r g5ceopay, echo = FALSE, out.width="960px", fig.cap="CEO報酬比較（2020年度）"}
+knitr::include_graphics("https://www.willistowerswatson.com/ja-JP/News/2021/07/-/media//WTW/News/2021/07/CEO-compensation-Comparison_900x813.png")
+```
 
-https://www.cnn.co.jp/business/35124268.html
+出所）[ウイリス・タワーズワトソン (2021)](https://www.willistowerswatson.com/ja-JP/News/2021/07/report-fy2020-comparison-of-compensation-for-ceos-and-ned-between-japan-the-united-states-and-europe)
 
-https://www.meti.go.jp/meti_lib/report/2015fy/000134.pdf
+- ダウ平均の構成企業でみると、経営トップの年間報酬で最高額だったのはナイキの5349万ドル（58.3億円）です（表\@ref(tab:uspay)）。
 
-業績連動報酬
-日本経済新聞2018年12月6日　きょうのことば
-https://www.nikkei.com/article/DGXKZO38600620V01C18A2EA2000/?n_cid=SPTMG053
-
-
-日本経済新聞2018年12月12日　CEO報酬、アメリカは日本の6倍　首位は117億円 
-
-英ＣＥＯの給料、一般社員の１６７年分　男女間でも格差
-(https://www.cnn.co.jp/business/35124268.html)
-
-
-表3.1　ダウ平均構成30社の社長の年収（1～5位）
-
-| 順位 |社長(CEO)名|社名|年収|前期比増減率|株式報酬の割合|従業員の年収に対する倍率|株価騰落率|
-|:-----|:----------|:---|:--:|:----------:|:------------:|:------------------:|:------------:|
-|   1  |ジョン・ドナホー	       |ナイキ	                       |58.3億円|	ー   |83% |1935倍	|28%|
-|   2  |サティア・ナデラ	       |マイクロソフト	               |48.3億円|	3%	 |69% |257倍	|52%|
-|   3  |ジェームズ・ダイモン    |JPモルガン・チェース	         |34.5億円|	0%	 |79% |395倍	|▲10%|
-|   4  |アレックス・ゴースキー  |ジョンソン・エンド・ジョンソン |32.2億円|	17%	 |61% |365倍	|7%|
-|   5  |マイケル・ワース	       |シェブロン	                   |31.6億円|	▲12% |52% |184倍	|▲29%|
-
+```{r uspay, echo = FALSE, fig.align="center"}
+uspay <- read.csv("uspay.csv", header = TRUE)
+knitr::kable(uspay, caption = "ダウ平均構成30社の社長の年収（1～5位）", booktabs = FALSE)
+```
 
 注）1ドル＝109円で換算  
 出所）日経ヴェリタス（日経電子版）[^11]
 
 [^11]:日経ヴェリタス（日経電子版） 2021年6月27日「社長の給料、日米で16倍差　米国平均は23億円」
+
+- 企業の経営トップの報酬が従業員の賃金の何倍かを示す数値を**ペイレシオ（pay ratio）**といいます。
+
+  - 日本経済新聞[^12]によると、ペイレシオが高い企業（2018年の公表当時）3社はマクドナル3101倍、ウォルマート1188倍、ジョンソン・エンド・ジョンソン452倍となっています。
+
+  - [鈴木 (2017)](https://www.dir.co.jp/report/column/20170921_012304.html)によれば、アメリカ企業のペイレシオは「1965年には平均20倍であったものが、1989年に59倍、2000年に376倍になったのち、2016年では271倍」に拡大しています。
+
+[^12]:日本経済新聞朝刊　2018年5月13日「米報酬、企業差が鮮明「CEOは社員の何倍か」開示」
+
+- アメリカ企業の経営者の報酬が高額である背景には、その報酬多くが業績連動報酬[^13]であるためです。
+
+[^13]:業績連動報酬については、[日本経済新聞朝刊　2018年12月6日　きょうのことば](https://www.nikkei.com/article/DGXKZO38600620V01C18A2EA2000/?n_cid=SPTMG053)を参考にしてください。
+
+- 業績連動報酬のなかでは、「あらかじめ決められた価格（図\@ref(fig:stockoption)では1円）で株式を購入できる」ストック・オプションが代表的存在です。
+
+  - ストック・オプションは、経営者にとって「業績向上⇒企業価値の向上⇒株価の上昇⇒売却益増」といった好循環に対するインセンティブとして有効な制度となり得ます。
+  
+```{r stockoption, echo = FALSE, out.width="960px", fig.cap="ストック・オプションのスキームイメージ"}
+knitr::include_graphics("https://www.dir.co.jp/business/consulting/compensation/gdp1m8000003nqos-img/img-introduction-01.jpg")
+```
+
+出所）[大和総研 "ストック・オプション導入コンサルティング"](https://www.dir.co.jp/business/consulting/compensation/stock-option.html)
+
+
+<!--
+日本経済新聞2018年12月12日　CEO報酬、アメリカは日本の6倍　首位は117億円 
+
+英ＣＥＯの給料、一般社員の１６７年分　男女間でも格差
+(https://www.cnn.co.jp/business/35124268.html)
+-->
 
 ### 教育 {#us-education}
 
@@ -308,9 +385,13 @@ https://www.nikkei.com/article/DGXKZO38600620V01C18A2EA2000/?n_cid=SPTMG053
 
 <span style="font-size: 150%">**参考文献**</span>
 
+Edfelt, Ralph B. (2010). Global Comparative Management. SAGE.
+
+[Forbes JAPAN (2014)「アメリカ出世事情・女性CEOが誕生する理由」](https://forbesjapan.com/articles/detail/990)
+
 Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
 
-
+[鈴木裕 (2017)「社長の報酬は社員の何倍？—米英で分かれたペイレシオ開示政策—」大和総研](https://www.dir.co.jp/report/column/20170921_012304.html)
 
 ## アメリカ企業のマネジメント {#us-management}
 <br>
