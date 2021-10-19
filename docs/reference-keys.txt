@@ -173,3 +173,5 @@ fig:inequality
 tab:uspay
 fig:g5ceopay
 fig:stockoption
+fig:uscareer
+fig:uspost

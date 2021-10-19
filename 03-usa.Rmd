@@ -323,7 +323,7 @@ Weber, Max (1905). Die protestantische Ethik und der Geist des Kapitalismus. （
 　高報酬はプロ経営者が多いことが背景にある　外部登用の際、成功報酬としてストックオプションが付与されることが多い
 -->
 
-- [ウイリス・タワーズワトソン (2021)](https://www.willistowerswatson.com/ja-JP/News/2021/07/report-fy2020-comparison-of-compensation-for-ceos-and-ned-between-japan-the-united-states-and-europe) によると、アメリカ企業のCEOの2020年度の報酬は平均で15.3億円でした（図\@ref(fig:g5ceopay)）。
+- [ウイリス・タワーズワトソン (2021)](https://www.willistowerswatson.com/ja-JP/News/2021/07/report-fy2020-comparison-of-compensation-for-ceos-and-ned-between-japan-the-united-states-and-europe) によると、アメリカ企業CEOの報酬（2020年度）の中央値は15.3億円でした（図\@ref(fig:g5ceopay)）。
 
 ```{r g5ceopay, echo = FALSE, out.width="960px", fig.cap="CEO報酬比較（2020年度）"}
 knitr::include_graphics("https://www.willistowerswatson.com/ja-JP/News/2021/07/-/media//WTW/News/2021/07/CEO-compensation-Comparison_900x813.png")
@@ -375,13 +375,49 @@ knitr::include_graphics("https://www.dir.co.jp/business/consulting/compensation/
 
 ### 教育 {#us-education}
 
-　高学歴　学問としての経営学
-　学部の22%、修士課程の25%に経営学専攻がある
-　図表あり
-　A：営業担当社員←必要な能力（＝学歴）提示
-　B：営業担当管理職←必要な能力（＝学歴）提示
-　昇進は内部外部に差がない
+- アメリカ企業のCEOは高学歴といえます[^14]。
 
+  - Edfelt (2010, pp.42-43)によると、アメリカ企業CEOの学歴は以下の特徴があります。
+  
+    - 大企業CEOの98%が大卒で、専攻の内訳は工学21%、経済学15%、経営学13%です。
+
+    - 修士以上の学位をもつアメリカ人は、25才以上人口の10%に過ぎませんが、大企業CEOの67%が修士以上の学位を保有しています。
+
+    - 大企業CEOの保有する修士以上の学位の内訳はMBA40%、法学10%となりますが、MBA以外の学位のうち21%はPh.D.（博士号）です。
+
+  - [日本労働研究機構 (1998)](https://db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)の調査によると、アメリカ企業の人事・営業・経理部課長は32-40%がMBAを保有し、Ph.D.（博士号）保有者もいます（図\@ref(fig:uscareer)）。
+  
+```{r uscareer, echo = FALSE, out.width="960px", fig.cap="アメリカ企業部課長職の学歴"}
+knitr::include_graphics("https://db.jil.go.jp/db/seika/zenbun/IMAGE/E2000014381-ZU127.GIF")
+```
+
+出所）[日本労働研究機構 (1998)](https://db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)
+
+[^14]:Appleのティム・クックCEOなど、有名企業のCEOの経歴に興味のある人は[キャリハイ転職](https://www.recme.jp/careerhigh/entry/usaceo)の記事を見てみてください。
+
+
+- アメリカにおいて、経営学は学問として広く認知されています。
+
+  - 全米の大学学部の22%、大学院修士課程の25%に経営学専攻があります（Edfelt (2010, p.43)）。
+  
+- アメリカ企業において、内部昇進・転職に伴う昇進に関わらず、昇進には職位に見合った能力が求められますが、その証明として学位が多く利用されます。
+
+  - アメリカに限らず欧米では、「仕事」の内容、範囲、責任、権限などを「職務記述書」ないし「権限規程」などの様式に、誰がみてもまぎれの内容に明確に決めています（濱口 (2013, p.30)）。
+  
+  - 採用は図\@ref(fig:uspost)のように「必要なときに、必要な資格、能力、経験のある人を、必要なだけ」採用する欠員補充が原則となります（濱口 (2013, p.40)）。
+  
+  - 一つ一つの職業について、その職業を遂行する知識、経験、能力を兼ね備えた一人前の労働力に対する職種別の賃金が決まっています（濱口 (2013, p.85)）。
+
+```{r uspost, echo = FALSE, out.width="960px", fig.cap="欧米の採用"}
+knitr::include_graphics("uspost.jpg")
+```
+
+出所）海老原 (2016)
+
+<!--
+https://www.kantei.go.jp/jp/singi/kyouikusaisei/teigen.html
+https://www.kantei.go.jp/jp/singi/kyouikusaisei/pdf/dai3_2.pdf
+-->
 
 <span style="font-size: 150%">**参考文献**</span>
 
@@ -391,7 +427,15 @@ Edfelt, Ralph B. (2010). Global Comparative Management. SAGE.
 
 Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
 
+海老原嗣生 (2016)『お祈りメール来た、日本死ね』文春新書1105.
+
+[キャリハイ転職「「元軍人から高校からはじめたバイトまで」P&G、Apple等、米国時価総額トップ15人のCEOの経歴を調べた」](https://www.recme.jp/careerhigh/entry/usaceo)
+
 [鈴木裕 (2017)「社長の報酬は社員の何倍？—米英で分かれたペイレシオ開示政策—」大和総研](https://www.dir.co.jp/report/column/20170921_012304.html)
+
+[日本労働研究機構 (1998)「国際比較：大卒ホワイトカラーの人材開発・雇用システム　－日、米、独の大企業」](https://db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)
+
+濱口桂一郎 (2013)『若者と労働』中公新書ラクレ465.
 
 ## アメリカ企業のマネジメント {#us-management}
 <br>
