@@ -175,3 +175,10 @@ fig:g5ceopay
 fig:stockoption
 fig:uscareer
 fig:uspost
+fig:org
+fig:org1
+fig:org2
+fig:ma
+fig:director
+fig:exective
+fig:executive

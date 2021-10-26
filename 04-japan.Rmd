@@ -83,14 +83,6 @@
 
   - メッセージを伝える際は曖昧さや誤解が生じる余地をなくして、できるだけはっきりと明快に伝えることが、コミュニケーションの基本になります。
 
-<span style="font-size: 150%">**参考文献**</span>
-
-Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
-
-Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
-
-Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
-
 
 
 
@@ -119,6 +111,17 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 　産業政策
 
 　政官財トライアングル
+
+https://media.startup-db.com/research/marketcap-global
+
+<span style="font-size: 150%">**参考文献**</span>
+
+Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+
+Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+
+Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
+
 
 
 ## 日本企業の経営者 {#japan-manager}
@@ -155,8 +158,22 @@ https://www.tsr-net.co.jp/news/analysis/20210624_06.html
 
 ### 教育 {#japan-education}
 
-　@Oguma2019 は、上掲の日経新聞記事が「卒業した大学名は詳細に記されているが、学部や専攻については何も述べていない」ことを指摘し、日本社会は「何を学んだかが重要でない学歴重視」であるとしている。
-　情報の経済学におけるシグナリングという概念を使うと、学歴重視には合理性があるとされる。
+- 小熊 (2019)は、上掲の日経新聞記事が「卒業した大学名は詳細に記されているが、学部や専攻については何も述べていない」ことを指摘し、日本社会は「何を学んだかが重要でない学歴重視」であるとしている。
+
+  - 情報の経済学におけるシグナリングという概念を使うと、学歴重視には合理性があるとされる。
+
+https://gendai.ismedia.jp/articles/-/71570
+
+https://blogos.com/article/460720/
+
+<span style="font-size: 150%">**参考文献**</span>
+
+Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+
+Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+
+Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
+
 
 
 ## 日本企業のマネジメント {#japan-management}
@@ -198,3 +215,12 @@ https://www.tsr-net.co.jp/news/analysis/20210624_06.html
 
 (2)　原価低減
 
+<span style="font-size: 150%">**参考文献**</span>
+
+Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+
+Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+
+Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
+
+小熊英二 (2019)『日本社会のしくみ』講談社現代新書2528.
