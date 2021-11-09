@@ -182,3 +182,11 @@ fig:ma
 fig:director
 fig:exective
 fig:executive
+仏教の影響
+fig:triangle
+fig:jpparty
+fig:strike
+fig:bigsix
+fig:bigsix2
+fig:mitsubishi
+fig:value
