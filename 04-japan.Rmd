@@ -179,7 +179,7 @@ knitr::include_graphics("Two_Major_Parties_in_House_of_Representatives_of_Japan.
     - 自民党にも産業ごとに政策部会があり、「族議員」と呼ばれます。
 
 ```{r triangle, echo = FALSE, out.width="960px", fig.cap="政官財トライアングル"}
-knitr::include_graphics("http://www.seijikeizaijuku.com/img/triangle1.jpg")
+knitr::include_graphics("triangle1.jpg")
 ```
 
 出所）[政治経済塾](http://www.seijikeizaijuku.com/naikaku.html)
