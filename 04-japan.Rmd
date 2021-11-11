@@ -1,6 +1,7 @@
 # 日本企業の経営システム {#japan}
 
 ```{r , echo = FALSE, warning = FALSE}
+library(kableExtra)
 library(vembedr)
 ```
 
@@ -351,11 +352,16 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 
 - 移動の多さは、個人主義の高さや不確実性回避の低さから解釈できます。
 
-- 小熊 (2019)は、と指摘しています（表\@ref(tab:keidanren)）。
+- 小熊 (2019, p.6)は、経団連正副会長のプロフィール（表\@ref(tab:keidanren)）を参考にして、本節で述べた日本企業の特徴を以下の通りまとめています。
 
-```{r, echo = FALSE, fig.align="center"}
+>1. まず、学歴が重要な指標となっている。ただし重要なのは学校名であり、何を学んだかではない。  
+2. つぎに、年齢や勤続年数が、重要な指標となっている。ただしそれは、1つの企業での勤続年数であって、他の企業での職業経験は評価されない。  
+3. その結果、都市と地方という対立が生じる。何を学んだかが重要なら、必ずしも首都圏の有名大学である必要はない。  
+4. そして、女性と外国人が不利になる。女性は結婚と出産で、勤続年数が中断されがちだ。また他国企業での職業経験が評価されないなら、外国人は入りにくい。
+
+```{r keidanren, echo = FALSE, fig.align="center"}
 keidanren <- read.csv("keidanren.csv", header = TRUE)
-knitr::kable(keidanren, caption = "日本経団連正副会長19名（2018年6月）のプロフィール", booktabs = FALSE)
+knitr::kable(keidanren, caption = "日本経団連正副会長19名（2018年6月）のプロフィール", booktabs = FALSE) %>% column_spec(1:2, width = "6em") %>% column_spec(4:7, width = "6em")
 ```
 
 出所）日本経済新聞[^8]、日本産業新聞[^9]

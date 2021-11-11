@@ -190,3 +190,5 @@ fig:bigsix
 fig:bigsix2
 fig:mitsubishi
 fig:value
+tab:unnamed-chunk-2
+tab:keidanren
