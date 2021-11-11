@@ -176,7 +176,10 @@ knitr::include_graphics("Two_Major_Parties_in_House_of_Representatives_of_Japan.
     - 企業は同じ産業の企業が集まり、業界団体を構成します。
     
     - 省庁には局（企業の部に相当）やその下に課が存在し、産業ごとに担当する部署を原課・原局といいます。
+    
     - 自民党にも産業ごとに政策部会があり、「族議員」と呼ばれます。
+    
+  ― 政府は永田町、官僚は霞が関、企業は丸の内・大手町にあり、すぐに会える距離にあります。
 
 ```{r triangle, echo = FALSE, out.width="960px", fig.cap="政官財トライアングル"}
 knitr::include_graphics("triangle1.jpg")
@@ -294,6 +297,7 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 
 [労働政策研究・研修機構 (2019)『データブック国際労働比較2019』](https://www.jil.go.jp/kokunai/statistics/databook/2019/index.html)
 
+
 ## 日本企業の経営者 {#japan-manager}
 
 ### 選抜・移動 {#japan-selection}
@@ -384,6 +388,7 @@ Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: S
 
 Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
 
+小熊英二 (2019)『日本社会のしくみ』講談社現代新書2528.
 
 
 ## 日本企業のマネジメント {#japan-management}
@@ -519,4 +524,3 @@ Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: S
 
 Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
 
-小熊英二 (2019)『日本社会のしくみ』講談社現代新書2528.
