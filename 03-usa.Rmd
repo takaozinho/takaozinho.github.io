@@ -275,7 +275,7 @@ Weber, Max (1905). Die protestantische Ethik und der Geist des Kapitalismus. （
 
 <!--　新卒採用や昇進などの労働システムのあり方（ジョブ型・メンバーシップ型）についてはAppendixでまとめる。-->
 
-- [Strategy& (2019)](https://www.strategyand.pwc.com/jp/ja/publications/2018_ceo-data-media-release-jp.pdf)が行った、世界の上場企業における時価総額の上位2,500社を対象にした調査によると、アメリカ企業の経営者（最高経営責任者CEO:Chief Executive Officer）の平均像は、以下の通りです。
+- [Strategy& (2019)](https://www.strategyand.pwc.com/jp/ja/publications/2018_ceo-data-media-release-jp.pdf)が行った、世界の上場企業における時価総額の上位2,500社を対象にした調査によると、アメリカ企業の経営者（最高経営責任者CEO:Chief Executive Officer）の平均像は、以下の通りです。 [日本](#japan-selection) [アジア](#asia-selection)
 
   - 2018年に就任したCEOの年齢の中央値は54才です。
   

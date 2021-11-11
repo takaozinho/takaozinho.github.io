@@ -122,7 +122,7 @@ library(vembedr)
   
   - 山岸・ブリントン (2010, pp.146-147)は以下のように、「集団主義的行動をとらざるをえない社会であるからで、セカンドチャンスの整備が必要である」と論じています。
   
-    - 終身雇用で定年まで働くことと転職が生涯収入の面で大差なければ、セカンドチャンスがあるといえます。
+    - 終身雇用で定年まで働くことが生涯収入の面で有利であることが多いので、転職や起業独立のハードルは高くなっています。その意味で、セカンドチャンスが少ないといえます。
     
     - 個人主義の社会では個人の能力によって信頼が得られるので、（ビジネス）ネットワークへの出入りが容易になります。（[法制度](#law)）
 
@@ -270,7 +270,7 @@ knitr::include_graphics("https://media.startup-db.com/wp/wp-content/uploads/2019
 
 出所）[STARTUP DB](https://media.startup-db.com/research/marketcap-global)
  
-- 労働組合は企業別労働組合です。
+- 労働組合は企業別労働組合で、労使がよく協調する点が特徴です。
 
   - 戦後、労働運動が激しい時期がありましたが、1970年代以降激しい対立は少なくなりました。
   
@@ -300,7 +300,71 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 
 ## 日本企業の経営者 {#japan-manager}
 
+- 本節では、日本企業の経営者に関連する項目を整理します。
+
+  - まず、日本企業の経営者のキャリア形成のプロセス、[選抜・移動](#japan-selection)を整理します。
+
+  - 次に、日本企業の経営者の[報酬](#japan-payment)について、概要を整理します。
+
+  - 最後に、日本企業の経営者の教育的背景（学歴）や、経営学の[教育](#japan-education)の位置付けについて整理します。
+
+
 ### 選抜・移動 {#japan-selection}
+
+- [Strategy& (2019)](https://www.strategyand.pwc.com/jp/ja/publications/2018_ceo-data-media-release-jp.pdf)が行った、世界の上場企業における時価総額の上位2,500社を対象にした調査によると、日本企業の経営者（最高経営責任者CEO:Chief Executive Officer）の平均像は、以下の通りです。 [アメリカ](#us-selection) [アジア](#asia-selection)
+
+  - 2018年に就任したCEOの年齢の中央値は60才です。
+  
+  - 内部昇格したCEOが97%で、外部招聘のCEOが3%でした。
+  
+    - 新任CEOの18%が他企業での職務経験があります。
+    
+    - ヘッドハンティングが盛んで、プロ経営者（A社社長退任→B社社長就任）もいます。
+    
+      - 新任CEOの8%が株式公開会社でのCEO経験を有しています。
+    
+  - 海外での勤務経験を有するCEOは21%でした。
+　
+    - 世界平均レベル（33%）に比べると低い水準です。
+    
+    - Edfelt (2010, pp.50-52)によると、アメリカ企業は以下の特徴があります。
+    
+      - 海外に居住・勤務経験のある経営者は1/3
+      
+      - 「経営者に国際経験は重要？」との問いには、Yesは15%、Noは54%
+
+      - 「国際ビジネスに外国語は必要？」との問いには、同意と多少同意の合計が34%
+
+  - 新任CEOの100%が日本国籍でした。
+
+  - 新任CEOの女性比率は0%でした。
+　
+    -  [Forbes JAPAN (2014)](https://forbesjapan.com/articles/detail/990)によると、アメリカの全企業の23%の780万社が女性が経営する企業であり、特に、ヘルスケア・教育サービス分野では、61%の企業が女性CEOです。
+
+    - この20年間、女性の起業率は男性の2倍であることから、「ガラスの天井」を感じた女性が多く起業したと考えられます。
+
+  - 新任CEOの0%がMBA（経営学修士）保有者です。
+  
+    - 世界平均(33%)を大きく下回ります。
+
+  - 民間と政府で相互に転職することがあり、「回転ドア」と呼ばれます。民間経営者が政府高官になることもあります。
+
+- 移動の多さは、個人主義の高さや不確実性回避の低さから解釈できます。
+
+- 小熊 (2019)は、と指摘しています（表\@ref(tab:keidanren)）。
+
+```{r, echo = FALSE, fig.align="center"}
+keidanren <- read.csv("keidanren.csv", header = TRUE)
+knitr::kable(keidanren, caption = "日本経団連正副会長19名（2018年6月）のプロフィール", booktabs = FALSE)
+```
+
+出所）日本経済新聞[^8]、日本産業新聞[^9]
+
+[^8]:日本経済新聞朝刊 2018年6月18日「変わる経団連、変われぬ経団連」  
+[^9]:日経産業新聞 2018年6月22日「経団連　この恐るべき同質集団」
+
+経団連について
+https://gakumado.mynavi.jp/style/articles/46464
 
 年齢
 任期
@@ -318,17 +382,6 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 　サラリーマン社長の同質性（学歴重視の結果でもある）
 　ダイバーシティに遅れる
 
-表3.1　日本経団連正副会長19名（2018年6月）のプロフィール
-```{r, echo = FALSE, fig.align="center"}
-keidanren <- read.csv("keidanren.csv", header = TRUE)
-knitr::kable(keidanren)
-```
-
-出所）日本経済新聞[^8]、日本産業新聞[^9]
-
-[^8]:日本経済新聞朝刊 2018年6月18日「変わる経団連、変われぬ経団連」  
-[^9]:日経産業新聞 2018年6月22日「経団連　この恐るべき同質集団」
-
 
 ### 報酬 {#japan-payment}
 
@@ -343,8 +396,8 @@ https://www.tsr-net.co.jp/news/analysis/20210624_06.html
 先進国の中でも低い
 業績連動ボーナスを実施する企業は少ない（増えてはいる）
 ゴルフ会員権など非金銭的報酬がある
-http://toyokeizai.net/articles/-/177387?page=2
 
+https://toyokeizai.net/articles/-/453483
 
 
 
@@ -354,6 +407,8 @@ http://toyokeizai.net/articles/-/177387?page=2
 資産・所得
 分配
 平等主義的→CEOと平均的社員の格差は10.5対1で、先進国で最も低い
+
+https://toyokeizai.net/articles/-/397196
 
 
 ### 教育 {#japan-education}
