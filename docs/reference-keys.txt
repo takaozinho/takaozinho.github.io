@@ -192,3 +192,5 @@ fig:mitsubishi
 fig:value
 tab:unnamed-chunk-2
 tab:keidanren
+fig:wages
+fig:jpwage

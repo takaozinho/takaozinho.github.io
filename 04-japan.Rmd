@@ -75,7 +75,7 @@ library(vembedr)
   
     - 国民1人あたり弁護士数は先進国で最も少ないです。
 
-[^1]: ルース・ベネディクト（1946）『菊と刀』による指摘が有名です。関心のある人は[U-NOTE "どちらが美徳？日本人に根づく「恥の文化」と諸外国の「罪の文化」" ](https://u-note.me/note/47506034)を参照してください。  
+[^1]: ルース・ベネディクト（1946）『菊と刀』による指摘が有名です。関心のある人は[U-NOTE編集部 (2021)](https://u-note.me/note/47506034)を参照してください。  
 
 #### Hofstedeの指標
 
@@ -186,7 +186,7 @@ knitr::include_graphics("Two_Major_Parties_in_House_of_Representatives_of_Japan.
 knitr::include_graphics("triangle1.jpg")
 ```
 
-出所）[政治経済塾](https://www.seijikeizaijuku.com/naikaku.html)
+出所）[政治経済塾 (2017)](https://www.seijikeizaijuku.com/naikaku.html)
 
 [^4]: 「政官財トライアングル」の是非はさておき、政権交代によりこの「政官財トライアングル」は一時機能停止したといえます。　
 
@@ -196,7 +196,7 @@ knitr::include_graphics("triangle1.jpg")
 
   - このような条項を「誠実協議条項」[^5]といいます。法的には意味がないと考えられるのですが、法制度だけでなく関係性による強制力が機能する長期的関係が背景にあることを示唆する項目といえます。
 
-[^5]: 関心のある人は[総務の森 "契約書の基礎知識　誠実協議条項とは" ](https://www.soumunomori.com/column/article/atc-115077/)を参照してください。  
+[^5]: 関心のある人は[総務の森 (2010)](https://www.soumunomori.com/column/article/atc-115077/)を参照してください。  
 
 ### 経済システム {#japan-economy}
 
@@ -227,7 +227,7 @@ knitr::include_graphics("triangle1.jpg")
 knitr::include_graphics("https://liberal-arts-guide.com/wp-content/uploads/2020/09/Corporate-group-1.jpg")
 ```
 
-出所）[リベラルアーツガイド](https://liberal-arts-guide.com/corporate-group/)
+出所）[リベラルアーツガイド (2020)](https://liberal-arts-guide.com/corporate-group/)
 
 注）元資料は、菊池浩之（2017）『三井・三菱・住友・芙蓉・三和・一勧　日本の六大企業集団』KADOKAWA 23頁
 
@@ -235,13 +235,13 @@ knitr::include_graphics("https://liberal-arts-guide.com/wp-content/uploads/2020/
 knitr::include_graphics("https://www.jftc.go.jp/info/nenpou/h06/Img/02070001.gif")
 ```
 
-出所）[公正取引委員会](https://www.jftc.go.jp/info/nenpou/h06/02070002.html)
+出所）[公正取引委員会 (1995)](https://www.jftc.go.jp/info/nenpou/h06/02070002.html)
   
 ```{r bigsix2, echo = FALSE, out.width="960px", fig.cap="六大企業集団の株式持ち合い"}
 knitr::include_graphics("https://www.jftc.go.jp/info/nenpou/h10/Img/02070006.gif")
 ```
 
-出所）[公正取引委員会](https://www.jftc.go.jp/info/nenpou/h10/02070001.html)
+出所）[公正取引委員会 (1999)](https://www.jftc.go.jp/info/nenpou/h10/02070001.html)
  
 - 垂直的系列は、大企業が部品を供給する関係会社をまとめた（日立、松下→パナソニック、トヨタ等）ものです。
 
@@ -269,7 +269,7 @@ embed_url("https://youtu.be/q8SQNMclNGY")
 knitr::include_graphics("https://media.startup-db.com/wp/wp-content/uploads/2019/07/1-min-1.png")
 ```
 
-出所）[STARTUP DB](https://media.startup-db.com/research/marketcap-global)
+出所）[STARTUP DB (2019)](https://media.startup-db.com/research/marketcap-global)
  
 - 労働組合は企業別労働組合で、労使がよく協調する点が特徴です。
 
@@ -290,11 +290,29 @@ knitr::include_graphics("strike.png")
 
 Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
 
+[STARTUP DB (2019)「平成最後の時価総額ランキング。日本と世界その差を生んだ30年とは？」](https://media.startup-db.com/research/marketcap-global)
+
+Weber, Max (1905). Die protestantische Ethik und der Geist des Kapitalismus. （日本語版　大塚久雄（訳）(1989)『プロテスタンティズムの倫理と資本主義の精神』岩波文庫.）
+
+[U-NOTE編集部 (2021) 「どちらが美徳？日本人に根づく「恥の文化」と諸外国の「罪の文化」」](https://u-note.me/note/47506034)
+
+[Wikipedia「55年体制」](https://ja.wikipedia.org/wiki/55%E5%B9%B4%E4%BD%93%E5%88%B6)
+
+[公正取引委員会 (1995)『平成6年度　公正取引委員会年次報告』](https://www.jftc.go.jp/info/nenpou/h06/02070002.html)
+
+[公正取引委員会 (1999)『平成10年度　公正取引委員会年次報告』](https://www.jftc.go.jp/info/nenpou/h10/02070001.html)
+
+[政治経済塾 (2017)「６時間目：内閣」](https://www.seijikeizaijuku.com/naikaku.html)
+
+[総務の森 (2010) 「契約書の基礎知識　誠実協議条項とは」 ](https://www.soumunomori.com/column/article/atc-115077/)
+
 寺西重郎 (2018)『日本型資本主義』中公新書2502.
 
 [遠山茂 (2015)「儒教思想の日本への影響」在青島日本国総領事館](https://www.qingdao.cn.emb-japan.go.jp/jp/publicrelations/index_150917.html)
 
 山岸俊男・ブリントン，メアリー・Ｃ (2010)『リスクに背を向ける日本人』講談社現代新書2073.
+
+[リベラルアーツガイド (2020)「【企業集団とは】意味から財閥との違いまでわかりやすく解説」](https://liberal-arts-guide.com/corporate-group/)
 
 [労働政策研究・研修機構 (2019)『データブック国際労働比較2019』](https://www.jil.go.jp/kokunai/statistics/databook/2019/index.html)
 
@@ -316,43 +334,49 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 
   - 2018年に就任したCEOの年齢の中央値は60才です。
   
+    - Edfelt (2010, pp.240-241)によると、日本企業は以下の特徴があります。
+    
+      - 50代で常務になり、（専務を経て）社長に就任するのは平均で59才
+      
+      - 社長として6.3年経営し、その後2/3が会長になる
+
+      - 業績不振によって退任を強いられることは少ない
+  
   - 内部昇格したCEOが97%で、外部招聘のCEOが3%でした。
   
     - 新任CEOの18%が他企業での職務経験があります。
-    
-    - ヘッドハンティングが盛んで、プロ経営者（A社社長退任→B社社長就任）もいます。
-    
-      - 新任CEOの8%が株式公開会社でのCEO経験を有しています。
     
   - 海外での勤務経験を有するCEOは21%でした。
 　
     - 世界平均レベル（33%）に比べると低い水準です。
     
-    - Edfelt (2010, pp.50-52)によると、アメリカ企業は以下の特徴があります。
-    
-      - 海外に居住・勤務経験のある経営者は1/3
-      
-      - 「経営者に国際経験は重要？」との問いには、Yesは15%、Noは54%
-
-      - 「国際ビジネスに外国語は必要？」との問いには、同意と多少同意の合計が34%
-
   - 新任CEOの100%が日本国籍でした。
 
   - 新任CEOの女性比率は0%でした。
 　
-    -  [Forbes JAPAN (2014)](https://forbesjapan.com/articles/detail/990)によると、アメリカの全企業の23%の780万社が女性が経営する企業であり、特に、ヘルスケア・教育サービス分野では、61%の企業が女性CEOです。
+    -  [帝国データバンク (2021)](https://www.tdb.co.jp/report/watching/press/p210805.html)によると、日本企業の女性管理職（注：CEOではない）の平均割合は過去最高となったものの 8.9％にとどまりました。
 
-    - この20年間、女性の起業率は男性の2倍であることから、「ガラスの天井」を感じた女性が多く起業したと考えられます。
+    - 政府は2003年に「**2020年**までに女性管理職の割合を30%に」との期限付き目標を掲げましたが、実現が見通せず、2020年12月に「2020年代の可能な限り早期に」と改めています[^8]。
+
+[^8]:[日本経済新聞電子版 2021年5月15日「女性の管理職比率とは　米欧先行、日本は10%台」](https://www.nikkei.com/article/DGXZQOCC1454K0U1A510C2000000/)
 
   - 新任CEOの0%がMBA（経営学修士）保有者です。
   
     - 世界平均(33%)を大きく下回ります。
+    
+    - 理系出身は大学院修了（修士）も一般的ですが、文系出身は大学卒業[^9]が多いです。
 
-  - 民間と政府で相互に転職することがあり、「回転ドア」と呼ばれます。民間経営者が政府高官になることもあります。
+[^9]:CEOの学歴として、「大卒」は国際的には低学歴といえます。  
 
-- 移動の多さは、個人主義の高さや不確実性回避の低さから解釈できます。
+  - 高級官僚は退職する際に所管する業界の企業に再就職し、「政官財トライアングル」の連絡係として機能しました。
+  
+    - この再就職は「天下り」と呼ばれますが、現在、「天下り」は法律で禁止されています。
 
-- 小熊 (2019, p.6)は、経団連正副会長のプロフィール（表\@ref(tab:keidanren)）を参考にして、本節で述べた日本企業の特徴を以下の通りまとめています。
+- 移動の少なさは、終身雇用によって転職が経済的に不利であることや（そのために）不確実性回避が高くなっていることから解釈できます。
+
+- 小熊 (2019, p.6)は、経団連[^10]正副会長のプロフィール（表\@ref(tab:keidanren)）を参考にして、本節で述べた日本企業の特徴を以下の通りまとめています。
+
+[^10]:経団連については、[マイナビ (2020) "「経団連」とは？ 今さら聞けないその言葉の意味・役割・取り組みを解説"](https://gakumado.mynavi.jp/style/articles/46464)などを参考にしてください。
 
 >1. まず、学歴が重要な指標となっている。ただし重要なのは学校名であり、何を学んだかではない。  
 2. つぎに、年齢や勤続年数が、重要な指標となっている。ただしそれは、1つの企業での勤続年数であって、他の企業での職業経験は評価されない。  
@@ -364,93 +388,110 @@ keidanren <- read.csv("keidanren.csv", header = TRUE)
 knitr::kable(keidanren, caption = "日本経団連正副会長19名（2018年6月）のプロフィール", booktabs = FALSE) %>% column_spec(1:2, width = "6em") %>% column_spec(4:7, width = "6em")
 ```
 
-出所）日本経済新聞[^8]、日本産業新聞[^9]
+出所）日本経済新聞[^11]、日本産業新聞[^12]
 
-[^8]:日本経済新聞朝刊 2018年6月18日「変わる経団連、変われぬ経団連」  
-[^9]:日経産業新聞 2018年6月22日「経団連　この恐るべき同質集団」
+[^11]:日本経済新聞朝刊 2018年6月18日「変わる経団連、変われぬ経団連」  
+[^12]:日経産業新聞 2018年6月22日「経団連　この恐るべき同質集団」
 
-経団連について
-https://gakumado.mynavi.jp/style/articles/46464
-
-年齢
-任期
-常務50代、社長59歳欧米では49-50歳で社長就任
-社長として6.3年、その後2/3が会長になる、業績不振によって退任を強いられることは少ない
-社会的背景
-大卒、大学院卒も一般的、工学か社会科学の学位
-外資系を除き、ほとんど日本人
-先進国で大企業の女性経営者の比率は一番低い
-同質性
-日本社会の同質性が、経営者の背景やキャリアパスの均一性につながる
-例外：盛田昭夫、松下幸之助、本田宗一郎
-
-　新卒採用や昇進などの労働システムのあり方（ジョブ型・メンバーシップ型）についてはAppendixでまとめる。
-　サラリーマン社長の同質性（学歴重視の結果でもある）
-　ダイバーシティに遅れる
+- 学歴重視の結果、日本企業の経営者は同質性が高く、ダイバーシティの面で遅れていると指摘されています。
 
 
 ### 報酬 {#japan-payment}
 
-　差がつくのが遅い昇進
+- \@ref(us-payment)で見たとおり、日本企業CEOの報酬（2020年度）の中央値は1.8億円でした。
 
-　緩やかな賃金カーブ
+- [東洋経済新報社 (2021)](https://toyokeizai.net/articles/-/453483)によれば、2億円以上の報酬は212人いました。
 
-日本経済新聞2018年6月29日　「1億円プレーヤー」500人超　役員報酬、欧米型に 
+  ― 外国人のCEOは少ないですが、役員は多く見られるようになりました。
 
-https://www.tsr-net.co.jp/news/analysis/20210624_06.html
+  - 業績連動ボーナスを実施する企業は少ないですが、増えつつあります[^13]。
+  
+[^13]: 日本経済新聞朝刊 2020年7月19日「社長の報酬、日米で格差12倍に　19年度　業績連動部分少なく」によると、自社の現物株を報酬として付与する企業が、2020年6月末時点で800社超と過去1年間で5割増えまし
+た。日本では報酬全体の57%が固定給ですが、アメリカではわずか9%です。
 
-先進国の中でも低い
-業績連動ボーナスを実施する企業は少ない（増えてはいる）
-ゴルフ会員権など非金銭的報酬がある
+- [東洋経済新報社 (2020)](https://toyokeizai.net/articles/-/397196)によると、ペイレシオが高い企業3社は武田薬品工業55.67倍、ユニバーサルエンターテイメント47.66倍、ソフトバンク43.35倍となっています。
 
-https://toyokeizai.net/articles/-/453483
+  - ペイレシオは先進国で最も低いです。
 
+- 日本企業は終身雇用かつ年功賃金のため、転職が少ないです。
 
+  - 年功賃金では、仕事の貢献度と受け取る賃金が異なるため、中途退社が不利な賃金体系となります（図\@ref(fig:jpwage)参照）。
+  
+  - 年功賃金は海外にもありますが、日本はその傾向が強いです（図\@ref(fig:wages)参照）。
+  
+```{r jpwage, echo = FALSE, out.width="960px", fig.cap="「賃金カーブ」と「貢献度曲線」の関係"}
+knitr::include_graphics("https://www.hj.sanno.ac.jp/cp/feature/img/20191224-01/20191224-01-01.jpg")
+```
 
-終身雇用
-他国に比べ、転職が少ない年功賃金が影響
+出所）[産業能率大学総合研究所 (2021)](https://www.hj.sanno.ac.jp/cp/feature/201912/24-01.html)
 
-資産・所得
-分配
-平等主義的→CEOと平均的社員の格差は10.5対1で、先進国で最も低い
+```{r wages, echo = FALSE, out.width="960px", fig.cap="賃金カーブの国際比較"}
+knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXKZO4688323002072019EA2000-2.jpg?ixlib=js-2.3.2&w=680&h=414&auto=format%2Ccompress&ch=Width%2CDPR&q=100&fit=crop&bg=FFFFFF&s=82f886b70681be033aa0e059009b558b")
+```
 
-https://toyokeizai.net/articles/-/397196
+出所）[日本経済新聞電子版 2019年7月3日「年功序列型の賃金とは　日本型経営「三種の神器」」](https://www.nikkei.com/article/DGXKZO46883220S9A700C1EA2000/)
 
 
 ### 教育 {#japan-education}
 
-- 小熊 (2019)は、上掲の日経新聞記事が「卒業した大学名は詳細に記されているが、学部や専攻については何も述べていない」ことを指摘し、日本社会は「何を学んだかが重要でない学歴重視」であるとしている。
+- 大企業・政府は有名大学から新規学卒者を大量に採用します。
 
-  - 情報の経済学におけるシグナリングという概念を使うと、学歴重視には合理性があるとされる。
+  - 受験によって選抜が済んでいると考えています。
+  
+  - 個人の資質（責任感、規律等）を重視し、大学の専攻はさほど重要視しません。
 
-https://gendai.ismedia.jp/articles/-/71570
+  - 小熊 (2019)は、上掲の日経新聞記事が「卒業した大学名は詳細に記されているが、学部や専攻については何も述べていない」ことを指摘し、日本社会は「何を学んだかが重要でない学歴[^14]重視」であるとしています。
 
+[^14]:冨山和彦氏は対談の中で「そうですね。合格歴ですよね。濁点が違っています。「高学歴」じゃなくて「合格歴主義」(笑)。」といっています。[小野・冨山 (2020) ](https://gendai.ismedia.jp/articles/-/71570?page=5)
+
+<!---
 https://blogos.com/article/460720/
+--->
 
-大企業・政府は有名大学から大量に採用する
-←受験によって選抜が済んでいる
-個人の資質（責任感、規律等）を重視し、大学の専攻はさほど重要視しない
-学問としての経営学
-経営学科が経済学部にあることがある、
-→学問としての認識は海外より低い
-大卒の1/5は経済・経営系（アメリカと同様）
-大学院
-16人に1人がビジネススクール卒業生（アメリカは4人に1人）→MBAが出世や昇給の近道となっていない
-社内教育
-OJT中心に積極的に行う、日立や松下（パナソニック）などは社内に教育機関をもっている
+- 「仕事」をきちんと決めておいてそれに「人」を当てはめるやり方の欧米諸国に対し、「人」を中心に管理が行われ、「人」と「仕事」の結びつきはできるだけ自由に変えられるようにしておくのが日本の特徴です（濱口 (2013, p.35)）。
 
+  - そこで求められるのは、「いかなる職務をも遂行しうる潜在能力」となります。
+  
+  - 企業は採用に当たって「新規学卒者の「能力」の代理指標としてその学歴水準、それもどのランクの大学に入れたか（中略）という指標を採用（濱口 (2013, p.126)）」します。
+  
+  - 情報の経済学におけるシグナリングという概念を使うと、学歴重視には合理性があるとされます。
+
+- 大卒の1/5は経済・商学系（アメリカと同様）です。
+  
+  - しかし（生産）現場を重視し、学問としての経営学を重視しない傾向があります。
+
+- 経済・商学系学部卒の16人に1人がビジネススクールに進学します（Edfelt (2010, p.242)）。
+
+  - ただし、MBAが出世や昇給の近道となっていません。
+  
+  - むしろ、文系で修士号や博士号を取得していると、逆に出世しにくい面があります。「ムラ社会だと修士号や博士号を持っていると「異端」に位置づけられて、「本流」から外されてしまうわけです（[小野・冨山 (2020)](https://gendai.ismedia.jp/articles/-/71570?page=5)）」
+
+- 社内教育は充実しています。
+
+  - 濱口 (2013, p.97)は、その理由を次のように説明しています。
+
+>「人」が先にあり、その人にすぐにできるとは限らない「仕事」を当てはめるというやり方ですから、その「仕事」のやり方を社内で学ぶという仕組みがなければ、うまく回っていきません。つまり、仕事に関する教育訓練の仕組みが、社内教育訓練中心の仕組みにならざるを得ないということです。
 
 
 <span style="font-size: 150%">**参考文献**</span>
 
-Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+Edfelt, Ralph B. (2010). Global Comparative Management. SAGE.
 
-Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
-
-Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
+[Strategy& (2019)「2018年 CEO 承継調査」](https://www.strategyand.pwc.com/jp/ja/publications/2018_ceo-data-media-release-jp.pdf)
 
 小熊英二 (2019)『日本社会のしくみ』講談社現代新書2528.
 
+[小野一起・冨山和彦 (2020) 「日本企業で出世する人たち、じつは「超低学歴」ばかりになっていた…！」マネー現代](https://gendai.ismedia.jp/articles/-/71570?imp=0)
+
+[産業能率大学総合研究所 (2021) 「賃金を切り口とした年功序列型人事制度の検証」](https://www.hj.sanno.ac.jp/cp/feature/201912/24-01.html)
+
+[帝国データバンク (2021)「女性登用に対する企業の意識調査（2021年）」](https://www.tdb.co.jp/report/watching/press/pdf/p210805.pdf)
+
+[東洋経済新報社 (2020)「社員と役員の｢年収格差｣ランキングTOP500」東洋経済ONLINE](https://toyokeizai.net/articles/-/397196)
+
+[東洋経済新報社 (2021)「｢年収1億円超｣の上場企業役員ランキングTOP500」東洋経済ONLINE](https://toyokeizai.net/articles/-/453483)
+
+濱口桂一郎 (2013)『若者と労働』中公新書ラクレ465.
 
 ## 日本企業のマネジメント {#japan-management}
 
