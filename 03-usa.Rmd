@@ -453,7 +453,7 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 
   - 次に、アメリカ企業の[指揮・調整](#us-command)について、概要を整理します。
 
-   - 最後に、アメリカ企業の[統制](#us-control)について、概要を整理します。
+  - 最後に、アメリカ企業の[統制](#us-control)について、概要を整理します。
 
 ### 計画 {#us-plan}
 
