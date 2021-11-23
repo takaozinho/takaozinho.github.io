@@ -194,3 +194,6 @@ tab:unnamed-chunk-2
 tab:keidanren
 fig:wages
 fig:jpwage
+fig:cross1
+fig:cross2
+fig:profit
