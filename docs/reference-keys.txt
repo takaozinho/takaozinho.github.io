@@ -197,3 +197,6 @@ fig:jpwage
 fig:cross1
 fig:cross2
 fig:profit
+tab:authoritarian
+fig:worldpercapita
+fig:percapita
