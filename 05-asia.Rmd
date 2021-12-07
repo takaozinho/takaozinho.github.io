@@ -107,6 +107,25 @@ library(vembedr)
 
 [^1]: [倉沢 (2017)](https://toyokeizai.net/articles/-/160021)には、日本人が同じアジア人である中国人や韓国人とビジネスをする場合に、気をつけることがまとめられています。
 
+-  Meyer (2014, 日本語版 pp.187-188)は、決断（意思決定）のスタイルにおける世界の違いを指摘しており（表\@ref(tab:decision)）、日本とアメリカ・アジアの違いもその枠組みで理解できます。
+
+```{r decision, echo = FALSE, fig.align="center"}
+decision <- read.csv("decision.csv", header = TRUE)
+knitr::kable(decision, caption = "決断スタイルの違い", booktabs = FALSE)
+```
+
+- この違いを理解し、「アメリカ人・アジア人は日本人リーダーが意思決定に時間をかけ過ぎるとイライラし、日本人はアメリカ人・アジア人リーダーが一度決めたことをすぐに覆すとイライラする[^2]」というトラブルを回避する必要があります。
+
+  - この部分で、日本と比較的似ているのは世界でドイツ、ベルギーぐらいです（図\@ref(fig:leadership)参照）。
+ 
+```{r leadership, echo = FALSE, out.width="480px", fig.cap="リーダーシップ文化のマッピング図"}
+knitr::include_graphics("https://cdn-business.nikkei.com/atcl/seminar/20/00046/081700004/p2.jpg?__scale=w:500,h:537&_sh=0e07706406")
+```
+
+出所）[土方 (2021)](https://business.nikkei.com/atcl/seminar/20/00046/081700004/?n_cid=nbpnb_twed)
+
+[^2]: 日本には「武士に二言はない」という言葉があるように、一度決めたことをすぐに覆すと信頼関係を損なう（と考える）傾向があります。
+
 - 韓国は儒教の影響を受けており、中華圏と類似点が多いですが、相違点もいくつかあります。
 
   - 権力格差は比較的高く、上下関係に厳しい（目上の人に対しての礼節を重んじる）です。
@@ -121,9 +140,9 @@ library(vembedr)
       
       - 不確実性回避の指標は高いものの、（社内昇進に限界があるため）独立して起業するケースがよくみられます。
 
-  - キリスト教徒が多く、国民の1/4を占めます[^2]。
+  - キリスト教徒が多く、国民の1/4を占めます[^3]。
 
-[^2]: アジアでキリスト教徒が多いのは、韓国とフィリピンです。
+[^3]: アジアでキリスト教徒が多いのは、韓国とフィリピンです。
 
 
 ### 政治システム・法制度 {#asia-politics}
@@ -172,7 +191,7 @@ knitr::kable(authoritarian, caption = "アジアの権威主義的体制", bookt
   
   - 中国は経済規模（名目GDP）で世界第2位（1位アメリカ、3位日本）ですが、人口が多いため1人当たりGDPはまだ少ないです。
 
-```{r percapita, echo = FALSE, out.width="960px", fig.cap="アジアの一人当たりの購買力平価GDP(USドル)ランキング"}
+```{r percapita, echo = FALSE, out.width="480px", fig.cap="アジアの一人当たりの購買力平価GDP(USドル)ランキング"}
 knitr::include_graphics("percapita.jpg")
 ```
 
@@ -238,92 +257,181 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 
 [世界経済のネタ帳 (2021)「アジアの一人当たりの購買力平価GDP(USドル)ランキング」](https://ecodb.net/ranking/area/A/imf_ppppc.html)
 
+[土方奈美 (2021)「中国人やインド人が、すぐにちゃぶ台返しをする理由」日経ビジネス](https://business.nikkei.com/atcl/seminar/20/00046/081700004/?n_cid=nbpnb_twed)
+
 寺西重郎 (2018)『日本型資本主義』中公新書2502.
 
 
 
 ## アジア企業の経営者 {#asia-manager}
 
+- 本節では、アジア企業の経営者に関連する項目を整理します。
 
+  - まず、アジア企業の経営者のキャリア形成のプロセス、[選抜・移動](#asia-selection)を整理します。
 
-サムスン李氏「世襲やめる」　韓国財閥、同族経営岐路に
-（https://www.nikkei.com/article/DGXMZO58842290X00C20A5FFJ000/?n_cid=SPTMG002）
+  - 次に、アジア企業の経営者の[報酬](#asia-payment)について、概要を整理します。
+
+  - 最後に、アジア企業の経営者の教育的背景（学歴）や、経営学の[教育](#asia-education)の位置付けについて整理します。
+
 
 ### 選抜・移動 {#asia-selection}
 
-家族経営
-経営者はオーナー本人、その家族が多い
+- アジア企業は、家族（同族）経営が多いのが特徴です。
 
-縁故主義
-雇用・昇進は縁故が強く影響し、重要な役職は家族・親族が占める
-このような傾向は世界各地の家族経営にみられるが、高文脈の文化でより強い傾向
-信頼
-経営陣（管理職）候補の重要な基準は、オーナーからの信用・信頼
-→株式の所有を求めることがある
-家族が最有力候補になる
+  - 経営者はオーナー本人、その家族が多く、世襲となることが多いです。
 
-韓国チェボル
-大規模なため、家族だけでは経営者が足りない
-信頼できる外部経営者が必要
-→（オーナーと同じ）出身地・出身校が考慮される
+  - 韓国の「財閥（チェボル）」はその典型で、国を代表する大企業グループの多くが世襲[^4]経営者によるオーナー企業です（図\@ref(fig:chaebol)参照）。
+  
+[^4]: 韓国の「財閥（チェボル）」は1950-60年代に形成されたため、現在の経営者は3-4世代目が多くなっています。
 
-中国国有企業
-経営者は共産党からの任命
-経営能力だけでなく、政治的観点からも考慮される
+```{r chaebol, echo = FALSE, out.width="480px", fig.cap="韓国の「財閥（チェボル）」"}
+knitr::include_graphics("https://premium.toyokeizai.net/smwimgs/9/7/-/img_97158b91-1d3b-4112-85a6-827e2c023aaa.jpg")
+```
 
-経営者の交代
-個人間の信頼・信用が重要なため、交代は欧米に比べて少ない
-経営者の採用市場では、アジアは16％、ヨーロッパは35％、アメリカは41％を占める
+出所）[週刊東洋経済編集部 (2020) ](https://premium.toyokeizai.net/articles/-/23886) 
 
+- 「財閥（チェボル）」経営者と、時の権力者（とその周辺）とによる政経癒着が発生しやすい傾向にあります。
 
+  - 国際的大企業に成長した現在、海外・国内投資家からは同族経営に対する厳しい目が向けられています[^5]。
+
+[^5]: このような批判に対して、サムスングループの代表者（創業者の孫）である李在鎔（イ・ジェヨン）氏は、「子供たちに会社の経営権を譲らない」と述べ、自分の代で世襲をやめることを表明し、今後が注目されています。（[日本経済新聞 (2020)」](https://www.nikkei.com/article/DGXMZO58842290X00C20A5FFJ000/?n_cid=SPTMG002)）
+
+- アジア企業は、雇用・昇進は縁故が強く影響し、重要な役職は家族・親族が占める縁故主義が広く見られます。
+
+  - 縁故が影響するのは信頼の拠り所となるためですが、これは集団主義の高さと関係し、また長期志向とも関係します。
+  
+    - このような傾向は世界各地の家族経営にみられますが、法整備が十分でない高文脈文化でより強い傾向があります。
+  
+  - 経営陣（管理職）候補の重要な基準は、縁故または「関係」によってオーナーからの信用・信頼の有無になります。
+
+    - その結果、経営者・役員の最有力候補は家族になります。
+
+  - 韓国の「財閥（チェボル）」は規模が大きくなったため、家族だけではグループ企業の経営者・役員が足りない状況です。
+  
+    - 信頼できる外部経営者が必要となるため、（オーナーと同じ）出身地・出身校といった縁故等がある有能な社員が役員に登用されます[^6]。
+
+  - 中国の国有企業は、経営者は共産党からの任命となります。
+  
+    - この場合、経営能力だけでなく、政治的観点からも考慮されることになります。
+    
+    - 日本企業が中国に進出し現地スタッフを採用する場合、政治的観点からの考慮も必要となります。
+
+[^6]: 将来役員になれるか（日本に比べ）比較的早い段階でわかるので、早期退社し起業する人が多いのがアジアの特徴です。
+
+- 個人間の信頼・信用が重要なため、経営者の交代は世襲が多く、欧米に比べて交代の頻度は少なくなります。
+
+  - 経営者の採用市場（ヘッドハンティング）では、アメリカが41％、ヨーロッパが35％を占める一方、アジアは16％を占めるに過ぎません。
+
+<!--
 【有料】サムスン電子（下）分権と集権、組織に活力（アジア企業戦略解剖）
 (https://www.nikkei.com/article/DGKDZO40948900Z20C12A4FF1000/)　
+-->
 
 ### 報酬 {#asia-payment}
 
-日本経済新聞2017/8/27朝刊
+- アジア企業の経営者の報酬（第1位）は、アメリカ企業よりも多いとされます（図\@ref(fig:asiapay1)参照）。
 
+  - [日本経済新聞(2018)](https://www.nikkei.com/article/DGXMZO39094070Y8A211C1FFE000/) によると、「アジアの企業トップの年間報酬をみると、2017年は豚肉加工の世界最大手である中国・万州国際の万隆・最高経営責任者（CEO）が2億9100万ドル（約320億円）で首位、上位5人までを香港企業を含む中国企業が占め」ました。
+  
+    - 大和住銀投信投資顧問の蔵本祐嗣氏によれば「アジア企業の報酬の高さについて、同族経営であるために「報酬の決定にCEOが関与し、報酬に関する規定が不透明な企業もある」」という背景があるようです。
+ 
+```{r asiapay1, echo = FALSE, out.width="960px", fig.cap="アジア高額報酬経営者（2017年）"}
+knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXMZO3908660018122018FFE001-PN1-2.jpg?s=1ea106f898b52b8431e33773b734ebb4")
+```
 
+出所） [日本経済新聞(2018)](https://www.nikkei.com/article/DGXMZO39094070Y8A211C1FFE000/) 
+  
+- アジア企業は経営者の報酬だけでなく、取締役や部長クラスの給与も日本企業を上回っています（図\@ref(fig:asiapay2)、図\@ref(fig:asiapay3)参照）。
+
+  - 日本企業は、新入社員の給与は国際的に最も高い水準にありますが、部長クラスから取締役になるとアジア企業より少なくなります。
+ 
+```{r asiapay2, echo = FALSE, out.width="480px", fig.cap="役職別給与のグラフ"}
+knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXKZO2043291027082017MM8000-PN1-13.jpg?s=e9748a9bcf0c606b4b50ac86415b347f")
+```
+
+出所）[日本経済新聞(2017)](https://www.nikkei.com/article/DGXKASDZ04H4N_V10C17A8MM8000/)
+  
+```{r asiapay3, echo = FALSE, out.width="480px", fig.cap="役職別給与の表"}
+knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXKZO2043292027082017MM8000-PN1-13.jpg?s=18fc7b57f7db64a9864d8839f6a138bf")
+```
+
+出所）図\@ref(fig:asiapay2)と同じ
+ 
+<!--
 https://www.google.com/search?q=%E3%82%A2%E3%82%B8%E3%82%A2%20%E7%B5%8C%E5%96%B6%E8%80%85%20%E5%A0%B1%E9%85%AC&authuser=0
+-->
 
 ### 教育 {#asia-education}
 
-経営学部
-韓国、台湾、香港、シンガポールは独立した学部をもつ
-経営大学院（ビジネススクール）
-欧米名門校と提携、分校設立
+- アジアでも大学受験は熾烈で、「大学で一生が決まる」と一般的に考えられています[^7]。
+
+  - 序列を強く意識する学歴重視社会は、権力格差の高さが影響しています。
+
+[^7]: 学歴重視社会・競争社会は、若年層の失業問題などの社会問題を引き起こしています。中国の現状については[王 (2021)](https://diamond.jp/articles/-/277433)、韓国の現状については[和場ほか (2019a)](https://hbol.jp/pc/189601/)、[和場ほか (2019b)](https://hbol.jp/pc/189810/)を参考にしてください。
+
+
+```{r entrance, echo = FALSE, warning = FALSE, out.width="640px", fig.cap="韓国の大学受験事情"}
+
+embed_url("https://www.youtube.com/watch?v=B3VESzyqGyk")
+```
+
+
+- 大学進学率も高いため、差別化のために海外留学や大学院進学を目指す人も多くなっています。
+
+  - 大学進学率はアメリカ74%（2年制含む）、韓国71%、日本51%です。（[教育再生会議 (2013)](https://www.kantei.go.jp/jp/singi/kyouikusaisei/pdf/dai3_2.pdf)）
+  
+  - 人口100万人あたり修士号取得者数（2008年）は、アメリカ2158人、韓国1592人、日本586人です。人口100万人あたり博士号取得者数（2008年）は、アメリカ222人、韓国204人、日本131人です。
+
+  - とくに2世経営者は、海外（大学院）留学を経験しています。
+  
+    - 1990年代の資料によると、韓国30大「財閥（チェボル）」の経営者の1/2はアメリカ留学経験者、1/4は日本留学経験者でした（Edfelt (2010, p.204)）。
+
+- 経営学に対する評価は高いです。
+
+  - 韓国、台湾、香港、シンガポールは独立した（経営）学部をもっています。
+  
+- 経営大学院（ビジネススクール）は欧米名門校と提携し、分校を設立する国がみられます（[ZUU online 編集部 (2016)」](https://zuuonline.com/archives/120859)）。
+
+  - 近年では欧米の経営大学院（ビジネススクール）と同等に評価されるようになってきました。
+  
+```{r busschool, echo = FALSE, out.width="480px", fig.cap="経営大学院（ビジネススクール）ランキング（2019年）"}
+knitr::include_graphics("https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqGzgbrsxmpZmVZTCEdr91bvGEc55tcRBAgiLD0roi0lqFiYRJs02IXmoWioAp8Ku36lYc_Rm4md2FZ_6-vW8j-NJT6g8mP2VBx-5UzynpDWI0BfYyIqeA239u7LVA2h0YxFzs2CXf1pgbyGJTnLOCv_5tBE4JPe0HQBPjj-PRGEbTxgd8xZ-vhXM6yL6sFQY-1Z-HpzqEeyPDSUUDNMWgMmB_0ZLnFjFIqp_RVM_tt94yRE6sY80oEYlH13U9XCqhGw==/img_c29c217e86d4b60f97564ad6ad12ffd3189158.jpg?errorImage=false")
+```
+
+出所）[中山(2019)](https://toyokeizai.net/articles/-/278811)
+
+<!--
 香港科技大学（ノースウエスタン大学）
 シンガポールINSEAD（本部フランス）
 シカゴ大学（シンガポール校→香港校）
 中国：清華大学MBAコースもアメリカ大学と提携
-
-留学
-とくに2世経営者は、海外（大学院）留学を経験している
-韓国30大チェボルの経営者の1/2はアメリカ留学経験者、1/4は日本留学経験者
-学歴重視社会
+-->
 
 
-https://zuuonline.com/archives/120859
 
-
-大卒でも財閥系大企業でなければ年収200万円台。韓国の高学歴貧困の厳しすぎる事情
-(https://hbol.jp/189601?display=b)
-
-韓国、高学歴貧困の現状。「幼い頃の夢を叶える人なんていない」
-(https://hbol.jp/189810?cx_clicks_kijishita=txt1#cxrecs_s)
-
-これからの大学教育
-(http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/attach/__icsFiles/afieldfile/2013/10/16/1340415-9-2.pdf)
 
 <span style="font-size: 150%">**参考文献**</span>
 
-Hall, Edward T. (1977). Beyond culture. Anchor Books.（岩田慶治・谷泰（訳）(1993)『文化を超えて　新装版』阪急コミュニケーションズ.）
+[ZUU online 編集部 (2016)「名門経営大学を魅了するアジア　中国、シンガポールで国際人材育成」](https://zuuonline.com/archives/120859)
 
-Hofstede, G, G. J. Hofstede, and M. Minkov (2010). Cultures and Organizations: Software of the Mind, Third Edition. McGraw-Hill Education.（日本語版　岩井八郎・岩井紀子（訳）(2013)『多文化世界　違いを学び未来への道を探る　原書第3版』有斐閣.）
+[王青 (2021)「中国の過酷な受験戦争を勝ち抜いた若者が「寝そべり族」になってしまう理由」DIAMOND online](https://diamond.jp/articles/-/277433)
 
-Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of Global Business. PublicAffairs.（日本語版　樋口武志（訳）・田岡恵（監訳）(2015)『異文化理解力』英治出版.）
+[和場まさみ・小野田衛・安宿緑・安英玉 (2019a)「大卒でも財閥系大企業でなければ年収200万円台。韓国の高学歴貧困の厳しすぎる事情」ハーバー・ビジネス・オンライン](https://hbol.jp/pc/189601/)
 
-小熊英二 (2019)『日本社会のしくみ』講談社現代新書2528.
+[和場まさみ・小野田衛・安宿緑・安英玉 (2019b)「韓国、高学歴貧困の現状。「幼い頃の夢を叶える人なんていない」」ハーバー・ビジネス・オンライン](https://hbol.jp/pc/189810/)
+
+[教育再生会議 (2013)「これからの大学教育等の在り方について（第三次提言参考資料）」](https://www.kantei.go.jp/jp/singi/kyouikusaisei/pdf/dai3_2.pdf)
+
+[週刊東洋経済編集部 (2020)「サムスンが世襲決別宣言、韓国財閥は変われるのか」週刊東洋経済プラス ](https://premium.toyokeizai.net/articles/-/23886) 
+
+[中山一貴(2019)「ある中国のMBAスクールが欧米の名門を超えた」東洋経済ONLINE](https://toyokeizai.net/articles/-/278811)
+
+[日本経済新聞(2017)「役員給与、アジア勢が上」2017年8月27日朝刊](https://www.nikkei.com/article/DGXKASDZ04H4N_V10C17A8MM8000/)
+
+[日本経済新聞 (2018)「アジアの経営者報酬」2018年12月19日朝刊](https://www.nikkei.com/article/DGXMZO39094070Y8A211C1FFE000/)
+
+[日本経済新聞 (2020)「サムスン李氏「世襲やめる」2020年5月8日朝刊](https://www.nikkei.com/article/DGXMZO58842290X00C20A5FFJ000/?n_cid=SPTMG002)）
+
 
 ## アジア企業のマネジメント {#asia-management}
 
