@@ -316,7 +316,7 @@ knitr::include_graphics("https://premium.toyokeizai.net/smwimgs/9/7/-/img_97158b
     
     - 日本企業が中国に進出し現地スタッフを採用する場合、政治的観点からの考慮も必要となります。
 
-[^6]: 将来役員になれるか（日本に比べ）比較的早い段階でわかるので、早期退社し起業する人が多いのがアジアの特徴です。
+[^6]: 将来役員になれるか（日本に比べ）比較的早い段階でわかるので、早期退社し起業する人が多いのがアジアの特徴です。韓国の現状については[菅野 (2021)](https://toyokeizai.net/articles/-/473559)を参考にしてください。
 
 - 個人間の信頼・信用が重要なため、経営者の交代は世襲が多く、欧米に比べて交代の頻度は少なくなります。
 
@@ -331,7 +331,7 @@ knitr::include_graphics("https://premium.toyokeizai.net/smwimgs/9/7/-/img_97158b
 
 - アジア企業の経営者の報酬（第1位）は、アメリカ企業よりも多いとされます（図\@ref(fig:asiapay1)参照）。
 
-  - [日本経済新聞(2018)](https://www.nikkei.com/article/DGXMZO39094070Y8A211C1FFE000/) によると、「アジアの企業トップの年間報酬をみると、2017年は豚肉加工の世界最大手である中国・万州国際の万隆・最高経営責任者（CEO）が2億9100万ドル（約320億円）で首位、上位5人までを香港企業を含む中国企業が占め」ました。
+  - [日本経済新聞 (2018)](https://www.nikkei.com/article/DGXMZO39094070Y8A211C1FFE000/) によると、「アジアの企業トップの年間報酬をみると、2017年は豚肉加工の世界最大手である中国・万州国際の万隆・最高経営責任者（CEO）が2億9100万ドル（約320億円）で首位、上位5人までを香港企業を含む中国企業が占め」ました。
   
     - 大和住銀投信投資顧問の蔵本祐嗣氏によれば「アジア企業の報酬の高さについて、同族経営であるために「報酬の決定にCEOが関与し、報酬に関する規定が不透明な企業もある」」という背景があるようです。
  
@@ -339,7 +339,7 @@ knitr::include_graphics("https://premium.toyokeizai.net/smwimgs/9/7/-/img_97158b
 knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXMZO3908660018122018FFE001-PN1-2.jpg?s=1ea106f898b52b8431e33773b734ebb4")
 ```
 
-出所） [日本経済新聞(2018)](https://www.nikkei.com/article/DGXMZO39094070Y8A211C1FFE000/) 
+出所） [日本経済新聞 (2018)](https://www.nikkei.com/article/DGXMZO39094070Y8A211C1FFE000/) 
   
 - アジア企業は経営者の報酬だけでなく、取締役や部長クラスの給与も日本企業を上回っています（図\@ref(fig:asiapay2)、図\@ref(fig:asiapay3)参照）。
 
@@ -349,7 +349,7 @@ knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix
 knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXKZO2043291027082017MM8000-PN1-13.jpg?s=e9748a9bcf0c606b4b50ac86415b347f")
 ```
 
-出所）[日本経済新聞(2017)](https://www.nikkei.com/article/DGXKASDZ04H4N_V10C17A8MM8000/)
+出所）[日本経済新聞 (2017)](https://www.nikkei.com/article/DGXKASDZ04H4N_V10C17A8MM8000/)
   
 ```{r asiapay3, echo = FALSE, out.width="480px", fig.cap="役職別給与の表"}
 knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXKZO2043292027082017MM8000-PN1-13.jpg?s=18fc7b57f7db64a9864d8839f6a138bf")
@@ -424,9 +424,11 @@ knitr::include_graphics("https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqGzg
 
 [週刊東洋経済編集部 (2020)「サムスンが世襲決別宣言、韓国財閥は変われるのか」週刊東洋経済プラス ](https://premium.toyokeizai.net/articles/-/23886) 
 
-[中山一貴(2019)「ある中国のMBAスクールが欧米の名門を超えた」東洋経済ONLINE](https://toyokeizai.net/articles/-/278811)
+[菅野朋子 (2021)「｢体感定年51歳｣韓国で仕事を辞めた人達のその後」東洋経済ONLINE](https://toyokeizai.net/articles/-/473559)
 
-[日本経済新聞(2017)「役員給与、アジア勢が上」2017年8月27日朝刊](https://www.nikkei.com/article/DGXKASDZ04H4N_V10C17A8MM8000/)
+[中山一貴 (2019)「ある中国のMBAスクールが欧米の名門を超えた」東洋経済ONLINE](https://toyokeizai.net/articles/-/278811)
+
+[日本経済新聞 (2017)「役員給与、アジア勢が上」2017年8月27日朝刊](https://www.nikkei.com/article/DGXKASDZ04H4N_V10C17A8MM8000/)
 
 [日本経済新聞 (2018)「アジアの経営者報酬」2018年12月19日朝刊](https://www.nikkei.com/article/DGXMZO39094070Y8A211C1FFE000/)
 
