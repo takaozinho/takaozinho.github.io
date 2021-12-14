@@ -208,3 +208,4 @@ fig:asiapay1
 fig:asiapay2
 fig:asiapay3
 fig:busschool
+tab:chaebolkeiretsu
