@@ -323,13 +323,13 @@ Weber, Max (1905). Die protestantische Ethik und der Geist des Kapitalismus. （
 　高報酬はプロ経営者が多いことが背景にある　外部登用の際、成功報酬としてストックオプションが付与されることが多い
 -->
 
-- [ウイリス・タワーズワトソン (2021)](https://www.willistowerswatson.com/ja-JP/News/2021/07/report-fy2020-comparison-of-compensation-for-ceos-and-ned-between-japan-the-united-states-and-europe) によると、アメリカ企業CEOの報酬（2020年度）の中央値は15.3億円でした（図\@ref(fig:g5ceopay)）。
+- [ウイリス・タワーズワトソン (2022)](https://www.wtwco.com/ja-JP/News/2022/08/report-fy2021-comparison-of-compensation-for-ceos-and-ned-between-japan-the-united-states-and-europe) によると、アメリカ企業CEOの報酬（2021年度）の中央値は16.0億円でした（図\@ref(fig:g5ceopay)）。
 
-```{r g5ceopay, echo = FALSE, out.width="960px", fig.cap="CEO報酬比較（2020年度）"}
-knitr::include_graphics("https://www.willistowerswatson.com/ja-JP/News/2021/07/-/media//WTW/News/2021/07/CEO-compensation-Comparison_900x813.png")
+```{r g5ceopay, echo = FALSE, out.width="960px", fig.cap="CEO報酬比較（2021年度）"}
+knitr::include_graphics("https://media.wtwco.com/-/media/WTW/News/2022/08/report-fy2021-comparison-of-compensation-01.png?modified=20220817061527&imgeng=meta_true")
 ```
 
-出所）[ウイリス・タワーズワトソン (2021)](https://www.willistowerswatson.com/ja-JP/News/2021/07/report-fy2020-comparison-of-compensation-for-ceos-and-ned-between-japan-the-united-states-and-europe)
+出所）[ウイリス・タワーズワトソン (2022)](https://www.wtwco.com/ja-JP/News/2022/08/report-fy2021-comparison-of-compensation-for-ceos-and-ned-between-japan-the-united-states-and-europe)
 
 - ダウ平均の構成企業でみると、経営トップの年間報酬で最高額だったのはナイキの5349万ドル（58.3億円）です（表\@ref(tab:uspay)）。
 
@@ -385,13 +385,13 @@ knitr::include_graphics("https://www.dir.co.jp/business/consulting/compensation/
 
     - 大企業CEOの保有する修士以上の学位の内訳はMBA40%、法学10%となりますが、MBA以外の学位のうち21%はPh.D.（博士号）です。
 
-  - [日本労働研究機構 (1998)](https://db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)の調査によると、アメリカ企業の人事・営業・経理部課長は32-40%がMBAを保有し、Ph.D.（博士号）保有者もいます（図\@ref(fig:uscareer)）。
+  - [日本労働研究機構 (1998)](https://warp.da.ndl.go.jp/info:ndljp/pid/11486206/db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)の調査によると、アメリカ企業の人事・営業・経理部課長は32-40%がMBAを保有し、Ph.D.（博士号）保有者もいます（図\@ref(fig:uscareer)）。
   
 ```{r uscareer, echo = FALSE, out.width="960px", fig.cap="アメリカ企業部課長職の学歴"}
-knitr::include_graphics("https://db.jil.go.jp/db/seika/zenbun/IMAGE/E2000014381-ZU127.GIF")
+knitr::include_graphics("https://warp.da.ndl.go.jp/info:ndljp/pid/11486206/db.jil.go.jp/db/seika/zenbun/IMAGE/E2000014381-ZU127.GIF")
 ```
 
-出所）[日本労働研究機構 (1998)](https://db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)
+出所）[日本労働研究機構 (1998)](https://warp.da.ndl.go.jp/info:ndljp/pid/11486206/db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)
 
 [^14]:Appleのティム・クックCEOなど、有名企業のCEOの経歴に興味のある人は[キャリハイ転職](https://www.recme.jp/careerhigh/entry/usaceo)の記事を見てみてください。
 
@@ -439,7 +439,7 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 
 [大和総研 "ストック・オプション導入コンサルティング"](https://www.dir.co.jp/business/consulting/compensation/stock-option.html)
 
-[日本労働研究機構 (1998)「国際比較：大卒ホワイトカラーの人材開発・雇用システム　－日、米、独の大企業」](https://db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)
+[日本労働研究機構 (1998)「国際比較：大卒ホワイトカラーの人材開発・雇用システム　－日、米、独の大企業」](https://warp.da.ndl.go.jp/info:ndljp/pid/11486206/db.jil.go.jp/db/seika/zenbun/E2000014381_ZEN.htm)
 
 濱口桂一郎 (2013)『若者と労働』中公新書ラクレ465.
 
