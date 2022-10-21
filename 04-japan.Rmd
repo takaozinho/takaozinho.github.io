@@ -376,8 +376,6 @@ Weber, Max (1905). Die protestantische Ethik und der Geist des Kapitalismus. （
   
     - この再就職は「天下り」と呼ばれますが、現在、「天下り」は法律で禁止されています。
 
-- 移動の少なさは、終身雇用によって転職が経済的に不利であることや（そのために）不確実性回避が高くなっていることから解釈できます。
-
 - 小熊 (2019, p.6)は、経団連[^11]正副会長のプロフィール（表\@ref(tab:keidanren)）を参考にして、本節で述べた日本企業の特徴を以下の通りまとめています。
 
 [^11]: 経団連については、[マイナビ (2020) "「経団連」とは？ 今さら聞けないその言葉の意味・役割・取り組みを解説"](https://gakumado.mynavi.jp/style/articles/46464)などを参考にしてください。
@@ -399,12 +397,41 @@ knitr::kable(keidanren, caption = "日本経団連正副会長19名（2018年6�
 
 - 学歴重視の結果、日本企業の経営者は同質性が高く、ダイバーシティの面で遅れていると指摘されています。
 
+- 終身雇用の一方で、海外企業比べ昇進が遅いのが特徴です。
+
+  - 海外企業では社員を競わせ、昇進が同期よりも遅れた社員は退社していきます。
+  
+  - 日本企業は定年退職まで企業にいるため、昇進が遅れた社員がやる気をなくして働く期間が長くなります。そこで同期入社でできるだけ差が生まれないよう昇進を遅らせます。
+
+```{r promotion, echo = FALSE, fig.align="center"}
+keidanren <- read.csv("promotion.csv", header = TRUE)
+knitr::kable(keidanren, caption = "課長・部長への昇進年齢", booktabs = FALSE)
+```
+
+出所）[経済産業省 (2022, p.36)](https://www.meti.go.jp/press/2022/05/20220531001/20220531001-1.pdf)
+
+- 移動の少なさは、終身雇用によって転職が経済的に不利であることや（そのために）不確実性回避が高くなっていることから解釈できます。
+
+  - 「現在の勤務先で働き続けたい」と考える人は少ない（図\@ref(fig:change1)参照）一方で、「転職や起業」の意向を持つ人も少ない（図\@ref(fig:change2)参照）という調査結果が出ています。
+  
+```{r change1, echo = FALSE, out.width="960px", fig.cap="現在の勤務先で継続して働きたい人の割合"}
+knitr::include_graphics("miti_page-0035.jpg")
+```
+
+出所）[経済産業省 (2022, p.34)](https://www.meti.go.jp/press/2022/05/20220531001/20220531001-1.pdf)
+
+```{r change2, echo = FALSE, out.width="960px", fig.cap="転職意向のある人の割合／独立・起業志向のある人の割合"}
+knitr::include_graphics("miti_page-0036.jpg")
+```
+
+出所）[経済産業省 (2022, p.35)](https://www.meti.go.jp/press/2022/05/20220531001/20220531001-1.pdf)
+
 
 ### 報酬 {#japan-payment}
 
 - \@ref(us-payment)で見たとおり、日本企業CEOの報酬（2020年度）の中央値は1.8億円でした。
 
-- [東洋経済新報社 (2021)](https://toyokeizai.net/articles/-/453483)によれば、2億円以上の報酬は212人いました。
+- [東洋経済新報社 (2022)](https://toyokeizai.net/articles/-/620775)によれば、2億円以上の報酬は267人いました。
 
   - 外国人のCEOは少ないですが、役員は多く見られるようになりました。
 
@@ -485,6 +512,8 @@ https://blogos.com/article/460720/
 Edfelt, Ralph B. (2010). Global Comparative Management. SAGE.
 
 [Strategy& (2019)「2018年 CEO 承継調査」](https://www.strategyand.pwc.com/jp/ja/publications/2018_ceo-data-media-release-jp.pdf)
+
+[経済産業省 (2022)「未来人材ビジョン」](https://www.meti.go.jp/press/2022/05/20220531001/20220531001-1.pdf)
 
 小熊英二 (2019)『日本社会のしくみ』講談社現代新書2528.
 

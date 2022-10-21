@@ -209,3 +209,6 @@ fig:asiapay2
 fig:asiapay3
 fig:busschool
 tab:chaebolkeiretsu
+tab:promotion
+fig:change1
+fig:change2
