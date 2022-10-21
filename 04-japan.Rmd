@@ -457,7 +457,7 @@ knitr::include_graphics("https://www.hj.sanno.ac.jp/cp/feature/img/20191224-01/2
 出所）[産業能率大学総合研究所 (2021)](https://www.hj.sanno.ac.jp/cp/feature/201912/24-01.html)
 
 ```{r wages, echo = FALSE, out.width="960px", fig.cap="賃金カーブの国際比較"}
-knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXKZO4688323002072019EA2000-2.jpg?ixlib=js-2.3.2&w=680&h=414&auto=format%2Ccompress&ch=Width%2CDPR&q=100&fit=crop&bg=FFFFFF&s=82f886b70681be033aa0e059009b558b")
+knitr::include_graphics("wages.jpg")
 ```
 
 出所）[日本経済新聞電子版 2019年7月3日「年功序列型の賃金とは　日本型経営「三種の神器」」](https://www.nikkei.com/article/DGXKZO46883220S9A700C1EA2000/)
