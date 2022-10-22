@@ -683,13 +683,12 @@ Edfelt, Ralph B. (2010). Global Comparative Management. SAGE.
   - 買収防止目的の持ち合いは、経営者の保身以外に経済合理性を持たないため、近年では減少の方向にあります（図\@ref(fig:cross2)参照）。
 
 ```{r cross1, echo = FALSE, out.width="960px", fig.cap="持ち合い関係"}
-knitr::include_graphics("https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSKKZO4944899005092019DTA000-1.jpg?ixlib=js-2.3.2&w=680&h=800&auto=format%2Ccompress&ch=Width%2CDPR&q=100&fit=crop&bg=FFFFFF&s=e34af7eb8ab5cf28996908591a96b5fd")
+knitr::include_graphics("cross1.jpg")
 ```
 
 出所）日本経済新聞[^23]
 
-[^22]: A社（資本金8億円）が新たに株式（2億円）を発行しB社が出資すると、B社はA社の株式を20%保有することになります。その一方で、B社（資本金8億円）が新たに株式（2億円）を発行しA社が出資すると、A社はB
-社の株式を20%保有することになります。2億円はB社→A社→B社と渡るため、実質的に資金を使うことなく買収を難しくすることができます。
+[^22]: A社（資本金8億円）が新たに株式（2億円）を発行しB社が出資すると、B社はA社の株式を20%保有することになります。その一方で、B社（資本金8億円）が新たに株式（2億円）を発行しA社が出資すると、A社はB社の株式を20%保有することになります。2億円はB社→A社→B社と渡るため、実質的に資金を使うことなく買収を難しくすることができます。
 
 [^23]: 日本経済新聞朝刊 2019年9月6日「持ち合い株、見えぬ意義」  
 
