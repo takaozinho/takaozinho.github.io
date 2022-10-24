@@ -212,3 +212,7 @@ tab:chaebolkeiretsu
 tab:promotion
 fig:change1
 fig:change2
+fig:JPceo1
+fig:JPceo2
+fig:femaleexective
+fig:HRinvestment
