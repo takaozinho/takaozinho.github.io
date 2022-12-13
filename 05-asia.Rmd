@@ -280,15 +280,9 @@ Meyer, E. (2014). The Culture Map: Breaking Through the Invisible Boundaries of 
 
   - 経営者はオーナー本人、その家族が多く、世襲となることが多いです。
 
-  - 韓国の「財閥（チェボル）」はその典型で、国を代表する大企業グループの多くが世襲[^4]経営者によるオーナー企業です（図\@ref(fig:chaebol)参照）。
+  - 韓国の「財閥（チェボル）」はその典型で、国を代表する大企業グループの多くが世襲[^4]経営者によるオーナー企業です。
   
 [^4]: 韓国の「財閥（チェボル）」は1950-60年代に形成されたため、現在の経営者は3-4世代目が多くなっています。
-
-```{r chaebol, echo = FALSE, out.width="480px", fig.cap="韓国の「財閥（チェボル）」"}
-knitr::include_graphics("https://premium.toyokeizai.net/smwimgs/9/7/-/img_97158b91-1d3b-4112-85a6-827e2c023aaa.jpg")
-```
-
-出所）[週刊東洋経済編集部 (2020) ](https://premium.toyokeizai.net/articles/-/23886) 
 
 - 「財閥（チェボル）」経営者と、時の権力者（とその周辺）とによる政経癒着が発生しやすい傾向にあります。
 
