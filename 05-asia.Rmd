@@ -384,12 +384,12 @@ embed_url("https://www.youtube.com/watch?v=B3VESzyqGyk")
 
   - 韓国、台湾、香港、シンガポールは独立した（経営）学部をもっています。
   
-- 経営大学院（ビジネススクール）は欧米名門校と提携し、分校を設立する国がみられます（[ZUU online 編集部 (2016)」](https://zuuonline.com/archives/120859)）。
+- 経営大学院（ビジネススクール）は欧米名門校と提携し、分校を設立する国がみられます。
 
   - 近年では欧米の経営大学院（ビジネススクール）と同等に評価されるようになってきました。
   
 ```{r busschool, echo = FALSE, out.width="480px", fig.cap="経営大学院（ビジネススクール）ランキング（2019年）"}
-knitr::include_graphics("https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqGzgbrsxmpZmVZTCEdr91bvGEc55tcRBAgiLD0roi0lqFiYRJs02IXmoWioAp8Ku36lYc_Rm4md2FZ_6-vW8j-NJT6g8mP2VBx-5UzynpDWI0BfYyIqeA239u7LVA2h0YxFzs2CXf1pgbyGJTnLOCv_5tBE4JPe0HQBPjj-PRGEbTxgd8xZ-vhXM6yL6sFQY-1Z-HpzqEeyPDSUUDNMWgMmB_0ZLnFjFIqp_RVM_tt94yRE6sY80oEYlH13U9XCqhGw==/img_c29c217e86d4b60f97564ad6ad12ffd3189158.jpg?errorImage=false")
+knitr::include_graphics("mba.jpg")
 ```
 
 出所）[中山(2019)](https://toyokeizai.net/articles/-/278811)
