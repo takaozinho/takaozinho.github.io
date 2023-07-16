@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li>比較経営論</li>
       after: |
-        <li>© Takao Iijima 2021</li>
+        <li>© Takao Iijima 2023</li>
     # download: ["pdf", "epub"]
 output:
   bookdown::gitbook:
@@ -14,6 +14,10 @@ output:
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
+  pandoc_args: [
+    "--variable=geometry:a4paper",
+    "--variable=geometry:margin=2.5cm"
+  ]
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
