@@ -3,16 +3,16 @@ title: "比較経営論"
 author: "飯島高雄"
 date: "`r Sys.Date()`"
 output:
+  bookdown::epub_book: default
+  bookdown::gitbook:
+    split_by: section+number
+    css: style.css
   bookdown::pdf_book:
     includes:
       in_header: preamble.tex
       latex_engine: xelatex
       citation_package: natbib
     keep_tex: yes
-  bookdown::gitbook:
-    split_by: section+number
-    css: style.css
-  bookdown::epub_book: default
 documentclass: book
 link-citations: yes
 bibliography:

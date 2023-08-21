@@ -1,5 +1,11 @@
 # アメリカ企業の経営システム {#usa}
 
+```{r , echo = FALSE, warning = FALSE}
+library(kableExtra)
+library(vembedr)
+library(webshot2)
+```
+
 - 本章の構成は、以下のとおりです。
 
   - \@ref(us-external)では、アメリカ企業の経営システムの外部要因として、\@ref(us-culture)文化、\@ref(us-politics)政治システム・法制度、\@ref(us-economy)経済システムを整理します。

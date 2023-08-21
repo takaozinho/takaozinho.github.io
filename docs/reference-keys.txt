@@ -63,6 +63,7 @@ fig:change1
 fig:change2
 fig:jpwage
 fig:wages
+fig:degree
 fig:HRinvestment
 fig:cross1
 fig:cross2
@@ -76,7 +77,7 @@ fig:asiapay2
 fig:asiapay3
 fig:busschool
 tab:chaebolkeiretsu
-fig:unnamed-chunk-4
+fig:unnamed-chunk-5
 tab:senoo
 intro
 comparizon
@@ -169,3 +170,4 @@ change
 成長と発展
 金融システムとイノベーション
 labor
+fig:unnamed-chunk-1
