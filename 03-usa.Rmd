@@ -3,7 +3,7 @@
 ```{r , echo = FALSE, warning = FALSE}
 library(kableExtra)
 library(vembedr)
-library(webshot2)
+#library(webshot2)
 ```
 
 - 本章の構成は、以下のとおりです。
