@@ -366,10 +366,10 @@ knitr::kable(uspay, caption = "ダウ平均構成30社の社長の年収（1～5
   - ストック・オプションは、経営者にとって「業績向上⇒企業価値の向上⇒株価の上昇⇒売却益増」といった好循環に対するインセンティブとして有効な制度となり得ます。
   
 ```{r stockoption, echo = FALSE, out.width="960px", fig.cap="ストック・オプションのスキームイメージ"}
-knitr::include_graphics("https://www.dir.co.jp/business/consulting/compensation/gdp1m8000003nqos-img/img-introduction-01.jpg")
+knitr::include_graphics("https://www.dir.co.jp/common/img/report/20140108_008079_01.PNG")
 ```
 
-出所）[大和総研](https://www.dir.co.jp/business/consulting/compensation/stock-option.html)
+出所）[大和総研](https://www.dir.co.jp/report/consulting/human-capital-management/20140108_008079.html)
 
 
 <!--
